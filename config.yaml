@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'IDS 2935' # Website name
+title: 'IDS 2935: The Future of Rain Forests' # Website name
 # baseurl: 'https://BrunaLab.github.io/' # Website URL
-# url: 'https://brunalab.github.io/virtual_field_course/'
+# url: 'https://brunalab.github.io/IDS2935_RainForests'
 copyright: '© {year} Emilio M. Bruna' # Footer text, e.g. '© {year} Me'
 logo: 'logo.png'
 
@@ -74,3 +74,4 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
