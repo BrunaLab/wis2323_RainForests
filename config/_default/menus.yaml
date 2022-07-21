@@ -7,34 +7,20 @@ main:
   # - name: Home Page
   #   url: /
   #   weight: 10
-  - name: Instructor Info
+  - name: Instructor & Office Hours
     url: docs/instructor-info
     weight: 10
-  - name: Course Informantion
-    url: docs/course-info
-    identifier: course-info
+  - name: Syllabus
+    url: docs/syllabus
+    identifier: syllabus
     weight: 20
-  - identifier: "Course Info1"
-    name: "Complete Syllabus"
-    parent: course-info
-    url: docs/course-info/syllabus
-    weight: 1
-  - identifier: "Course Info2"
-    name: "GenEd Information"
-    parent: course-info
-    url: docs/course-info/gened-info
-    weight: 2
-  - identifier: "Course Info3"
-    name: "Student Learning Objectives & Outcomes"
-    parent: course-info
-    url: docs/course-info/slo-info
-    weight: 3
-  - name: Weekly Schedule & Assignments
-    url: docs/course-schedule
+  - name: Schedule & Readings
+    url: docs/schedule
     weight: 30
+  - name: Assignments
+    url: docs/assignments
+    weight: 40
+  - name: Quest Info & SLOs
+    url: docs/quest_slo_info
+    weight: 50
   
-# - identifier: "Our Team4"
-  #   name: "Join us"
-  #   url: "/post/join-us"
-  #   parent: "Our Team"
-  #   weight: 4

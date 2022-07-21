@@ -2,9 +2,9 @@
 date: "2018-09-09T00:00:00Z"
 icon: chalkboard-teacher
 icon_pack: fas
-linktitle: Instructor Info
+linktitle: Instructor & Office Hours
 summary: documentation for the course
-title: Course Information
+title: Instructor & Office Hours
 type: book
 weight: 10
 ---
