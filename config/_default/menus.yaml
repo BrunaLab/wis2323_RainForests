@@ -4,20 +4,37 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
-    url: '/'
+  # - name: Home Page
+  #   url: /
+  #   weight: 10
+  - name: Instructor Info
+    url: docs/instructor-info
     weight: 10
-  - name: Courses
-    url: '/course'
+  - name: Course Informantion
+    url: docs/course-info
+    identifier: course-info
     weight: 20
-    identifier: courses
-  - name: Data science
-    url: '/course/example/'
-    weight: 10
-    parent: courses
-  - name: Blog
-    url: '/post'
+  - identifier: "Course Info1"
+    name: "Complete Syllabus"
+    parent: course-info
+    url: docs/course-info/syllabus
+    weight: 1
+  - identifier: "Course Info2"
+    name: "GenEd Information"
+    parent: course-info
+    url: docs/course-info/gened-info
+    weight: 2
+  - identifier: "Course Info3"
+    name: "Student Learning Objectives & Outcomes"
+    parent: course-info
+    url: docs/course-info/slo-info
+    weight: 3
+  - name: Weekly Schedule & Assignments
+    url: docs/course-schedule
     weight: 30
-  - name: Contact
-    url: '/contact'
-    weight: 60
+  
+# - identifier: "Our Team4"
+  #   name: "Join us"
+  #   url: "/post/join-us"
+  #   parent: "Our Team"
+  #   weight: 4
