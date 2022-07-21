@@ -1,35 +1,35 @@
-# [Hugo Online Course Theme](https://github.com/wowchemy/starter-hugo-online-course)
+# IDS2395: The Future of Rain Forests
 
-[![Screenshot](./preview.png)](https://wowchemy.com/hugo-themes/)
+## A UF Quest 2 Course
 
-The **Online Course Template** empowers you easily create an online course or coaching business with the open source [**Wowchemy Website Builder**](https://wowchemy.com/) for [Hugo](https://github.com/gohugoio/hugo). This Hugo learning theme helps you to teach the way that you want to learn!
+This is the teaching materials and website for the UF Quest 2 course "The Future of Tropical Rain Forests". 
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://wowchemy.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/wowchemy?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+The course content and organization is a forkable repository is inspired by the [Data Carpentry for Biologists](https://github.com/datacarpentry/semester-biology) course developed, taught, and shared by [@ethanwhite](https://github.com/ethanwhite).
 
-[Check out the latest demo](https://wowchemy.com/docs/) of what you'll get in less than 10 minutes, or [get inspired by how others are using this template](https://wowchemy.com/creators/).
+The course is designed to work primarily as a 'flipped' or 'active-learning' course, with students reading articles and viewing videos before coming to class. Class time is spent discussing the material and working on exercises with the teacher answering questions and demoing the concepts. The course remains under active development and I welcome contributions or suggestions to all aspects of the course and website. Suggestions for exercises, readings, examples, and exercises for a GenEd audience are especially welcome. You are welcome to use course materials for your own course.  
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+### Organizational notes:
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/wowchemy/wowchemy-hugo-themes/blob/main/.github/contributing.md) or [suggest improvements](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+1. The course web page uses the [Wowchemy Online Course Template](https://github.com/wowchemy/starter-hugo-online-course) for Hugo. I edit the course using RStudio and Blogdown.
+2. The image on the landing page image is stored in `assets`->`media`   
+3. The top menu is edited in the menus.yaml file (`config`->`_default`) 
+4. The home page is multiple widgets that are in `content`->`home`
+5. The page is organized as a book, with each chapter (page) set up as a folder in `content`->`home`. 
+6. Each week's reading assignment and in-class materials are set up as blog posts, with each week in a different folder (`content`->`post`). The 'correct' way might have been to set them up as child pages under `course content`, but that made the left-side menu too busy and I wanted a more streamlined page. The down side to that is that it doesn't keep all the materials for each session in the same place, because...
+7. ...the notes for each class, outlines, Readings, assignment descriptions, the syllabus, and other pdf files meant to be downloaded -- along with the RMarkdown documents used to render them -- are in the `static` folder (as per the template documentation). They are organized in subfolders (`syllabus`, `readings`, etc., e.g., `static`->`class-materials`->`readings`.
+8. Be sure to name files and folders with dashes, not underscores (e.g., `class-sessions`, not `class_sessions`).
 
-## 💙 We ask you, humbly, to support this open source movement
+### How to contribute to the course or suggest corrections 
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+1. With the standard GitHub flow: fork the repository, add or change material, and submit a pull request.
+2. Send me an [email](mailto:embruna@ufl.edu).
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
-### [️😍 Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+### Up next:
+1. As per the [README for EW's Carpentry course](https://github.com/datacarpentry/semester-biology), I will soon be reviewing all materials for accessibility and scanning new pull requests with pa11y and pa11y-ci to ensure that additions to the site follow accessibility best practices. If you discover any accessibility issues with the site please open an issue and I'll address them.
 
-## Demo image credits
+2) Add instructions (or at least links) for how to use this and Jekyll to build your own course website. 9e.g., [this was useful](https://matteocourthoud.github.io/post/website/) but note I found it much easier to deploy with netlify than github pages). 
 
-- [Demo course image](https://unsplash.com/photos/JKUTrJ4vK00)
-- [Hero elearning icon](https://www.flaticon.com/packs/online-education-25)
+### Acknowledgements
+
+This course was developed with support from the UF CALS Roche Scholars Program.
