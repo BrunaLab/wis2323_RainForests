@@ -20,6 +20,7 @@ header-includes:
 - \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
+- \usepackage{caption}
 - \usepackage{xcolor}
 - \AtBeginDocument{\let\maketitle\relax}
 # - \usepackage{sectsty} \allsectionsfont{\raggedright}
@@ -106,10 +107,16 @@ Tropical Rain Forests cover approximately 15% of the Earth’s land surface but 
 * **Secondary Designation (if seeking)**: International (N)
 * **Writing Designation**: None
 * _A minimum grade of C is required for general education credit_
-* More detailed GenEd and Quest Course Objectives/SLOs are in Section VIII
+* More detailed GenEd and Quest Course Goals and Student Learning Objectives are below
 
 
 ## Graded Coursework
+
+
+<!-- \captionsetup[table]{labelformat=empty} -->
+<!-- \definecolor{darkmidnightblue}{HTML}{003366} -->
+<!-- \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}} -->
+
 \vspace{0.3cm} 
 ```{r assign, echo=FALSE,message = FALSE,warning=FALSE}
 assignments <- read_csv("./assignments.csv") 
@@ -131,6 +138,7 @@ kable(assignments,
       escape= F,
       booktabs=T,
       linesep = "",
+      # caption="Graded Coursework"
       ) %>% 
    kable_classic_2(full_width = T,
                 latex_options="scale_down",
@@ -169,8 +177,13 @@ kable(assignments,
 <!-- 1. En-roads Group Dashboard  (Y/N Grade) -->
 <!-- 1. Conservation Values Survey  (Y/N Grade) -->
 <!-- ### **Weekly Course Schedule**  -->
-## Semester Overview & Key Dates
+<!-- ## Semester Overview & Key Dates -->
 \vspace{0.1cm}
+
+<!-- \captionsetup[table]{labelformat=empty} -->
+\definecolor{darkmidnightblue}{HTML}{003366}
+\captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
+
 ```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
 calendar <- read_csv("./course_schedule_short.csv") %>% 
   # calendar <- calendar %>% 
@@ -197,7 +210,12 @@ kable(calendar,
       escape= TRUE,
       booktabs=T,
       linesep = "",
+      caption = "Semester Overview and Key Dates"
       ) %>% 
+    kable_styling(font_size = 50) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 50pt !important;", 
+         .) %>% 
   kable_paper(full_width = ) %>%
   # column_spec(1, bold = F, border_right = T) %>%
   # column_spec(2, width = "5em", background = "white",border_right = T) %>% 
@@ -218,12 +236,17 @@ kable(calendar,
   column_spec(5, bold=T) %>% 
   row_spec(0, bold=T) %>% 
   row_spec(49, bold=T) 
+# %>% 
+#   add_header_above(c("Semester Overview & Key Dates" = 5), bold=T,color= '#003366')
+
 # column_spec(3, width = "15em") %>%
 # column_spec(4, width = "3em") %>%
 # row_spec(0,hline_after = F, bold=T) %>%
 # row_spec(c(1:2),hline_after = T)
 
 ```
+
+
 \newpage
 # Assigned Reading/Viewing
 \vspace{0.1cm}
@@ -233,19 +256,24 @@ kable(calendar,
 
 ### WEEK 1-2:	Introductions & Historical Narratives
 \vspace{0.2cm}
-> Excerpts from Historical Narratives [[link to pdf](../IDS2935_class_sessions/02_trf_narratives/narratives_in_class/historical_narratives.pdf)]
+
 
 <!-- * IN CLASS: Analysis of Historical Narratives -->
 
 ### WEEK 2-1	Rain forest imagery in Art & Literature
 \vspace{0.2cm}
-> Excepts from Poetry and Fiction [[link to pdf](../IDS2935_class_sessions/03_trf_culture/lit_poetry.pdf)]
 
+> Excerpts from Historical Narratives [[link to pdf](../IDS2935_class_sessions/02_trf_narratives/narratives_in_class/historical_narratives.pdf)]
+
+<!-- > IN CLASS Excepts from Poetry and Fiction [[link to pdf](../IDS2935_class_sessions/03_trf_culture/lit_poetry.pdf)] -->
+<!-- > IN CLASS Examples: Fine Art [[link to pdf]()] -->
 <!-- * IN CLASS: (1) word cloud of survey (2) Analysis of Lit and Art -->
 
 ### WEEK 2-2 The Rain Forest in Pop Culture
 \vspace{0.2cm}
 > Jolly, Priscilla. 2021. ‘Godzilla vs. Kong’: Monster movies evoke adventure but also ‘dangers’ of tropics. *The Conversation.* [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)]
+
+>Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". _The Guardian_ [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)]
 
 <!-- * IN CLASS: Movie sign-up and assignment hand out -->
 
@@ -278,7 +306,7 @@ kable(calendar,
 \vspace{0.2cm}
 > Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
 
-> Or maybe it's this one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
+> Maybe it's actuallythis one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
 
 > An introduction to Army Ants: [[link to video](https://www.youtube.com/watch?v=p16g5IVCdeE)]  
 
@@ -316,6 +344,7 @@ kable(calendar,
 			
 ### WEEK 7-1	Narratives Revisited: Biology, History, Fiction, Reality
 \vspace{0.2cm}
+
 > Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/)]  
 
 > Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/)]  
@@ -351,6 +380,7 @@ kable(calendar,
  
 ### WEEK 9-2	Drivers & Consequences of Deforestation II: Agriculture  
 \vspace{0.2cm}
+
 > Devouring the Rain Forest. _Washington Post_. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/)]  
 
 > Robles, Pablo, Anuradha Raghu, Adam Majendie and Jin Wu 2021. "The World's Addiction to Palm Oil Is Only Getting Worse". _Bloomberg News_.  [[read online](https://www.bloomberg.com/graphics/2021-palm-oil-deforestation-climate-change/)]  
@@ -359,7 +389,7 @@ kable(calendar,
 
 > Mason, Margie & McDowell, Robin. 2020. "Palm oil labor abuses linked to world’s top brands, banks". _Associated Press_. [[read online](https://apnews.com/article/virus-outbreak-only-on-ap-indonesia-financial-markets-malaysia-7b634596270cc6aa7578a062a30423bb)]  
 
-> Beech, Hannah. 2019. One Casualty of the Palm Oil Industry: An Orangutan Mother, Shot 74 Times. _NY Times_. [[read online](https://www.nytimes.com/2019/06/29/world/asia/orangutan-indonesia-palm-oil.html)]  
+<!-- > Beech, Hannah. 2019. One Casualty of the Palm Oil Industry: An Orangutan Mother, Shot 74 Times. _NY Times_. [[read online](https://www.nytimes.com/2019/06/29/world/asia/orangutan-indonesia-palm-oil.html)]   -->
 
 <!-- * IN CLASS: Palm Oil Stakeholder Analysis -->
 
@@ -564,7 +594,7 @@ It's not over, people. Things will to continue to be unpredictable as new varian
 
 **The Writing Studio**: The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing studio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops.  
 
-## General Education and Quest SLOs/Objectives
+<!-- ## General Education and Quest SLOs/Objectives -->
 <!-- \vspace{0.3cm}  -->
 <!-- **Course Objectives — GenEd Primary Area & Quest ** -->
 

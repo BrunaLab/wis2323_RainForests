@@ -10,7 +10,7 @@ type: book
 weight: 20
 ---
 
-#### You can download the syllabus in pdf form here.
+#### You can download the syllabus in pdf form {{% staticref "uploads/IDS2935_syllabus/IDS2935_syllabus.pdf" %}}here.{{% /staticref %}}.
 
 
 
