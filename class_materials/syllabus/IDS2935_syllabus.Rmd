@@ -36,7 +36,7 @@ header-includes:
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 output: pdf_document
 knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "./static/uploads/IDS2935_syllabus.pdf") })
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "./static/uploads") })
   # word_document: default
 # output: html_document
 # weight: 5
