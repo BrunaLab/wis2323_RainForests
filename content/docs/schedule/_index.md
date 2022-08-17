@@ -18,13 +18,13 @@ weight: 30
 \vspace{0.1cm}  
 
 ### WEEK 1-2:	Introductions & Historical Narratives
-\vspace{0.2cm}
+
 
 
 <!-- * IN CLASS: Analysis of Historical Narratives -->
 
 ### WEEK 2-1	Rain forest imagery in Art & Literature
-\vspace{0.2cm}
+
 
 > Excerpts from Historical Narratives [[link to pdf](../IDS2935_class_sessions/02_trf_narratives/narratives_in_class/historical_narratives.pdf)]
 
@@ -33,7 +33,7 @@ weight: 30
 <!-- * IN CLASS: (1) word cloud of survey (2) Analysis of Lit and Art -->
 
 ### WEEK 2-2 The Rain Forest in Pop Culture
-\vspace{0.2cm}
+
 > Jolly, Priscilla. 2021. ‘Godzilla vs. Kong’: Monster movies evoke adventure but also ‘dangers’ of tropics. *The Conversation.* [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)]
 
 >Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". _The Guardian_ [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)]
@@ -46,7 +46,7 @@ weight: 30
 
 
 ### WEEK 3-1	What is a Rain Forest? 
-\vspace{0.2cm}
+
 > Why does Earth have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]
 
 <!-- * IN CLASS: Comparison of Forests with 360 Videos-->
@@ -54,19 +54,19 @@ weight: 30
 <!-- 3. [CI: Under the Canopy](https://www.youtube.com/watch?v=5JvJCvdqvYs) -->
 
 ### WEEK 3-2	What is a Rain Forest? (cont.)
-\vspace{0.2cm}
+
 > None
 
 <!-- * IN CLASS: Geography Quiz Bowl -->
 
 ### WEEK 4-1	Patterns of Biodiversity
-\vspace{0.2cm}
+
 > Why Are There So Many Species Near the Equator? [link to video](https://www.youtube.com/watch?v=IrbKix96_k0)
 
 <!-- * IN CLASS: Species-Abundance Data Analysis -->
 
 ### WEEK 4-2	Coevolution & the origins of tropical biodiversity
-\vspace{0.2cm}
+
 > Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
 
 > Maybe it's actuallythis one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
@@ -80,33 +80,33 @@ weight: 30
 <!-- * IN CLASS: FLMNH Photo Safari  -->
 
 ### WEEK 5-1	Forest disturbance, dynamics, & the maintenance of diversity
-\vspace{0.2cm}
+
 > None  
 
 <!-- include Terra Preta and Rain Forest Manipulation  -->
 
 ### WEEK 5-2	Forest disturbance, dynamics, & the maintenance of diversity
-\vspace{0.2cm}
+
 > None   
 
 <!-- * IN CLASS: PCE Violations in the Tropics -->
 
 ### WEEK 6-1	The Paradox of Luxuriance
-\vspace{0.2cm}
+
 > None  
 
 <!-- * IN CLASS: Geography Quiz -->
 
 
 ### WEEK 6-2	Humans are part of rain forests  
-\vspace{0.2cm}
+
 
 > Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]   
 
 <!-- * IN CLASS: Data Analysis: Rural-Urban -->
 			
 ### WEEK 7-1	Narratives Revisited: Biology, History, Fiction, Reality
-\vspace{0.2cm}
+
 
 > Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/)]  
 
@@ -118,14 +118,14 @@ weight: 30
 <!-- * IN CLASS: Discussion of Movie Tropes / Reviews -->
 
 ### WEEK 7-2	JUNGLE FILM FESTIVAL 2022
-\vspace{0.2cm}
+
 > None  
 
 <!-- * IN CLASS: FILM FESTIVAL -->
 <!-- * IN CLASS: Movie Options: Congo, The Rundown, Jungle Cruise, Blood Monkey, Romancing the Stone, The Jungle (D Radcliffe) -->
 
 ### WEEK 8-1	Forest cover and forest loss I
-\vspace{0.2cm}
+
 > Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs).  2018. "Inside the Amazon’s Deforestation Crisis". _The Globe and Mail_. [[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/)]. 
 
 ### WEEK 8-2	Forest cover and forest loss II  
@@ -135,14 +135,14 @@ weight: 30
 <!-- * IN CLASS: Download and Analysis of Forest Loss Data  -->
 
 ### WEEK 9-1	Drivers & Consequences of Deforestation I: Mining, Timber, Fire, Infrastructure
-\vspace{0.2cm}
+
 > Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu. Photographs by Victor Moriyama. 2022. "The Illegal Airstrips Bringing Toxic Mining to Brazil’s Indigenous Land". _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html)]  
 
 > Andreoni, Manuela. 2022. "Stopping wildfires before they start". _NY Times_. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html)]
  
  
 ### WEEK 9-2	Drivers & Consequences of Deforestation II: Agriculture  
-\vspace{0.2cm}
+
 
 > Devouring the Rain Forest. _Washington Post_. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/)]  
 
@@ -157,13 +157,13 @@ weight: 30
 <!-- * IN CLASS: Palm Oil Stakeholder Analysis -->
 
 ### WEEK 10-1	Climate change
-\vspace{0.2cm}
+
 > BBC News: Amazon rainforest: 'Once it's gone, it's gone forever' (interview with Erika Berenguer). [[link to video](https://www.youtube.com/watch?v=TigV80hwebg)]
 
 <!-- * IN CLASS: Show Your Stripes -->
 
 ### WEEK 10-2	Climate change (cont.)
-\vspace{0.2cm}
+
 <!-- > Author. 2020. "The Congo rainforest is losing ability to absorb carbon dioxide. That’s bad for climate change". _Washington Post_. [[read online](https://www.washingtonpost.com/climate-environment/the-congo-rainforest-is-losing-its-ability-to-absorb-carbon-dioxide-thats-bad-for-climate-change/2020/03/03/3363d218-5ca9-11ea-9055-5fa12981bbbf_story.html)]    -->
 
 > Pearce, Fred. 2018. "Rivers in the Sky: How Deforestation Is Affecting Global Water Cycles."  _Yale360_. [[read online](https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change)]  
@@ -181,7 +181,7 @@ weight: 30
 <!-- * IN CLASS: EN-ROADS Climate Simulation -->
 
 ### WEEK 11-1	Consumer choices
-\vspace{0.2cm}
+
 > Carodenuto, Sophia. 2021. "Chocolate fix: How the cocoa industry could end deforestation in West Africa".  _The Conversation_. [[read online](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953)]  
 
 > Lawal,Shola. 2020. "Our Endless Appetite For Chocolate Has Bitter Environmental Consequences" _Huffington Post_. [[read online](https://tinyurl.com/y6curgmn)]. 
@@ -194,7 +194,7 @@ weight: 30
 
 
 ### WEEK 11-2	DURIAN FEST 2022
-\vspace{0.2cm}
+
 > Weintraub, Karen. 2019. "They’re Smelly and Spiky, and They Need Bats to Pollinate Them". _NY Times_. [[read online](https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html)]  
 
 > Wharton, Rachel. 2020. How the Tip of Florida Became a Tropical-Fruit Paradise. _Atlas Obscura_. [[read online](https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states)]
@@ -209,11 +209,11 @@ weight: 30
 <!-- * IN CLASS: DURIAN FEST & Taste testing Tropical Fruits -->
 
 ### WEEK 12-1	International frameworks
-\vspace{0.2cm}
+
 > None 
 
 ### WEEK 12-2	Local Initiatives, Empowered Communities, & Activism
-\vspace{0.2cm}
+
 <!-- _Some inspiring evidence we can actually restore rain forests in a way that benefits local people, biodiversity, and the broader world via impacts on ecosystem services:_ -->
 
 > Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html)]   
@@ -230,12 +230,12 @@ weight: 30
 <!-- * IN CLASS: Guest Speaker, Get Involved Fair -->
 
 ### WEEK 13-1	Protected areas
-\vspace{0.2cm}
+
 > Dasgupta, Shreya (with research by Annika Schlemm & Zuzana Burivalova). 2017. "Do protected areas work in the tropics?" Mongabay.com. [[read online](https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/)]  
 
 
 ### WEEK 13-2	Forest restoration & regeneration
-\vspace{0.2cm}
+
 > Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". [[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653)]  
 
 > "Do tapirs defecate in the woods?" 2019. _The Economist_ [[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods)]  
@@ -245,15 +245,15 @@ weight: 30
 <!-- * IN CLASS: Land Conservation Game -->
 
 ### WEEK 14-1	Project Work Day 
-\vspace{0.2cm}
+
 > None  
 
 ### WEEK 14-2	No class: Thanksgiving Holiday  
-\vspace{0.2cm}
+
 > None    
   
 ### WEEK 15-1	Tropical Rain Forests and Global Health
-\vspace{0.2cm}
+
 > Lavinas Picq, Manuela 2020. "Spreading Faith, and Disease". _NY Times_. [[read online](https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html)]  
 
 > Vittor, Amy, Gabriel Zorello Laporta, and Maria Anice Mureb Sallum. 2020. How deforestation helps deadly viruses jump from animals to humans. _The Conversation_. [[read online](https://theconversation.com/how-deforestation-helps-deadly-viruses-jump-from-animals-to-humans-139645)]
@@ -265,12 +265,12 @@ weight: 30
 
 
 ### WEEK 15-2	Rain Forest Headlines  
-\vspace{0.2cm}
+
 > Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. _NY Times._ [[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur)]  
 
 <!-- * IN CLASS: Guest Speaker -->
 
 ### WEEK 16-1	What will we do?
-\vspace{0.2cm}
+
 
 > none
