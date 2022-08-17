@@ -10,7 +10,9 @@ weight: 40
 ---
 In addition to in-class work, this course has four assigned projects.
 
+## In-Class Activities
 ## Movie Reviews
-## Analytical Essay: Deforestation Rates
-## Personal Committment Project
-## Publicity Campaign Project
+## Analytic Essay Deforestation 
+## Reflective Essay
+## Conservation Campaign
+
