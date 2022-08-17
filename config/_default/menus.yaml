@@ -11,7 +11,7 @@ main:
     url: docs/instructor-info
     weight: 10
   - name: Syllabus
-    url: static/uploads/IDS_2935_syllabus.pdf
+    url: https://ids2935.netlify.app/static/uploads/IDS2935_syllabus.pdf
     identifier: syllabus
     weight: 20
   - name: Schedule & Readings
