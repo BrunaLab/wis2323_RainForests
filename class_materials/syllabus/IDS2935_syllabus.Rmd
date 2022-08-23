@@ -37,7 +37,12 @@ header-includes:
 - \setlength{\headheight}{14.49998pt}
 output: pdf_document
 knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "./static/uploads") })
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
+  
+  
   # word_document: default
 # output: html_document
 # weight: 5
