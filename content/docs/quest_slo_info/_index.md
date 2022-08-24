@@ -9,5 +9,5 @@ type: book
 weight: 50
 ---
 
-
+{{< list_children >}}
 This will have all info on how the coure fits into quest and the SLOs
