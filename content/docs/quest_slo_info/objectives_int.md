@@ -2,6 +2,7 @@
 title: Student Learning Objectives - International (for N co-designation)
 date: 2022-08-22
 type: book
+summary: " "      
 ---
 
 | International Objectives | This Course’s Objectives (This course will...) | Objectives will be Accomplished By:|

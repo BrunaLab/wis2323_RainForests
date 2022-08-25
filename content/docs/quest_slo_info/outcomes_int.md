@@ -2,6 +2,7 @@
 title: Student Learning Outcomes - International (for N co-designation)
 date: 2022-08-22
 type: book
+summary: " "      
 ---
 
 | Competency |International SLOs...|Course SLOs|Assessment

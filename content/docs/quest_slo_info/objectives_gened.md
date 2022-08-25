@@ -2,7 +2,9 @@
 title: Student Learning Objectives - GenEd Primary Area and Quest
 date: 2022-08-22
 type: book
+summary: " "      
 ---
+
 
 | Biological Sciences Objectives | Quest 2 Objectives | Course Objectives (This course will...) | Objectives will be Accomplished By...|
 |--------------------------------|--------------------|--------------------------------|--------------------|

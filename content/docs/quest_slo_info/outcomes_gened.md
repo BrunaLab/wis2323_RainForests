@@ -2,6 +2,7 @@
 title: Student Learning Outcomes - GenEd Primary Area and Quest
 date: 2022-08-22
 type: book
+summary: " "      
 ---
 
 | Biological Sciences SLOs: | Quest 2 SLOs | This Course’s SLOs: | Assessment:|
