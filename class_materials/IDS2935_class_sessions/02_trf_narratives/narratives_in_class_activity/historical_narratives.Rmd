@@ -34,6 +34,11 @@ output:
 editor_options: 
   markdown: 
     wrap: 72
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
 ---
 
 ```{r setup, include=FALSE}
