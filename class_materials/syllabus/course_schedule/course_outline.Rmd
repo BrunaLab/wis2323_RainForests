@@ -267,7 +267,7 @@ kable(calendar,
 ### WEEK 2-1	Rain forest imagery in Art & Literature
 \vspace{0.2cm}
 
-> Excerpts from Historical Narratives [[link to pdf](../IDS2935_class_sessions/02_trf_narratives/narratives_in_class/historical_narratives.pdf)]
+> Excerpts from Historical Narratives [[link to pdf](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
 
 <!-- > IN CLASS Excepts from Poetry and Fiction [[link to pdf](../IDS2935_class_sessions/03_trf_culture/lit_poetry.pdf)] -->
 <!-- > IN CLASS Examples: Fine Art [[link to pdf]()] -->

@@ -74,7 +74,7 @@ opts_knit$set(width=75)
 >Emilio Bruna
 
 
-## **Bring to Class:**  
+## Bring to Class
 
 1. Roster
 1. Name cards & Markers
@@ -83,18 +83,19 @@ opts_knit$set(width=75)
 1. Masks, Hand Sanitizer
 1. PDF of class outline
 
-## Session Objectives & Competencies:   
-
-1. Introduce the class and challenges of tropical rain forest conservation 
-2. Review the Syllabus
-3. Ask students to fill out the online survey
-
 <!-- **<<Revision for v 2.0: have 1/2 the class do the survey for "tropical rain forest" and the other half do the words that come to mind with "jungle" - would be really interesteing to compare the differences that come to mind, and is a good lead-in to Jungle being defined by the British officers.">>**  -->
 
 ## Pre-class Preparation (Students)
 
 1. **Assignments:** Complete the survey if they have an opportunity to do so
 2. **Readings & Videos:** None
+
+## Session Objectives & Competencies:   
+
+1. Introduce the class and challenges of tropical rain forest conservation 
+2. Review the Syllabus
+3. Become familiar with students, their concerns, and their interests
+
 
 \newpage
 ```{r timer, echo=FALSE}

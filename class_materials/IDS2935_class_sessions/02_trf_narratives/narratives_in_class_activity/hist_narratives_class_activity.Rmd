@@ -51,15 +51,15 @@ As readers we usually do this *"Text Analysis"* subconsciously, but we can also 
 
 ### Instructions - Part 1 (Do on your own, bring to the next session)  
 
-1. Download this .pdf file of historical texts and images. 
+1. Download the .pdf file of historical texts and images: [[link to file](https://ids2935.netlify.app/uploads/historical_narratives.pdf)] and the spreadsheet for recording data [[link to download](https://ids2935.netlify.app/uploads/narrative_score_sheet.xlsx)].
 
-1. Read (or examine) each text or images. As you do so, mark or note especially powerful descriptions of places, people, or behavior. 
+1. Read (or examine) each text or image. As you do so, mark or note especially powerful descriptions of places, people, or behavior. 
 
 1. Enter these words or phrases into this spreadsheet. Be sure to note from which text they came (Item1, Item2, etc.)
 
 1. Assign each of these words/phrases a score based on if they are 'positive (+1)', 'negative (-1)', or 'neutral (0)'.
 
-1. Upload your scoresheet with the words/phrases and their scores to Canvas when finished
+1. Upload the spreadsheet with the words/phrases and their scores to Canvas when finished
 
 <!-- 5. Sometimes the things _left out_ by the author are as informative as the things they _did_ say. Can you infer anything from what *wasn't* said? -->
 
