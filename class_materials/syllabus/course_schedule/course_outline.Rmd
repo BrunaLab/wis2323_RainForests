@@ -252,7 +252,7 @@ kable(calendar,
 
 
 \newpage
-## Assigned Reading/Viewing
+## Assigned Reading/Viewing & In-Class Activities
 \vspace{0.1cm}
 
 **Please read or watch the assigned materials _before_ class.** The assignment for each session is subject to change based on current events; changes will be announced via Canvas.
@@ -261,13 +261,18 @@ kable(calendar,
 ### WEEK 1-2:	Introductions & Historical Narratives
 \vspace{0.2cm}
 
+> **Reading:** None
+
+\vspace{0.1cm}
+> **In-Class Activity:** Course Survey  
+> **In-Class Activity:** Analysis of Historical Narratives [[link](https://ids2935.netlify.app/uploads/hist_narratives_class_activity.pdf)]
 
 <!-- * IN CLASS: Analysis of Historical Narratives -->
 
 ### WEEK 2-1	Rain forest imagery in Art & Literature
 \vspace{0.2cm}
 
-> Excerpts from Historical Narratives [[link to pdf](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
+> **Reading:** Excerpts from Historical Narratives [[link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
 
 <!-- > IN CLASS Excepts from Poetry and Fiction [[link to pdf](../IDS2935_class_sessions/03_trf_culture/lit_poetry.pdf)] -->
 <!-- > IN CLASS Examples: Fine Art [[link to pdf]()] -->
@@ -275,6 +280,9 @@ kable(calendar,
 
 ### WEEK 2-2 The Rain Forest in Pop Culture
 \vspace{0.2cm}
+
+> **Reading:**   
+
 > Jolly, Priscilla. 2021. ‘Godzilla vs. Kong’: Monster movies evoke adventure but also ‘dangers’ of tropics. *The Conversation.* [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)]
 
 >Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". _The Guardian_ [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)]
