@@ -41,7 +41,7 @@ knit: (function(inputFile, encoding) {
   encoding = encoding, 
   output_dir = "./static/uploads")
   })
-  
+
   
   # word_document: default
 # output: html_document
@@ -54,4 +54,5 @@ knit: (function(inputFile, encoding) {
 
 ```{r, child=c('./course_schedule/course_outline.Rmd','./slo/sl_objectives.Rmd','./slo/slo_secondary.Rmd','./slo/sl_outcomes.Rmd','./slo/sl_outcomes_secondary.Rmd')}
 ```
+
 
