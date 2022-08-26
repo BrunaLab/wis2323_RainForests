@@ -1,5 +1,5 @@
 ---
-title: 'Syllabus'
+title: 'Session Checklist'
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 web: www.BrunaLab.org
@@ -36,11 +36,7 @@ header-includes:
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 - \setlength{\headheight}{14.49998pt}
 output: pdf_document
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, 
-  encoding = encoding, 
-  output_dir = "./static/uploads")
-  })
+
 
   
   # word_document: default
@@ -48,10 +44,13 @@ knit: (function(inputFile, encoding) {
 # weight: 5
     # df_print: paged
 ---
-    
-\definecolor{darkmidnightblue}{HTML}{003366}
-\captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}} 
 
-```{r, child=c('./course_schedule/course_outline.Rmd','./slo/sl_objectives.Rmd','./slo/slo_secondary.Rmd','./slo/sl_outcomes.Rmd','./slo/sl_outcomes_secondary.Rmd')}
-```
+
+## For every Class Session:
+
+
+1. Post the In-class assignment / add to Syllabus
+1. Post lecture slides
+1. Confirm reading for the next session
+1. Notes/Debrief for next session
 

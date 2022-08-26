@@ -478,7 +478,7 @@ _Marco Polo (September 15, 1254 -- January 8, 1324) was a Venetian merchant who 
 > sense of danger is always present, and pervades ouir minds whether in
 > our sleeping or our waking hours.
 
-<!-- ![Henry Morton Stanley (1872).](./texts_images/Henry_Morton_Stanley_1.jpeg){height=40%}  -->
+<!-- ![Henry Morton Stanley (1872).](./texts_images/stanley/Henry_Morton_Stanley_1.jpeg){height=40%}  -->
 
 
 <!-- ![Stanley](./texts_images/stanley/stanley1.png){height=50%}  -->
