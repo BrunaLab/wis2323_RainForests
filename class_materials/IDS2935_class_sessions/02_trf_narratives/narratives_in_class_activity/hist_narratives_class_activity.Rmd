@@ -17,10 +17,9 @@ header-includes:
 - \usepackage{parskip}
 - \usepackage{xcolor}
 - \AtBeginDocument{\let\maketitle\relax}
-- \usepackage{sectsty} \sectionfont{\centering}
 - \usepackage{titlesec}
 - \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
-- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
 - \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}

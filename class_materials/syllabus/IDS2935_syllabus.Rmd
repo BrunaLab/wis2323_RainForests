@@ -23,7 +23,6 @@ header-includes:
 - \usepackage{xcolor}
 - \AtBeginDocument{\let\maketitle\relax}
 # - \usepackage{sectsty} \allsectionsfont{\raggedright}
-- \usepackage{sectsty} \sectionfont{\centering}
 - \usepackage{titlesec}
 - \usepackage{caption}
 - \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
