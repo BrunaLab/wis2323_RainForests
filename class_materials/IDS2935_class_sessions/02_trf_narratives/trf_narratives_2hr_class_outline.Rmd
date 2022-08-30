@@ -55,9 +55,15 @@ opts_knit$set(width=75)
 ```
 # IDS 2935: Historical Narratives
 
+<!-- UPDATES FOR NEXT YEAR: 
+1. Add text by Antonio de León Pinelo to the "Narratives" to be evaluated  -->
+
 ## Before Class
 
-1. Email Students class location, reminder to pring printed version of the historical narratives
+1. Email Students 
+> * class location
+> * reminder to bring printed version of the historical narratives
+
 
 ## Bring to Class
 
@@ -126,10 +132,14 @@ time_remain <- 150 - total_time
 
 ### **Breakout 2**  (`r intro_next_session` min)      
 
-1. BE SURE TO DISCUSS RALEIGH PASSAGE: arguments about location of paradise and if it was under the equinoctal line.
+1. Active debates among the religious and exploring elitge about the location of paradise and whether it was under the equinoctal line.
+1. Antonio de León Pinelo: Spanish Jurist wrote "Paraíso en el Nuevo Mundo" in about 1650. Placed Eden just south of the equator in the Amazon (just south because a little bit milder, he reasoned.)
 
+<!-- 1. Maize (Zea mays) 2. Tomato (Solanum lycopersicum) 3. Potato (Solanum tuberosum) 4. Vanilla (genus Vanilla, esp. Vanilla planifolia) 5. Pará rubber tree (Hevea brasiliensis) 6. Cacao (Theobroma cacao) 7. Tobacco (Nicotiana rustica) -->
+<!-- 1/ Introduced Eurasian diseases wiped out 50–90% of the Indigenous population  -->
 
 ### Closing Remarks/Questions (`r questions` min)
+ 
 
 <!-- ### Free Time -->
 
@@ -138,6 +148,10 @@ time_remain <- 150 - total_time
 # Additional Resources and Reading Materials
 \vspace{0.5cm}
 
-[A Brief History of the Age of Exploration](https://www.thoughtco.com/age-of-exploration-1435006)
+1. [A Brief History of the Age of Exploration](https://www.thoughtco.com/age-of-exploration-1435006)
+1. [European Exploration and Settlement in the New World](https://www.u-s-history.com/pages/h1031.html)
+1. [The Age of Discovery](https://en.wikipedia.org/wiki/Age_of_Discovery)
+1. [Timeline of European Exploration](https://en.wikipedia.org/wiki/Timeline_of_European_exploration)
+1. [El Dorado](https://en.wikipedia.org/wiki/El_Dorado)
+1. [Antonio de León Pinelo](Antonio de León Pinelo)  and the debate about the location of Eden: [Link_1](https://journals.sagepub.com/doi/abs/10.1177/1474474009350000?journalCode=cgjb), [Link2](http://sergio-vega-art.squarespace.com/introduction), [Link3](https://catedraltomada.pitt.edu/ojs/index.php/catedraltomada/article/view/202)
 
-[European Exploration and Settlement in the New World](https://www.u-s-history.com/pages/h1031.html)
