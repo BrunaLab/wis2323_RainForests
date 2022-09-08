@@ -16,7 +16,7 @@ header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \fancyfoot{}
-- \fancyhead[R]{Assignment 1 - Movie Reviews, p. \thepage}
+- \fancyhead[R]{Tropical Tropes in Film , p. \thepage}
 - \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
@@ -35,12 +35,17 @@ header-includes:
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 always_allow_html: true
 # classoption: landscape
-output: pdf_document
-# output: html_document
+# output: pdf_document
+output: html_document
   # word_document: default
 # output: html_document
 # weight: 5
     # df_print: paged
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 ---
 
 
@@ -54,11 +59,11 @@ library(here)
 \vspace{0.5cm}
 ## Project Overview
 \vspace{0.3cm}
-Your assignment is to watch **three** films set in tropical rain forests and study how the rain forests are presented, how the rain forest setting influences character development, and how the rain forest and the situations encountered there by characters help advance the films' narrative. Your review should not be a summary of the film and it's plot (i.e., it is not a *descriptive review*), nor a judgment regarding whether the film is "good" or "bad" (i.e., it is not an *evaluative review*). **Your objective is to analyze and compare:** 
+Your assignment is to watch **three** films set in tropical rain forests and study how the rain forests are presented, how the rain forest setting influences character development, and how the rain forest and the situations encountered there by characters help advance the films' narrative. Your review should not be a summary of the film and it's plot (i.e., it is not a *descriptive review*), nor a judgment regarding whether the film is "good" or "bad" (i.e., it is not an *evaluative review*). **Your assignment is to:** 
 
-1. How the rain forest setting underscores the film's major themes 
-2. How the film reinforces or subverts stereotypes (i.e., tropes) about rain forests and the people that live in them
-3. How the depiction of rain forests in the film compares with what you have learned about rain forests in class. 
+1. Document the tropes about rain forests used in each film, and
+1. Explain how each film's use of these tropes reinforces or subverts historical stereotypes about rain forests and the people that live in them. 
+<!-- 1. Describe how the rain forest setting underscores each film's major themes -->
 
 You must support your claims with specific examples drawn from the major elements below. **As you screen each movie, record your observations and fill out the Movie Trope Checklist.**
 
@@ -72,13 +77,19 @@ You must support your claims with specific examples drawn from the major element
 \vspace{0.3cm}
 **Everyone will watch and review three movies:**
 
-1. _Aguirre, Wrath of God_ (1972, directed by Werner Herzog, Rotten Tomatoes: 96%)
-1. _Anaconda_ (1997, directed by Luis LLosa, Rotten Tomatoes: 40%)
-1. A movie from the list below - your choice
+1. _Apocalypse Now_ (1979, Directed by Francis Ford Coppola)
+
+1. _The Emerald Forest_ (1985, Directed by John Boorman)
+
+1. One movie of your choosing from the list below.
+
+<!-- 1. _Aguirre, Wrath of God_ (1972, directed by Werner Herzog, Rotten Tomatoes: 96%) -->
+<!-- 1. _Anaconda_ (1997, directed by Luis LLosa, Rotten Tomatoes: 40%) -->
+<!-- 1. A movie from the list below - your choice -->
 
 <!-- * Fern Gully: The Last Rainforest OR Avatar -->
 
-**Please submit the name of 'Your Choice' via Canvas by 8 September.** If it will help you decide you can watch the trailers by searching for the movie on [IMDB](https://www.imdb.com/) or [YouTube](https://www.youtube.com/). 
+**Please submit the name of 'Your Choice' via Canvas by 10 September.** If it will help you decide you can watch the trailers by searching for the movie on [IMDB](https://www.imdb.com/) or [YouTube](https://www.youtube.com/). 
 
 **How/Where to Watch:** Most of the films are available via the UF Library access to Kanopy, other free streaming platforms, or as DVDs that can be checked out from the UF Library's Course Reserves. A few of them are only available on subscription-based streaming platforms such as Netflix or Amazon, but _there are plenty of movies that do not require subscriptions or paying for a rental._ **_Do not spend any personal funds on this assignment._**  
 
@@ -113,10 +124,10 @@ You must support your claims with specific examples drawn from the major element
 \vspace{0.3cm}
 **For each film you must submit the following:**
 
-1. Your critical analysis and cross-movie comparison (500-700 words)
-2. A completed 'Movie Trope Checklist' for each film
+1. A completed 'Tropical Trope Checklist' 
+1. Your analysis of how the use of these tropes reinforces or subverts our perception of rain forests and the people living in them (min. 500 words)
 
-**Assignment Submission: ** files uploaded via Canvas.  
+**Assignment Submission: ** Files uploaded via Canvas. Your essays must be submitted as one MS Word document or PDF file (file extensions .doc, .docx, or .pdf). Your trope checklists must be uploaded as Microsoft Excel files (file extensions .xls or .xlsx file).
 
 **Assignment value: ** 100 points
 
@@ -141,11 +152,11 @@ section <- data.frame(section = c("Essay","", "Checklist"))
 
 pts<-data.frame(pts=c("70","","30"))
                    
-exceeds <- data.frame(exceeds = c("Essay is of the required length with thorough and well-reasoned arguments and several specific examples as supporting evidence;engaging conclusion that summarizes the evidence and connects to the thesis and body. The examples accurate and the writing is articulate and sophisticated, with few grammatical mistakes or spelling errors. Overall, the paper is well written. \\textbf{(70-63 pts)}","","Each checklist records 10 or more examples with a time stamp for each event. \\textbf{(9-10 pts)}"))
+exceeds <- data.frame(exceeds = c("Essay is of the required length. One or more historical narratives about rain forests are identified; well-reasoned arguments for how the film promotes or subverts these narratives are backed up by specific examples. An engaging conclusion summarizes the evidence and connects it back to the central thesis. The writing is clear, with few grammatical mistakes or spelling errors. Overall, the paper is well written. \\textbf{(70-63 pts)}","","Each checklist records 10 or more examples with a time stamp for each event. \\textbf{(9-10 pts)}"))
 
-meets <- data.frame(meets = c("Essay is of the required length; generally sound argument with some evidence in support of arguments but lacking details or explanation. There are some grammatical mistakes or spelling errors but the paper is henerally well written. \\textbf{(62-49 pts)}","","The checklist includes 5-10 examples and is mostly complete; some time stamps or other details missing. \\textbf{(7-8 pts)}"))
+meets <- data.frame(meets = c("Essay is somewhat shorter than the required length; a historical narrative is identified but the supporting argument is unclear or backed up by weak or limited supporting evidence. The paper is generally well written but there are some grammatical or spelling errors. \\textbf{(62-49 pts)}","","The checklist includes 5-10 examples and is mostly complete; some time stamps or other details missing. \\textbf{(7-8 pts)}"))
 
-dnm <- data.frame(dnm = c("The paper is well short of the required length or poorly organized; arguments are poorly articulated; examples in support of the argument are few or poorly chosen. Multiple grammatical and spelling errors. \\textbf{(<48 pts)}","","Checklist incomplete, with <5 examples for each, or few / no time stamps. \\textbf{(<6 pts)}"))
+dnm <- data.frame(dnm = c("The paper is much shorter than the required length; no historical narrative is identified or if one is, the arguments in support are poorly articulated or the supporting examples are limited or poorly chosen. Multiple grammatical or spelling errors. \\textbf{(<48 pts)}","","Checklist incomplete, with <5 examples for each, or few / no time stamps. \\textbf{(<6 pts)}"))
 
 rubric<-bind_cols(section,pts,exceeds,meets,dnm)
 
@@ -173,119 +184,24 @@ kable(rubric,
   column_spec(5, width = "15em")
 ```
 
-<!-- \end{landscape} -->
-<!-- ```{r rubric, echo=FALSE,message = FALSE,warning=FALSE} -->
-<!-- section <- data.frame(Section = c("Critical Analysis", "Checklist 1","Checklist 2","Checklist 3", "Total")) -->
-<!-- section_points <- data.frame(section_points = c(70, 10,10,10)) -->
-
-<!-- Cat1_bottom <- round(section_points * .9, 0) -->
-<!-- Cat2_bottom <- round(section_points * .7, 0) -->
-<!-- Cat3_bottom <- round(section_points * .6, 0) -->
-<!-- # Cat4_bottom <- round(section_points*.5,0) -->
-<!-- # Cat5_bottom <- round(section_points*.4,0) -->
-<!-- # Exceptional <- floor(section_points*0.1) -->
-
-<!-- points <- bind_cols( -->
-<!--   section_points, -->
-<!--   section_points, Cat1_bottom, -->
-<!--   Cat1_bottom-1, Cat2_bottom, -->
-<!--   Cat2_bottom-1, Cat3_bottom -->
-<!-- ) -->
-<!-- # Cat3_bottom-1,Cat4_bottom, -->
-<!-- # Cat4_bottom-1,Cat5_bottom, -->
-<!-- # Exceptional) -->
-<!-- points <- bind_rows(points, colSums(points)) -->
-
-<!-- totals <- bind_cols(section, points) %>% -->
-<!--   rename("Value" = `section_points...2`) %>% -->
-<!--   mutate( -->
-<!--     `Exceeds standards` = -->
-<!--       paste(`section_points...3`, `section_points...4`, sep = "-"), -->
-<!--     .keep = "unused" -->
-<!--   ) %>% -->
-<!--   mutate( -->
-<!--     `Meets standards` = -->
-<!--       paste(`section_points...5`, `section_points...6`, sep = "-"), -->
-<!--     .keep = "unused" -->
-<!--   ) %>% -->
-<!--   mutate( -->
-<!--     `Below standards` = -->
-<!--       # paste(`section_points...7`, `section_points...8`, sep = "-"), -->
-<!--     paste("<",`section_points...7`,sep = " "), -->
-<!--     .keep = "unused" -->
-<!--   ) %>%  -->
-<!--   select(-`section_points...8`) %>%  -->
-<!--   filter(Section!="Total") -->
-
-<!-- # %>% -->
-<!-- #   mutate(`Incomplete / Unacceptable` = -->
-<!-- #            paste(`section_points...9`,`section_points...10`,sep="-"), -->
-<!-- #          .keep="unused") %>% -->
-<!-- #   rename(`Potential Bonus` = `section_points...11`) %>% -->
-<!-- #   select(Section, Value, `Meets standards`, `Moderate revisions`, `Major revisions`, `Incomplete / Unacceptable`,`Potential Bonus`) -->
-
-<!-- # -->
-<!-- # -->
-<!-- # totals[5,3:6]<-"" -->
-
-
-
-<!-- kable(totals, -->
-<!--   align = "lcccc", -->
-<!--   # format = "html", -->
-<!--   format = "latex", -->
-<!--   row.names = FALSE, -->
-<!--   booktabs = T, -->
-<!--   linesep = "" -->
-<!-- ) %>% -->
-<!--   # row_spec(2, hline_after = TRUE) %>% -->
-<!--   # column_spec(3:7, width = "2.5cm") %>%  #removes the blank line after every 5 lines) %>% -->
-<!--   kable_styling( -->
-<!--     position = "left", -->
-<!--     bootstrap_options = c("hover"), -->
-<!--     latex_options = c("scale_down") -->
-<!--   ) %>%  -->
-<!--     column_spec(2, width = "5em") %>%  -->
-<!--   column_spec(3, width = "11em") %>%  -->
-<!--    column_spec(4, width = "10em") %>%  -->
-<!--   column_spec(5, width = "11em")  -->
-<!-- # , -->
-<!-- #                  full_width = T, -->
-<!-- ``` -->
-<!-- \newpage -->
-<!-- \blandscape -->
-## Movies
-<!-- \vspace{0.3cm}  -->
-<!-- ```{r data_locator, echo=FALSE,message = FALSE,warning=FALSE} -->
-
-<!-- ``` -->
+<!-- ## Assigned Movies -->
+<!-- \vspace{0.3cm} -->
 
 \begin{landscape}
+
 ```{r movie_table, echo=FALSE,message = FALSE,warning=FALSE}
 movies <- readxl::read_excel("movies.xlsx") %>%
   unite("subscription", paramount:apple, remove = TRUE, sep = ",") %>%
   unite("free", kanopy:other_free, remove = TRUE, sep = ",") %>%
-  filter(is.na(cat) == FALSE) %>%
-  filter(cat != "cut") %>%
-  filter(cat != "rent") %>%
-  mutate_at(c("cat"), str_replace_all, pattern = "pay stream", replacement = "Your choice (subscription req.)") %>%
-  mutate_at(c("cat"), str_replace_all, pattern = "[2,3]", replacement = "Your choice (free)") %>%
-  mutate_at(c("cat"), str_replace_all, pattern = "4", replacement = "Extra Credit") %>%
-  mutate_at(c("cat"), str_replace_all, pattern = "1", replacement = "Required")
+  arrange(year,movie) %>%
+  filter(is.na(cat)) %>% 
+  # filter(cat!="assigned") %>%
+  mutate(`ID No.` = row_number(), .before=movie) %>% 
+  select(-cat,
+         -Notes) %>% 
+  mutate(`Extra Credit` = replace_na(`Extra Credit`,""))
 
-
-
-movies$cat <- as.factor(movies$cat)
-movies$cat <- fct_relevel(movies$cat, "Required", "Your choice (free)", "Your choice (subscription req.)", "Extra Credit")
-
-movies <- movies %>%
-  arrange(cat, movie) %>%
-  # select(-trailer_for_class,-Notes)
-  select(-trailer_for_class, -Notes)
-
-
-
-
+  
 movies$subscription <- gsub("NA,", "", movies$subscription)
 movies$subscription <- gsub(",NA", "", movies$subscription)
 movies$subscription <- gsub(",", ", ", movies$subscription)
@@ -311,18 +227,18 @@ movies <- movies %>%
     "Free" = "free",
     "Year" = "year",
     "Paid" = "subscription",
-    "Category" = "cat",
-    "Movie" = "movie",
+    "Title" = "movie",
     "Summary" = "summary"
   ) %>%
-  select(-Category) %>%
-  relocate(Year, .after = Movie) %>%
+  relocate(Year, .after = Title) %>%
   mutate(Free = str_to_title(Free)) %>%
   mutate(Paid = str_to_title(Paid))
 
 movies$Free <- gsub("Dvd", "DVD", movies$Free)
 movies$Free <- gsub("Youtube", "YouTube", movies$Free)
 movies$Free <- gsub("Imdb2", "IMDB", movies$Free)
+
+movies$Paid <- gsub("Hbo", "HBO", movies$Paid)
 
 # kbl(movies,
 #       # digits = 2,
@@ -336,8 +252,9 @@ movies$Free <- gsub("Imdb2", "IMDB", movies$Free)
 #       ) %>%
 
 kable(booktabs = TRUE,
-      # movies, "html",
-      movies, "latex",
+      movies, "html",
+      # movies, "latex",
+      align="clclllc",
   # caption = "Test",
   longtable = TRUE
 ) %>%
@@ -353,21 +270,24 @@ kable(booktabs = TRUE,
     latex_options = c("hold_position", "repeat_header", "scale_down"),
     font_size = 9) %>% # USE for PDF
     # font_size = 14) %>%
-  pack_rows("Required", 1, 2, label_row_css = "background-color: #483D8B; color: #fff;") %>%
-  pack_rows("Choose 1", 3, 77, label_row_css = "background-color: #483D8B; color: #fff;") %>%
-  pack_rows("Extra Credit", 78, 84, label_row_css = "background-color: #483D8B; color: #fff;") %>%
-  column_spec(1, width = "20em") %>%
-  column_spec(2, width = "6em") %>%
-  column_spec(3, width = "30em") %>%
-  column_spec(4, width = "6em") %>%
-  column_spec(5, width = "6em") %>%
+  # pack_rows("Required", 1, 4, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  # pack_rows("Choose 1 + Assigned 1", 5, 42, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  # pack_rows("Extra Credit", 43, 52, label_row_css = "background-color: #483D8B; color: #fff;") %>%
+  column_spec(1, width = "3em") %>%
+  column_spec(2, width = "15em") %>%
+  column_spec(3, width = "3em") %>%
+  column_spec(4, width = "25em") %>%
+  column_spec(5, width = "5em") %>%
+  column_spec(6, width = "5em") %>%
+  column_spec(7, width = "8em") %>%
   #   # column_spec(4:6, width = "4em") %>%
   # #   column_spec(4, width = "3em")
   # #   row_spec(0,hline_after = F, bold=T) %>%
   # #   row_spec(c(1:5),hline_after = T) %>%
-  row_spec(0, bold = T, color = "#483D8B", hline_after = F) %>%
-  row_spec(77, hline_after = T) %>%
-  row_spec(2, hline_after = T)
+  row_spec(1:nrow(movies)-1, hline_after = TRUE) %>%
+  row_spec(0, bold = T, color = "#483D8B", hline_after = F) 
+  # row_spec(42, hline_after = T) %>%
+  # row_spec(4, hline_after = T)
 #   add_indent(6)
 ```
 \end{landscape}
