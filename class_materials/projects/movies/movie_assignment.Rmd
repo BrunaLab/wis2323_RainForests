@@ -59,32 +59,30 @@ library(here)
 \vspace{0.5cm}
 ## Assignment Overview
 \vspace{0.3cm}
-Your assignment is to watch **three** films set in tropical rain forests and review how the rain forest setting is presented and advances the films' narrative. Your review should _not_ be a summary of the film and it's plot (i.e., a *descriptive review*) or an overall judgment of whether the film is "good" or "bad" (i.e.,  an *evaluative review*). **For your review of each film you should:** 
+Your assignment is to watch **three** films set in tropical rain forests and review how the rain forest setting is presented and advances the films' narrative. Your review should _not_ be a summary of the film and it's plot (i.e., a *descriptive review*) or an overall judgment of whether the film is "good" or "bad" (i.e.,  an *evaluative review*). **For each film need to do the following:** 
 
-1. Document the tropes about rain forests used in each film (using the _Trope Checklist_), and  
+1. Document the tropes about rain forests used in each film (using the _Trope Checklist_)
 
-1. Explain how each film's use of these tropes _reinforces_ or _subverts_ one or more of the historical stereotypes about rain forests and the people that live in them that we discussed in class. Support your claims with specific examples drawn from these major elements:
+> * Trope Checklist as an [MS Excel File](https://ids2935.netlify.app/uploads/trope_datasheet.xlsx) or as a [pdf file](https://ids2935.netlify.app/uploads/trope_datasheet.pdf) 
+> * List and definitions of Tropical Movie Tropes [pdf file](https://ids2935.netlify.app/uploads/movie_tropes.pdf). 
+
+1. Explain how each film's use of these tropes _reinforces_ or _subverts_ one or more of the historical stereotypes about rain forests and the people that live in them that we discussed in class. Support your claims with specific examples drawn from these major elements:  
+
 <!-- 1. Describe how the rain forest setting underscores each film's major themes -->
-
 > * **Plot**: the narrative, setting, key events, action sequences, resolution, plausibility, themes, cultural context, etc. 
 > * **Characters**: professions, personality, motivation, interactions, response to rain forest setting, etc.
 > * **Visuals**: scenery, flora & fauna, props, wardrobe, shots, perspective, lighting, editing, effects, etc.
 > * **Sound**: use and timing of background sounds (or silence), score, animal sounds, songs, etc.
 
-You can download the Trope Checklist as a [pdf here]() or as a [MS Excel File here](). You can [download the list and definitions of tropes here]().
+
 ## Films to Review
 \vspace{0.3cm}
 
-1. _**The African Queen**_ (1951)
+1. _**The African Queen**_ (1951): In WWI East Africa, a gin-swilling Canadian riverboat captain is persuaded by a strait-laced English missionary to undertake a trip up a treacherous river and use his boat to attack a German gunship. _(Starring Humphrey Bogart & Katharine Hepburn; Directed by John Huston)_.
 
-  > In WWI East Africa, a gin-swilling Canadian riverboat captain is persuaded by a strait-laced English missionary to undertake a trip up a treacherous river and use his boat to attack a German gunship. _(Starring Humphrey Bogart & Katharine Hepburn; Directed by John Huston)_.
+2. _**Anaconda**_ (1997): When a documentary crew traveling through the Amazon jungle picks up a stranded man, they have no idea it will lead them face-to-face with the world's largest - and deadliest - snake. _(Starring Jon Voight, Jennifer Lopez, Eric Stoltz, Ice Cube, and Owen Wilson; Directed by Luis Llosa)_.
 
-2. _**Anaconda**_ (1997)
-
-  > When a documentary crew traveling through the Amazon jungle picks up a stranded man, they have no idea it will lead them face-to-face with the world's largest - and deadliest - snake. _(Starring Jon Voight, Jennifer Lopez, Eric Stoltz, Ice Cube, and Owen Wilson; Directed by Luis Llosa)_.
-
-
-3. _**One movie of your choice**_ from this list.
+3. **One movie of your choice from [this [list]](https://ids2935.netlify.app/uploads/movie_list.pdf).**
 
 <!-- 1. _Aguirre, Wrath of God_ (1972, directed by Werner Herzog, Rotten Tomatoes: 96%) -->
 <!-- 1. _Apocalypse Now_ (1979, Directed by Francis Ford Coppola) -->
