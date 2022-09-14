@@ -314,8 +314,14 @@ kable(calendar,
 
 <!-- * IN CLASS: Species-Abundance Data Analysis -->
 
-### WEEK 4-2	Coevolution & the origins of tropical biodiversity
+### WEEK 4-2	Patterns of Biodiversity (cont.) 
 \vspace{0.2cm}
+
+
+
+### WEEK 5-1	
+\vspace{0.2cm}
+Coevolution & the origins of tropical biodiversity
 > Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
 
 > Maybe it's actuallythis one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
@@ -327,14 +333,12 @@ kable(calendar,
 > **_Optional:_** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM)]  
 
 <!-- * IN CLASS: FLMNH Photo Safari  -->
-
-### WEEK 5-1	Forest disturbance, dynamics, & the maintenance of diversity
 \vspace{0.2cm}
 > None  
 
 <!-- include Terra Preta and Rain Forest Manipulation  -->
 
-### WEEK 5-2	Forest disturbance, dynamics, & the maintenance of diversity
+### WEEK 5-2	Forest disturbance & the maintenance of diversity
 \vspace{0.2cm}
 > None   
 
