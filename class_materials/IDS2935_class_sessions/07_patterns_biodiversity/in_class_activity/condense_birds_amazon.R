@@ -17,12 +17,9 @@ birds_am<-read_xlsx("./class_materials/IDS2935_class_sessions/07_patterns_biodiv
 birds_am
 
   
-  
 
-
-
-
-head(birds_am,30)
+slice(birds_am,24:30)
+head(birds_am,13)
 str(birds_am)
 write_csv(birds_am,"./class_materials/IDS2935_class_sessions/07_patterns_biodiversity/in_class_activity/raw_data/birds_am.csv")
 
@@ -40,6 +37,40 @@ p<-ggplot(birds_am, aes(x=reorder(species, desc(n)), y=n)) +
   theme(axis.text.x = element_text(angle = 45,hjust=1))
 
 p
+
+
+# How many species of birds did they capture?
+birds_am %>% summarize(n_distinct(species))
+# How many total birds of all species combined did they capture?
+sum(birds_am$n)
+# What is the most common species?
+birds_am %>% arrange(desc(n)) %>% slice(1) %>% select(species)
+# How many individuals does it have?
+birds_am %>% arrange(desc(n)) %>% slice(1) %>% select(n)
+
+# Arrange the species in order from _most_ abundant to _least_ 
+# abundant. How many species do you need to count until you have 
+# counted the first 50% of the trees in the plot? 
+birds_am %>% 
+  arrange(desc(n)) %>% 
+  filter(cperc<0.50) %>% 
+  summarize(n_distinct(species))
+
+# Arrange the species in order from least abundant to most 
+# abundant. Now select the 50% of species that 
+# are the *least* abundant, how many species is this?
+#   
+birds_am %>% 
+  arrange(desc(n)) %>% 
+  filter(cperc>0.50) %>% 
+  summarize(n_distinct(species))
+
+# How many species are represented by only 1 individual?
+
+birds_am %>% 
+  arrange(desc(n)) %>% 
+  filter(n==1) %>% 
+  summarize(n_distinct(species))
 
 hist(birds_am$n)
 sum(birds_am$n)
