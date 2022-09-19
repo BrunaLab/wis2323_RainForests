@@ -63,7 +63,7 @@ Your assignment is to watch **three** films set in tropical rain forests and rev
 
 1. Document the tropes about rain forests used in each film (using the _Trope Checklist_)
 
-> * Trope Checklist as an [MS Excel File](https://ids2935.netlify.app/uploads/trope_datasheet.xlsx) or as a [pdf file](https://ids2935.netlify.app/uploads/trope_datasheet.pdf) 
+> * Trope Checklist as an [MS Excel File](https://ids2935.netlify.app/uploads/trope_datasheet.xlsx) or as a [pdf file](https://ids2935.netlify.app/uploads/trope_datasheet.pdf). **IMPORTANT**: please enter the time stamp for each event in the following format: hh:mm:ss (i.e., at 3 minutes and 29 seconds would be: 00:03:29, at one hour, 12 minutes, and three seconds would be 01:12:03). Also, please do not add any lines with additional information to the excel file.  
 > * List and definitions of Tropical Movie Tropes [pdf file](https://ids2935.netlify.app/uploads/movie_tropes.pdf). 
 
 1. Explain how each film's use of these tropes _reinforces_ or _subverts_ one or more of the historical stereotypes about rain forests and the people that live in them that we discussed in class. Support your claims with specific examples drawn from these major elements:  
@@ -121,13 +121,13 @@ Your assignment is to watch **three** films set in tropical rain forests and rev
 
 ## Submission Requirements and Rubric
 \vspace{0.3cm}
-**For each film you must submit the following:**
+**For _each_ film you must submit the following:**
 
 1. A completed 'Tropical Trope Checklist', and
 
-1. Your analysis of how the use of these tropes reinforces or subverts our perception of rain forests and the people living in them (min. 500 words).
+1. Your analysis of how the use of these tropes reinforces or subverts our perception of rain forests and the people living in   them (min. 350 words each; 350 words is approx. 1/2 page of single space, 12 pt. text).
 
-**Assignment Submission: ** Files uploaded via Canvas. Your three essays must be submitted as one MS Word document or PDF file (file extensions .doc, .docx, or .pdf). Your trope checklist must be uploaded as a Microsoft Excel file (file extension .xls or .xlsx file).
+**Assignment Submission: ** Files uploaded via Canvas. Your three essays must be submitted as a single MS Word document or PDF file (file extensions .doc, .docx, or .pdf). Your trope checklist must be uploaded as a Microsoft Excel file (file extension .xls or .xlsx file).
 
 **Assignment value: ** 100 points
 
