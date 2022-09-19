@@ -317,11 +317,20 @@ kable(calendar,
 ### WEEK 4-2	Patterns of Biodiversity (cont.) 
 \vspace{0.2cm}
 
+### WEEK 5-1: Introduction to Evolution	
 
+<!-- maybe start off with faunal exhbage>? -->
 
-### WEEK 5-1	
 \vspace{0.2cm}
-Coevolution & the origins of tropical biodiversity
+> None  
+
+
+### WEEK 5-2: Coevolution & the origins of tropical biodiversity
+\vspace{0.2cm}
+> None   
+
+<!-- IN CLASS: FLMNH Photo Safari hand out -->
+
 > Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
 
 > Maybe it's actuallythis one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
@@ -332,27 +341,20 @@ Coevolution & the origins of tropical biodiversity
 
 > **_Optional:_** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM)]  
 
-<!-- * IN CLASS: FLMNH Photo Safari  -->
-\vspace{0.2cm}
-> None  
-
-<!-- include Terra Preta and Rain Forest Manipulation  -->
-
-### WEEK 5-2	Forest disturbance & the maintenance of diversity
-\vspace{0.2cm}
-> None   
-
 <!-- * IN CLASS: PCE Violations in the Tropics -->
 
-### WEEK 6-1	The Paradox of Luxuriance
+### WEEK 6-1: The Paradox of Luxuriance, Forest disturbance, & the maintenance of diversity
 \vspace{0.2cm}
 > None  
 
-<!-- * IN CLASS: Geography Quiz -->
-
+<!-- what are the key resources, these resources are limited, misunderstanding this gives us the paradox of luxuriance, and we species compete for them. -->
 
 ### WEEK 6-2	Humans are part of rain forests  
 \vspace{0.2cm}
+
+<!-- -- include Terra Preta and Rain Forest Manipulation  -->
+<!-- * IN CLASS: Geography Quiz -->
+
 
 > Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]   
 
