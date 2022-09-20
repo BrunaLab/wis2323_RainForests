@@ -41,11 +41,11 @@ output: pdf_document
 # output: html_document
 # weight: 5
     # df_print: paged
-# knit: (function(inputFile, encoding) {
-#   rmarkdown::render(inputFile,
-#   encoding = encoding,
-#   output_dir = "./static/uploads")
-#   })
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 
@@ -78,9 +78,9 @@ Your assignment is to watch **three** films set in tropical rain forests and rev
 ## Films to Review
 \vspace{0.3cm}
 
-1. _**The African Queen**_ (1951): In WWI East Africa, a gin-swilling Canadian riverboat captain is persuaded by a strait-laced English missionary to undertake a trip up a treacherous river and use his boat to attack a German gunship. _(Starring Humphrey Bogart & Katharine Hepburn; Directed by John Huston)_.
+1. _**The African Queen**_ (1951): In WWI East Africa, a gin-swilling Canadian riverboat captain is persuaded by a strait-laced English missionary to undertake a trip up a treacherous river and use his boat to attack a German gunship. _(Starring Humphrey Bogart & Katharine Hepburn; Directed by John Huston)_. See the [[movie list]](https://ids2935.netlify.app/uploads/movie_list.pdf) for where to access this film.
 
-2. _**Anaconda**_ (1997): When a documentary crew traveling through the Amazon jungle picks up a stranded man, they have no idea it will lead them face-to-face with the world's largest - and deadliest - snake. _(Starring Jon Voight, Jennifer Lopez, Eric Stoltz, Ice Cube, and Owen Wilson; Directed by Luis Llosa)_.
+2. _**Anaconda**_ (1997): When a documentary crew traveling through the Amazon jungle picks up a stranded man, they have no idea it will lead them face-to-face with the world's largest - and deadliest - snake. _(Starring Jon Voight, Jennifer Lopez, Eric Stoltz, Ice Cube, and Owen Wilson; Directed by Luis Llosa)_. See the [[movie list]](https://ids2935.netlify.app/uploads/movie_list.pdf) for where to access this film.
 
 3. **One movie of your choice from [this [list]](https://ids2935.netlify.app/uploads/movie_list.pdf).**
 

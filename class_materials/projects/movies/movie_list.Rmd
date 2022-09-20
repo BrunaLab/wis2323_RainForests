@@ -40,11 +40,11 @@ output: pdf_document
   # word_document: default
 # weight: 5
     # df_print: paged
-# knit: (function(inputFile, encoding) {
-#   rmarkdown::render(inputFile,
-#   encoding = encoding,
-#   output_dir = "./static/uploads")
-#   })
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 
@@ -158,3 +158,27 @@ kable(booktabs = TRUE,
 #   add_indent(6)
 ```
 \end{landscape}
+
+
+<!-- DVDs OF THE FOLLOWING HAVE BEEN LEFT ON RESERVE (2022) -->
+<!-- Congo -->
+<!-- The Mission -->
+<!-- Welcome to the Jungle -->
+<!-- Mosquito Coast -->
+<!-- Emerald Forest -->
+<!-- Rundown -->
+<!-- Romancing the Stone -->
+<!-- Medicine Man -->
+<!-- Predator -->
+<!-- Jumanji Welcome to the Jungle -->
+<!-- FerGully -->
+<!-- Creature from the Black Lagoon -->
+<!-- Avatar -->
+<!-- Anaconda -->
+<!-- AnacondasSix Days Seven Nights -->
+<!-- Turistas -->
+<!-- The Ruins -->
+
+<!-- NOT ON RESERVE -->
+<!-- Raiders of Lost Arc -->
+<!-- Monsters -->
