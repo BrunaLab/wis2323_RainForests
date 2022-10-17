@@ -29,14 +29,22 @@ header-includes:
 - \usepackage{pdflscape}
 - \newcommand{\blandscape}{\begin{landscape}}
 - \newcommand{\elandscape}{\end{landscape}}
-output:
+# output:
   # pdf_document: default
-  html_document:
+  # html_document:
   # df_print: paged
 # rmdformats::robobook: default
 editor_options: 
   markdown: 
   wrap: 72
+  
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
+
 ---
   
 ```{r setup, include=FALSE}
