@@ -1,0 +1,65 @@
+---
+title: 'IDS 2935 - What is a Tropical Rain Forest?'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Land Conservation Game, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# output: html_document
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, 
+  encoding = encoding, 
+  output_dir = "./static/uploads")
+  })
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+```
+
+## Public Goods and Externalities in a Land Conservation Context
+### Sahan Dissanayake and Sarah Jacobson
+\vspace{0.3cm} 
+Economists often say that individuals following their self-interest will unwittingly make the choices that make society overall best off (as efficient as possible). This idea goes back to Adam Smith’s description (in The Wealth of Nations) of an “invisible hand” that moves goods and services efficiently from sellers to buyers. This implies that a free market, without regulation from the government, is efficient. However, economists acknowledge that this is only true under special circumstances, and those circumstances often do not hold in situations involving the environment because of externalities and public goods issues.
+
+An **_externality_** is a situation in which the people who choose to engage in a transaction are not the only people affected by it: there are costs or benefits that accrue to others. For example, if you buy a sandwich and the making and eating of that sandwich don’t affect anyone other than you and the person you buy it from, there is no externality. But if you buy electricity and the production of that electricity creates pollution that affects people other than you and the firm selling electricity, that pollution damage is an externality. Because electricity use involves costs that neither the buyer nor seller bear, inefficiently too much electricity will be used in a free market—the world would be better off if less electricity was used.
+
+Externalities show up in public goods problems. A **_public good_** is a good that is **_non-rival_** (i.e., one person’s “use” of the good does not decrease the value someone else gets from using it) and **_non- excludable_** (it is impossible or very costly to stop someone, including yourself, from consuming the good). Pollution is effectively non-rival and non-excludable: your neighbor’s exposure to particulate pollution does not diminish the particulate pollution to which you are exposed, you are exposed to the pollution without opting into it, and you are not able to opt out of it (except at a large cost). Since pollution is undesirable, we call it a **_public bad_** (i.e., a cost that is non-rival and non-excludable).
+
+Because 'public goods' and 'public bads' involve externalities, these situations result in inefficiency as well. For example, people making decisions to provide public goods do not bear all of the benefits of their decisions; as a result they will provide too little of the public goods.
+ 
+Now let us consider land conservation. When we say that land is conserved, we usually mean that it is kept out of some environmentally-intensive land use. Development (building residential or commercial buildings on the land) is obviously intensive as compared to leaving land as green space. Agriculture is usually less intensive than development. However, agriculture can have environmental impacts, too. Farming is therefore more intensive than leaving the land in a natural state or actively conserving it (which may involve planting trees or native plants on it, clearing out invasive species, or remediating pollution that has accumulated on the land).
+
+Land conservation provides many public goods—benefits that are non-rival and non-excludable. These benefits are referred to collectively as **_ecosystem services_**. Relative to farming, conservation decreases erosion. Erosion causes damage to land by removing soil and to waterways by depositing that soil (and sometimes pesticides and fertilizers along with it) into the water. This can cause water to be too nutrient-rich, which can cause algae to bloom and devour all of the oxygen in the water, thus causing fish and other creatures to die. Conserved land is also often able to filter water, which can protect local areas from flooding and can improve groundwater availability. Conservation may also provide habitat to plant and animal species, and these species may be important ecologically (e.g., they may be key predator or prey species helping maintain balance in other species’ populations) and also culturally to humans (for example, we call large animals that humans care a lot about charismatic megafauna). In some cases, conserved land may provide direct inputs to the production of marketed goods: for example, wild bees pollinate local orchards, and mangrove swamps enable shrimp populations to flourish. Some kinds of conserved land provide other local and global climate benefits: trees reduce temperatures locally and absorb carbon dioxide to abate climate change globally. People may also value having natural land in existence around them, either for recreation purposes or simply because they like to know the land is preserved; these values are also often considered an ecosystem service.
+
+Because these ecosystem service benefits generated by land conservation are public goods, in a free market there is too little land conservation. This is the rationale for creating government policies that encourage land conservation.
+
+
+### Source
+
+Sahan T. M. Dissanayake & Sarah A. Jacobson (2016) Policies with varying costs and benefits: A land conservation classroom game. *The Journal of Economic Education*. 47:2(142-160) [DOI:10.1080/00220485.2016.1146098](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098)
