@@ -1,0 +1,13 @@
+---
+title: "fruit_info"
+author: "Emilio M. Bruna"
+date: "11/4/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+![](~/IDS2935_website/IDS2935_class_sessions/16_durian_fest_economics_trop_fruit/fruit_photos/mango_istockphoto-168370138-612x612.jpeg)
