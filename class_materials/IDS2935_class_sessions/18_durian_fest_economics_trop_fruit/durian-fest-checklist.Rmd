@@ -51,8 +51,8 @@ knitr::opts_chunk$set(echo = TRUE)
 * [ ] gallons of drinking water (some poured out in jug to drink, remainder serve to mix juice)
 * [ ] rubber gloves
 * [ ] ice
-* [ ] fruit juices
-* [ ] sugar / simple syrup for juice mixes
+* [ ] fruit juices - 2 bags of pulp = one gallon, and plenty was left over. Could make less or put in smaller bottles to make it easier to serve and take home left-overs. Suggest buying 2 and making 1 = 1/2 gallon, with 1 in case run out. 
+* [ ] simple syrup for juice mixes (2 lbs sugar)
 * [ ] biscoito maria / palmier
 * [ ] Prizes: jams, coconut candies, canned juices
 
