@@ -1,0 +1,185 @@
+---
+title: 'Syllabus'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=0.25in
+# fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+# site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage[document]{ragged2e}
+# - \usepackage{sectsty} \allsectionsfont{\raggedright}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+output: pdf_document
+  # word_document: default
+# output: html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_slos, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+<!-- ```{r, echo=FALSE, out.width="10%"} -->
+<!-- knitr::include_graphics("logo.png") -->
+<!-- ``` -->
+
+# Student Learning Objectives  
+
+<!-- \begin{minipage}[t]{0.05\textwidth} -->
+<!-- COL 1 \\ -->
+<!-- \end{minipage} -->
+<!-- \begin{minipage}[t]{0.95\textwidth} -->
+<!-- COURSE AND UNIVERSITY POLICIES\\ -->
+<!-- \end{minipage} -->
+
+```{r slos, echo=FALSE,message = FALSE,warning=FALSE}
+slo1a<- c("CONTENT")
+slo1b<- c("Students demonstrate competence in the terminology, concepts, theories, and methodologies used within the discipline(s)")
+slo1c<-c("Describe the evolutionary and ecological factors underlying the distribution of biodiversity in tropical rain forests (B). Assessments: In-class activities, Final Project. Distinguish (a) the different ways humans use and alter rain forests, and (b) the social, economic, and biological consequences of these activities (B, Quest 2). Assessments: In-class activities, Reflective Essay, Final Project - Explain how molecular biology, genomics, remote sensing, computational tools, and other scientific developments have advanced research on the ecology and evolution of rain forest biota (B). Assessments: In-class activities, Analytic Essay. Examine the historical factors that have shaped cultural perceptions of rain forests (Quest 2).  Assessment: In-class activities, Movie Reviews, Final project. Analyze how narratives about rain forests are reflected in different types of contemporary cultural expression (Quest 2).  Assessment: In-class activities, Movie Reviews, Final project - Distinguish between the primary drivers of forest loss and how they vary geographically (B, Quest 2). Assessment: In-class activities, Analytic Essay - Critique different proposed mechanisms for rain forest conservation (B, Quest 2). Assessment: In-class activities, Analytic Essay")
+
+slo2a<- c("CRITICAL THINKING")
+slo2b<- c("Students carefully and logically analyze information from multiple perspectives and develop reasoned solutions to problems within the discipline(s).")
+slo2c<-c("Test hypotheses regarding trends in deforestation and how forest regeneration varies geographically with quantitative data on forest cover and use news stories, primary literature, and other sources to propose mechanisms responsible for the patterns observed (B, Quest 2). Assessment: In-class activities, Analytic Essay. Analyze qualitative data on rural-urban migration and human demographic shifts in tropical countries and assess the potential implications of the results for conservation and broader societal issues. (B, Quest 2). Assessment: In-class activities, Analytic Essay. Explain the relationship between deforestation and the global climate cycle. Compare alternative policy pathways for reducing CO2 emissions using the En-ROADS global climate simulator (B, Quest 2). Assessment: In-class activities, Reflective Essay.")
+
+slo3a<- c("COMMUNICATION")
+slo3b<- c("Students communicate knowledge, ideas and reasoning clearly and effectively in written and oral forms appropriate to the discipline(s)")
+slo3c<-c("Generate graphical analyses of quantitative data used to study rain forest biology and conservation (Quest 2, B). Assessment: In-class activities, Analytic Essay. Compose summaries of  research on multidisciplinary questions relevant to tropical forest biology and conservation based on logical arguments (Quest 2, B). Assessment: In-class activities, Analytic Essay, Final Project. Develop audience-specific content and materials with which to communicate an important issue related to tropical forest biology and conservation (Quest 2). Assessment: In-class activities,  Reflective Essay, Movie Reviews, Analytic Essay, Final Project")
+
+slo4a<- c("CONNECTION")
+slo4b<-c("Students connect course content with meaningful critical reflection on their intellectual, personal, and professional development at UF and beyond.")
+slo4c<-c("Examine the cultural, economic, and historical experiences of people in rain forest countries, how this compares with our preconceived notions of the same, and the consequences of this disparity for our scientific understanding of rain forests and their conservation (Quest 2). Assessment: In-class activities, Movie Reviews, Final Project Assess the feedbacks between (1) the actions of individuals, governments, and the private sector, (b) global economic, social, and political conditions, and (c) the status rain forests and the global climate cycle (Quest 2). Assessment: In-class activities, Reflective Essay, Analytic Essay  Appraise the ubiquity of tropical forest products in daily life, the role and impact of the global commodity chains that make this possible, and the consequences of consumer behavior for forest conservation and socioeconomic sustainability (Quest 2). Assessment: In-class activities, Final Project. Analyze the local, regional, and global ecosystem services provided by tropical rain forests, how these vary geographically, and some of the cultural and ecological factors responsible for these differences. (Quest 2). Assessment: In-class activities, Reflective Essay, Analytic Essay, Final Project")
+  
+slosa <- c("",slo1a,slo1b,slo1c,"",slo3a,slo3b,slo3c)
+slosb <- c("",slo4a,slo4b,slo4c,"",slo2a,slo2b,slo2c)
+
+slos <- data.frame(slosa, slosb)
+
+# class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv")
+# insert \n where you want line break, then run: 
+# class_policies$text <- linebreak(class_policies$text)
+# class_policies$policy <- linebreak(class_policies$policy)
+
+
+kable(slos,
+      # digits = 2,
+      align="cc",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      # caption="Student Learning Objectives",
+      col.names = NULL
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 8,
+                position = "center") %>% 
+ column_spec(1, width = "26em", color = "white", background="green") %>% 
+column_spec(2, width = "26em", color = "black", background="white") %>% 
+row_spec(c(2,6),bold=T) %>% 
+  row_spec(c(3,7),italic =T) 
+  
+
+# %>% 
+#   row_spec(1, image = "./logo.png")
+# %>%
+  # column_spec(2, width = "8em", color = "white", background = "blue") %>% 
+  # column_spec(3, width = "8em", color = "white", background = "gray") %>% 
+  # row_spec(1, bold=T) 
+# %>%
+#   # column_spec(3, width = "5em") %>% 
+#   column_spec(3, width = "6em") %>% 
+#   row_spec(0,hline_after = F, bold=T) %>% 
+#   row_spec(c(1:5),hline_after = T) %>% 
+#   row_spec(6,bold=T) %>% 
+#   add_indent(6)
+```
+
+
+<!-- ```{r table2, echo=FALSE,message = FALSE,warning=FALSE} -->
+<!-- policy <- c("Students Requiring Accommodation") -->
+<!-- text <- c( -->
+<!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
+<!-- class_policies <- data.frame(policy, text) -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") -->
+
+<!-- kable(class_policies, -->
+<!--       # digits = 2, -->
+<!--       align="cl", -->
+<!--       format="latex", -->
+<!--       row.names = FALSE, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       col.names = NULL -->
+<!--       # caption="Graded Coursework" -->
+<!--       ) %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>%  -->
+<!--   column_spec(1, width = "7em", color = "white", background="gray") %>%  -->
+<!--   column_spec(2, width = "45em", color = "black", background="white") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!--   sub("\\\\bottomrule", "", .) # remove bottom line -->
+<!-- ``` -->
+
+<!-- ---  -->
+
+<!-- ```{r table3, echo=FALSE,message = FALSE,warning=FALSE} -->
+
+<!-- policy <- c("Students Requiring Accommodation") -->
+<!-- text <- c( -->
+<!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
+<!-- class_policies <- data.frame(policy, text) -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") -->
+
+<!-- kable(class_policies, -->
+<!--       # digits = 2, -->
+<!--       align="cl", -->
+<!--       format="latex", -->
+<!--       row.names = FALSE, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       col.names = NULL -->
+<!--       # caption="Graded Coursework" -->
+<!--       ) %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>%  -->
+<!--   column_spec(1, width = "7em", color = "white", background="gray") %>%  -->
+<!--   column_spec(2, width = "45em", color = "black", background="white") %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!--   sub("\\\\bottomrule", "", .) # remove bottom line -->
+
+<!-- ``` -->

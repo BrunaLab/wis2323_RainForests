@@ -105,13 +105,12 @@ Tropical Rain Forests cover approximately 15% of the Earth’s land surface but 
 
 **Materials and Supplies Fees**: There are no additional fees for this course. 
 
-### **GenEd Information**  
+### **Quest & GenEd Credits**  
 \vspace{0.3cm}
-* **Primary Designation**: Biological Sciences
-* **Secondary Designation (if seeking)**: International (N)
-* **Writing Designation**: None
-* _A minimum grade of C is required for general education credit_
-* More detailed GenEd and Quest Course Goals and Student Learning Objectives are below
+* Quest 2
+* GenEd: Biological Sciences & International (N)
+
+_This course accomplishes the Quest and General Education objectives of the subject areas listed above. A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U._
 
 
 ## Graded Coursework
@@ -250,29 +249,37 @@ kable(calendar,
 
 ```
 
-
 \newpage
 ## Assigned Reading/Viewing & In-Class Activities
+
 \vspace{0.1cm}
 
 **Please read or watch the assigned materials _before_ class.** The assignment for each session is subject to change based on current events; changes will be announced via Canvas.
 \vspace{0.1cm}  
 
-### WEEK 1-2:	Introductions & Historical Narratives
-\vspace{0.2cm}
+## SECTION 1: WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?
+
+### WEEK 1-1:	Course Introduction  
 
 > **Reading:** None
 
+### WEEK 1-2:	Historical Narratives  
+\vspace{0.2cm}
+
+> **Goal:**To introduce and discuss how historical narratives have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology
+
+> **Reading:** Excerpts from Historical Narratives [[link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
+
 \vspace{0.1cm}
-> **In-Class Activity:** Course Survey  
-> **In-Class Activity:** Analysis of Historical Narratives [[link](https://ids2935.netlify.app/uploads/hist_narratives_class_activity.pdf)]
 
 <!-- * IN CLASS: Analysis of Historical Narratives -->
 
 ### WEEK 2-1	Rain forest imagery in Art & Literature
 \vspace{0.2cm}
 
-> **Reading:** Excerpts from Historical Narratives [[link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
+> **Goal:**To compare the presentations of rain forests in literature and art and evaluate how these depictions have influenced popular perception of rain forests.
+
+> **Reading:** Excerpts from Literature and Art  [[link](https://ids2935.netlify.app/03_trf_culture/lit_poetry.pdf))]
 
 <!-- > IN CLASS Excepts from Poetry and Fiction [[link to pdf](../IDS2935_class_sessions/03_trf_culture/lit_poetry.pdf)] -->
 <!-- > IN CLASS Examples: Fine Art [[link to pdf]()] -->
@@ -281,11 +288,13 @@ kable(calendar,
 ### WEEK 2-2 The Rain Forest in Pop Culture
 \vspace{0.2cm}
 
+> **Goal:**To compare the presentations of rain forests in film and music and evaluate how these depictions have influenced popular perception of rain forests.
+
 > **Reading:**   
 
-> Jolly, Priscilla. 2021. ‘Godzilla vs. Kong’: Monster movies evoke adventure but also ‘dangers’ of tropics. *The Conversation.* [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)]
+> * Jolly, Priscilla. 2021. ‘Godzilla vs. Kong’: Monster movies evoke adventure but also ‘dangers’ of tropics. *The Conversation.* [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)]
 
->Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". _The Guardian_ [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)]
+> * Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". _The Guardian_ [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)]
 
 <!-- * IN CLASS: Movie sign-up and assignment hand out -->
 
@@ -293,10 +302,14 @@ kable(calendar,
 
 <!-- * IN CLASS: Guest Lecture -->	   
 
+## SECTION 2: THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS
 
 ### WEEK 3-1	What is a Rain Forest? 
 \vspace{0.2cm}
-> Why does Earth have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]
+
+> **Goal:** To learn the different ways biologists define the “tropics” and how the structure and dynamics of tropical rain forests differ from those of other forest types.
+
+> **Watch:** Why does Earth have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]
 
 <!-- * IN CLASS: Comparison of Forests with 360 Videos-->
 <!-- 2. [Longleaf Pine Forest](https://www.youtube.com/watch?v=kRD1CpQOF7Q&t=17s) -->
@@ -304,108 +317,144 @@ kable(calendar,
 
 ### WEEK 3-2	What is a Rain Forest? (cont.)
 \vspace{0.2cm}
-> None
+
+> **Goal:** to understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals
+
+> **Reading:** None
 
 <!-- * IN CLASS: Geography Quiz Bowl -->
 
 ### WEEK 4-1	Patterns of Biodiversity
 \vspace{0.2cm}
-> Why Are There So Many Species Near the Equator? [link to video](https://www.youtube.com/watch?v=IrbKix96_k0)
+
+> **Goal:** To observe and catalog the diversity of plant and animal life forms that can be found in rain forests and review hypothesized mechanisms for the origins of tropical diversity. 
+
+> **Watch:** Why Are There So Many Species Near the Equator? [link to video](https://www.youtube.com/watch?v=IrbKix96_k0)
 
 <!-- * IN CLASS: Species-Abundance Data Analysis -->
 
 ### WEEK 4-2	Patterns of Biodiversity (cont.) 
 \vspace{0.2cm}
 
+> **Goal:** An overview of diversity gradients and local patterns of species richness and abundance in tropical forests
+
 ### WEEK 5-1: Introduction to Evolution	
 
 <!-- maybe start off with faunal exhbage>? -->
 
-\vspace{0.2cm}
-> None  
+> **Goal:** to review the biotic and abiotic mechanisms that permit the coexistence of so many species.  
 
+\vspace{0.2cm}
+> **Reading:** None
 
 ### WEEK 5-2: Coevolution & the origins of tropical biodiversity
 \vspace{0.2cm}
-> None   
+
+> **Goal:** to understand how interspecific interactions led to the (co)evolution and diversification of tropical biodiversity 
+
+> **Reading:** None
 
 <!-- IN CLASS: FLMNH Photo Safari hand out -->
 
-> Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
+> **Watch:** 
 
-> Maybe it's actuallythis one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
+> * Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo)]. (A slightly less dramatic video in which you can get a better idea of the flower's size is [[here](https://www.youtube.com/watch?v=0cGRujABwuQ)]  
 
-> An introduction to Army Ants: [[link to video](https://www.youtube.com/watch?v=p16g5IVCdeE)]  
+> * Maybe it's actually this one: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI)]  
 
-> **_Optional:_** A more sophisticated (but actually less complete) overview is offered by the BBC: [[link to video](https://www.youtube.com/watch?v=JsfiUR0ZzLw)]  
+> * An introduction to Army Ants: [[link to video](https://www.youtube.com/watch?v=p16g5IVCdeE)]  
 
-> **_Optional:_** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM)]  
+> * **_Optional:_** A more sophisticated (but actually less complete) overview is offered by the BBC: [[link to video](https://www.youtube.com/watch?v=JsfiUR0ZzLw)]  
+
+> * **_Optional:_** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM)]  
 
 <!-- * IN CLASS: PCE Violations in the Tropics -->
 
 ### WEEK 6-1: The Paradox of Luxuriance, Forest disturbance, & the maintenance of diversity
 \vspace{0.2cm}
-> None  
+
+> **Goal:** To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this “Paradox of Luxuriance”
+
+> **Reading:** None
 
 <!-- what are the key resources, these resources are limited, misunderstanding this gives us the paradox of luxuriance, and we species compete for them. -->
 
 ### WEEK 6-2	Humans are part of rain forests  
 \vspace{0.2cm}
 
+> **Goal:** To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.
+
 <!-- -- include Terra Preta and Rain Forest Manipulation  -->
 <!-- * IN CLASS: Geography Quiz -->
-
-
-> Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]   
+> **Reading:** Langewiesche, William. 2022. "The War for the Rainforest." _NY Times_. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]   
 
 <!-- * IN CLASS: Data Analysis: Rural-Urban -->
 			
 ### WEEK 7-1	Narratives Revisited: Biology, History, Fiction, Reality
 \vspace{0.2cm}
 
-> Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/)]  
+> **Watch/Listen:** 
 
-> Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/)]  
+> * Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/)]  
 
-> NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas)]  
+> * Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/)]  
+> * NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas)]  
   
 
 <!-- * IN CLASS: Discussion of Movie Tropes / Reviews -->
 
 ### WEEK 7-2	JUNGLE FILM FESTIVAL 2022
 \vspace{0.2cm}
-> None  
+
+> **Reading:** None
 
 <!-- * IN CLASS: FILM FESTIVAL -->
 <!-- * IN CLASS: Movie Options: Congo, The Rundown, Jungle Cruise, Blood Monkey, Romancing the Stone, The Jungle (D Radcliffe) -->
 
-### WEEK 8-1	Forest cover and forest loss I
+## SECTION 3: THE DRIVERS AND IMPACTS OF DEFORESTATION
+
+### WEEK 8-1	Forest cover and forest loss I  
+
+> **Goal:** To learn how forest cover is defined and estimated    
+
 \vspace{0.2cm}
-> Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs).  2018. "Inside the Amazon’s Deforestation Crisis". _The Globe and Mail_. [[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/)]. 
 
-### WEEK 8-2	Forest cover and forest loss II  
+> **Reading:** Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs).  2018. "Inside the Amazon’s Deforestation Crisis". _The Globe and Mail_. [[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/)]. 
 
-> Searcey, Dionne (reporting) and Gilbertson, Ashley (photographs). 2022 "Raft by Raft, a Rainforest Loses Its Trees" _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/06/14/climate/congo-rainforest-logging.html)]
+### WEEK 8-2	Forest cover and forest loss II   
+
+> **Goal:** to use forest cover data to estimate rates of tropical forest loss over time 
+
+> **Reading:** Searcey, Dionne (reporting) and Gilbertson, Ashley (photographs). 2022 "Raft by Raft, a Rainforest Loses Its Trees" _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/06/14/climate/congo-rainforest-logging.html)]
 
 <!-- * IN CLASS: Download and Analysis of Forest Loss Data  -->
 
-### WEEK 9-1	Drivers & Consequences of Deforestation I: Mining, Timber, Fire, Infrastructure
-\vspace{0.2cm}
-> Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu. Photographs by Victor Moriyama. 2022. "The Illegal Airstrips Bringing Toxic Mining to Brazil’s Indigenous Land". _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html)]  
+### WEEK 9-1	Drivers & Consequences of Deforestation I: Mining, Timber, Fire, Infrastructure   
 
-> Andreoni, Manuela. 2022. "Stopping wildfires before they start". _NY Times_. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html)]
- 
+> **Goal:** learn how deforestation and other human activities alter the structure and functioning of rain forests  
+
+\vspace{0.2cm}
+
+> **Reading:** 
+
+> * Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu. Photographs by Victor Moriyama. 2022. "The Illegal Airstrips Bringing Toxic Mining to Brazil’s Indigenous Land". _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html)]  
+
+> * Andreoni, Manuela. 2022. "Stopping wildfires before they start". _NY Times_. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html)]
  
 ### WEEK 9-2	Drivers & Consequences of Deforestation II: Agriculture  
 \vspace{0.2cm}
 
-> Devouring the Rain Forest. _Washington Post_. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/)]  
+> **Goal:** learn how deforestation and other human activities alter the structure and functioning of rain forests   
 
-> Robles, Pablo, Anuradha Raghu, Adam Majendie and Jin Wu 2021. "The World's Addiction to Palm Oil Is Only Getting Worse". _Bloomberg News_.  [[read online](https://www.bloomberg.com/graphics/2021-palm-oil-deforestation-climate-change/)]  
+> **Reading:** 
+
+> * Devouring the Rain Forest. _Washington Post_. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/)]  
+
+> * Robles, Pablo, Anuradha Raghu, Adam Majendie and Jin Wu 2021. "The World's Addiction to Palm Oil Is Only Getting Worse". _Bloomberg News_.  [[read online](https://www.bloomberg.com/graphics/2021-palm-oil-deforestation-climate-change/)]  
 
 <!-- 1. Lustgarten, Abrahm. 2018. "Palm Oil Was Supposed to Help Save the Planet. Instead It Unleashed a Catastrophe". _NY Times_. [read online](https://www.nytimes.com/2018/11/20/magazine/palm-oil-borneo-climate-catastrophe.html) -->  
 
-> Mason, Margie & McDowell, Robin. 2020. "Palm oil labor abuses linked to world’s top brands, banks". _Associated Press_. [[read online](https://apnews.com/article/virus-outbreak-only-on-ap-indonesia-financial-markets-malaysia-7b634596270cc6aa7578a062a30423bb)]  
+> * Mason, Margie & McDowell, Robin. 2020. "Palm oil labor abuses linked to world’s top brands, banks". _Associated Press_. [[read online](https://apnews.com/article/virus-outbreak-only-on-ap-indonesia-financial-markets-malaysia-7b634596270cc6aa7578a062a30423bb)]  
 
 <!-- > Beech, Hannah. 2019. One Casualty of the Palm Oil Industry: An Orangutan Mother, Shot 74 Times. _NY Times_. [[read online](https://www.nytimes.com/2019/06/29/world/asia/orangutan-indonesia-palm-oil.html)]   -->
 
@@ -413,7 +462,11 @@ kable(calendar,
 
 ### WEEK 10-1	Climate change
 \vspace{0.2cm}
-> BBC News: Amazon rainforest: 'Once it's gone, it's gone forever' (interview with Erika Berenguer). [[link to video](https://www.youtube.com/watch?v=TigV80hwebg)]
+
+> **Goal:** To understand the relationship between tropical forests, deforestation, and the climate cycle. 
+
+
+> **Watch:** BBC News: Amazon rainforest: 'Once it's gone, it's gone forever' (interview with Erika Berenguer). [[link to video](https://www.youtube.com/watch?v=TigV80hwebg)]
 
 <!-- * IN CLASS: Show Your Stripes -->
 
@@ -421,7 +474,9 @@ kable(calendar,
 \vspace{0.2cm}
 <!-- > Author. 2020. "The Congo rainforest is losing ability to absorb carbon dioxide. That’s bad for climate change". _Washington Post_. [[read online](https://www.washingtonpost.com/climate-environment/the-congo-rainforest-is-losing-its-ability-to-absorb-carbon-dioxide-thats-bad-for-climate-change/2020/03/03/3363d218-5ca9-11ea-9055-5fa12981bbbf_story.html)]    -->
 
-> Pearce, Fred. 2018. "Rivers in the Sky: How Deforestation Is Affecting Global Water Cycles."  _Yale360_. [[read online](https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change)]  
+> **Reading:** 
+
+> * Pearce, Fred. 2018. "Rivers in the Sky: How Deforestation Is Affecting Global Water Cycles."  _Yale360_. [[read online](https://e360.yale.edu/features/how-deforestation-affecting-global-water-cycles-climate-change)]  
 
 <!-- > Fisher, Max. 2019. "‘It’s Really Close’: How the Amazon Rainforest Could Self-Destruct" _NY Times_. [[read online](https://www.nytimes.com/2019/08/30/world/americas/amazon-rainforest-fires-climate.html)]   -->
 
@@ -429,32 +484,45 @@ kable(calendar,
 
 <!-- > Climate Action Tracker Ted Talk: "The State of the Climate Crisis in 2021" [[link to video](https://www.ted.com/talks/climate_action_tracker_the_state_of_the_climate_crisis_in_2021?language=en)]   -->
 
-> Serkez, Yaryna. 2020. Every Place Under threat. _NY Times_.  [[read online](https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html)]  
+> * Serkez, Yaryna. 2020. Every Place Under threat. _NY Times_.  [[read online](https://www.nytimes.com/interactive/2020/10/02/opinion/amazon-under-threat.html)]  
 
-> **_Optional:_** learn about the EN-ROADS simulator we will be using in class at this [[link to website](https://www.climateinteractive.org/en-roads/)]. You can even start experimenting with it here: [[link to site](https://en-roads.climateinteractive.org/scenario.html?v=22.8.0)]  
+> * learn about the EN-ROADS simulator we will be using in class at this [[link to website](https://www.climateinteractive.org/en-roads/)]. You can even start experimenting with it here: [[link to site](https://en-roads.climateinteractive.org/scenario.html?v=22.8.0)]  
 
 <!-- * IN CLASS: EN-ROADS Climate Simulation -->
 
+## SECTION 4: THE FUTURE OF RAIN FORESTS  
+
 ### WEEK 11-1	Consumer choices
 \vspace{0.2cm}
-> Carodenuto, Sophia. 2021. "Chocolate fix: How the cocoa industry could end deforestation in West Africa".  _The Conversation_. [[read online](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953)]  
 
-> Lawal,Shola. 2020. "Our Endless Appetite For Chocolate Has Bitter Environmental Consequences" _Huffington Post_. [[read online](https://tinyurl.com/y6curgmn)]. 
+**Goal:** to understand how production and chains and consumer demand influence patterns of deforestation. 
 
-> Hunt, Chris and Premathilake, Rathnasiri. 2018. "Prehistoric people started to spread domesticated bananas across the world 6,000 years ago." _The Conversation_. [[read online](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547)]  
+> **Reading:** 
 
-> **_Optional:_** Mufson, Steven and Georges, Salwan. 2019. "The trouble with chocolate"  _Washington Post_ [[read online](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/)] _amazing maps, pictures, and data visualizations_.  
+> * Carodenuto, Sophia. 2021. "Chocolate fix: How the cocoa industry could end deforestation in West Africa".  _The Conversation_. [[read online](https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953)]  
 
-> **_Optional:_** Williams, Wyatt. 2021. "How Your Cup of Coffee Is Clearing the Jungle". _NY Times_. [[read online](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html)] _Longer, but really gripping and the article includes a link to an audio version if you prefer to listen to it_.
+> * Lawal,Shola. 2020. "Our Endless Appetite For Chocolate Has Bitter Environmental Consequences" _Huffington Post_. [[read online](https://tinyurl.com/y6curgmn)]. 
+
+> * Hunt, Chris and Premathilake, Rathnasiri. 2018. "Prehistoric people started to spread domesticated bananas across the world 6,000 years ago." _The Conversation_. [[read online](https://theconversation.com/prehistoric-people-started-to-spread-domesticated-bananas-across-the-world-6-000-years-ago-99547)]  
+
+> * **_Optional:_** Mufson, Steven and Georges, Salwan. 2019. "The trouble with chocolate"  _Washington Post_ [[read online](https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/)] _amazing maps, pictures, and data visualizations_.  
+
+> * **_Optional:_** Williams, Wyatt. 2021. "How Your Cup of Coffee Is Clearing the Jungle". _NY Times_. [[read online](https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html)] _Longer, but really gripping and the article includes a link to an audio version if you prefer to listen to it_.
 
 
 ### WEEK 11-2	DURIAN FEST 2022
+
+**Goal:** to learn about the global market in tropical fruit crops and the economic impact of tropical fruit production in Florida.
+
 \vspace{0.2cm}
-> Weintraub, Karen. 2019. "They’re Smelly and Spiky, and They Need Bats to Pollinate Them". _NY Times_. [[read online](https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html)]  
 
-> Wharton, Rachel. 2020. How the Tip of Florida Became a Tropical-Fruit Paradise. _Atlas Obscura_. [[read online](https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states)]
+> **Reading:** 
 
-> Frías, Carlos. 2022. "Oddly colored and somewhat phallic: How Miami’s rare tropical fruit went TikTok viral." _Miami Herald_. [[read online](https://www.miamiherald.com/miami-com/restaurants/article263608093.html#storylink=cpyhttps://www.miamiherald.com/miami-com/restaurants/article263608093.html)]  
+> * Weintraub, Karen. 2019. "They’re Smelly and Spiky, and They Need Bats to Pollinate Them". _NY Times_. [[read online](https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html)]  
+
+> * Wharton, Rachel. 2020. How the Tip of Florida Became a Tropical-Fruit Paradise. _Atlas Obscura_. [[read online](https://www.atlasobscura.com/articles/tropical-fruit-farms-in-united-states)]
+
+> * Frías, Carlos. 2022. "Oddly colored and somewhat phallic: How Miami’s rare tropical fruit went TikTok viral." _Miami Herald_. [[read online](https://www.miamiherald.com/miami-com/restaurants/article263608093.html#storylink=cpyhttps://www.miamiherald.com/miami-com/restaurants/article263608093.html)]  
 
 
 <!-- > [How to make chocolate from scratch](https://twitter.com/fastworkers6/status/1557051342010535937?s=12&t=y5HmpXelWYe3mvVYNErbPQ)  -->
@@ -465,55 +533,77 @@ kable(calendar,
 
 ### WEEK 12-1	International frameworks
 \vspace{0.2cm}
-> None 
+
+**Goal:** to learn about the major local, national, and multi-national approaches to reducing deforestation by comparing their efficacy and socioeconomic impacts. REDD and Payment for Ecosystem Services
+
+> **Reading:** None
 
 ### WEEK 12-2	Local Initiatives, Empowered Communities, & Activism
+
+**Goal:** to learn about how local communities are engaged in rain forest conservation and sustainable development efforts. 
+
 \vspace{0.2cm}
 <!-- _Some inspiring evidence we can actually restore rain forests in a way that benefits local people, biodiversity, and the broader world via impacts on ecosystem services:_ -->
 
-> Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html)]   
+> **Reading:**  
 
-> Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil’s rarest primate". _Mongabay.com_ [[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/)].  
+> * Ruth Maclean (reporting, writing), Caleb Kabanda (reporting), and Nanna Heitmann (photography). 2022. "What do the protectors of Congo's peatlands get in return?" _NY Times_. [[read online](https://www.nytimes.com/interactive/2022/02/21/headway/peatlands-congo-climate-change.html)]   
+
+> * Kimbrough, L. 2021. "How settlers, scientists, and a women-led industry saved Brazil’s rarest primate". _Mongabay.com_ [[read online](https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/)].  
 
 <!-- > "A vanishing forest reborn."[[read online](https://www.rolex.org/rolex-awards/milestones/environment/laury-cullen-jr)] (some great drone footage of the location in the story above and more about Laury Cullen's efforts [[read online](https://www.rolex.org/rolex-awards/milestones/environment/laury-cullen-jr)]   -->
 
-> Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" [[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ)] _(keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04)._  
+> * Don't underestimate what one person can do on their own: "BBC World Service: The man who grew his own rainforest" [[link to video](https://www.youtube.com/watch?v=AngaeIf78AQ)] _(keep an eye out for the Euglossine bees we learned about earlier in the semester...you can see them collecting scented oil from flowers at 2:04)._  
 
-> Arellano, Astrid and Sierra Praeli, Yvette. 2022.  "A look at violence and conflict over Indigenous lands in nine Latin American countries". _Mongabay.com_
+> * Arellano, Astrid and Sierra Praeli, Yvette. 2022.  "A look at violence and conflict over Indigenous lands in nine Latin American countries". _Mongabay.com_
 . [[read online](https://news.mongabay.com/2022/05/a-look-at-violence-and-conflict-over-indigenous-lands-in-nine-latin-american-countries/?utm_medium=Social&utm_source=Twitter#Echobox=1654027741-1)]  
 
 <!-- * IN CLASS: Guest Speaker, Get Involved Fair -->
 
 ### WEEK 13-1	Protected areas
 \vspace{0.2cm}
-> Dasgupta, Shreya (with research by Annika Schlemm & Zuzana Burivalova). 2017. "Do protected areas work in the tropics?" Mongabay.com. [[read online](https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/)]  
+
+**Goal:** to learn about different categories of protected areas and the role of protected areas in conserving tropical forests. 
+
+> **Reading:** Dasgupta, Shreya (with research by Annika Schlemm & Zuzana Burivalova). 2017. "Do protected areas work in the tropics?" Mongabay.com. [[read online](https://news.mongabay.com/2017/12/do-protected-areas-work-in-the-tropics/)]  
 
 
 ### WEEK 13-2	Forest restoration & regeneration
+
+**Goal:** to learn the difference between passive regeneration and active restoration and assess evidence for whether they can be used to reverse the effects of deforestation
+
 \vspace{0.2cm}
-> Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". [[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653)]  
 
-> "Do tapirs defecate in the woods?" 2019. _The Economist_ [[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods)]  
+> * Medici, Patricia. 2015 TED Fellows Talk. "The coolest animal you know nothing about...and how we can save it". [[link to video](https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653)]  
 
-> Come prepared to make some money: we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, look this document over before class, it should take ~10 minutes max.: externalities and game intro.  
+> * "Do tapirs defecate in the woods?" 2019. _The Economist_ [[read online](https://www.economist.com/science-and-technology/2019/04/17/do-tapirs-defecate-in-the-woods)]  
+
+> Come prepared to make some money: we're looking into the economic benefits of setting aside land (or not) for conservation. To prepare, look this document over before class, it should take ~10 minutes max: [[link](https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098)] 
 
 <!-- * IN CLASS: Land Conservation Game -->
 
 ### WEEK 14-1	Project Work Day 
 \vspace{0.2cm}
-> None  
+
+> **Reading:** None
 
 ### WEEK 14-2	No class: Thanksgiving Holiday  
 \vspace{0.2cm}
-> None    
+
+> **Reading:** None
   
 ### WEEK 15-1	Tropical Rain Forests and Global Health
 \vspace{0.2cm}
-> Lavinas Picq, Manuela 2020. "Spreading Faith, and Disease". _NY Times_. [[read online](https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html)]  
 
-> Vittor, Amy, Gabriel Zorello Laporta, and Maria Anice Mureb Sallum. 2020. How deforestation helps deadly viruses jump from animals to humans. _The Conversation_. [[read online](https://theconversation.com/how-deforestation-helps-deadly-viruses-jump-from-animals-to-humans-139645)]
+**Goal:** to learn about the relationship between deforestation and the emergence and spread of tropical diseases like Zika and Malaria.
 
-> Kuchipudi, Suresh V. 2020. Why so many epidemics originate in Asia and Africa – and why we can expect more. _The Conversation_. [[read online](https://theconversation.com/why-so-many-epidemics-originate-in-asia-and-africa-and-why-we-can-expect-more-131657)]
+> **Reading:** 
+
+> * Lavinas Picq, Manuela 2020. "Spreading Faith, and Disease". _NY Times_. [[read online](https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html)]  
+
+> * Vittor, Amy, Gabriel Zorello Laporta, and Maria Anice Mureb Sallum. 2020. How deforestation helps deadly viruses jump from animals to humans. _The Conversation_. [[read online](https://theconversation.com/how-deforestation-helps-deadly-viruses-jump-from-animals-to-humans-139645)]
+
+> * Kuchipudi, Suresh V. 2020. Why so many epidemics originate in Asia and Africa – and why we can expect more. _The Conversation_. [[read online](https://theconversation.com/why-so-many-epidemics-originate-in-asia-and-africa-and-why-we-can-expect-more-131657)]
 
 <!-- > Kaufman, Les. 2020. 0Reducing deforestation of tropical forests and supporting the communities that live there can reduce the risk of future pandemics. AFP via Getty Images -->
 <!-- Video: Slowing deforestation is the key to preventing the next pandemic – but what does that cost? _The Conversation_ [[read online](https://theconversation.com/video-slowing-deforestation-is-the-key-to-preventing-the-next-pandemic-but-what-does-that-cost-143411)] -->
@@ -521,14 +611,20 @@ kable(calendar,
 
 ### WEEK 15-2	Rain Forest Headlines  
 \vspace{0.2cm}
-> Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. _NY Times._ [[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur)]  
+
+**Goal:** to learn how journalists chose and cover stories about rain forests and deal with the risks of covering this beat. 
+
+> * **Reading: **Nicas, Jack (reporting) and Moriyama,Victor (Photos, Video). 2022. Inside the Amazon Journey That Left a Journalist and an Activist Dead. _NY Times._ [[read online](https://www.nytimes.com/interactive/2022/07/11/world/americas/amazon-murder-dom-phillips-bruno-pereira.html?smid=tw-nytimes&smtyp=cur)]  
 
 <!-- * IN CLASS: Guest Speaker -->
 
 ### WEEK 16-1	What will we do?
+
+**Goal:** To review and implement some of the actions that we can take to ensure the sustainability of tropical rain forests
+
 \vspace{0.2cm}
 
-> none
+> **Reading:** None
 
 <!-- > Conservation Attitudes Survey: [[link to survey](http://go-fox.web-supported-production.linode.unep-wcmc.org/surveys/OTNQwqEWUb88CHA0BTOBYw/responses/new)]   -->
 
@@ -541,7 +637,7 @@ kable(calendar,
 \vspace{0.3cm} 
 Requirements for class attendance and make-up exams, assignments, and other work in this course are consistent with university policies that can be found at: https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/  
 
-**_Attendance:_** Though attendance is not required, many of the sessions we we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. _Some of the in-class activities, however, can not be completed on your own._ If you miss class on one one of these days, you can elect to make up the lost points with extra-credit assignments.  **_If you need to miss class for any reason, please let me know as soon as possible_**. We will make arrangements for you to complete any assignments and go over any material you will be missing. I would much rather you focus on your health, attend your conference, or support friends and family in need than struggle to turn in assignments. 
+**_Attendance:_** Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. _Some of the in-class activities, however, can not be completed on your own._ If you miss class on one one of these days, you can elect to make up the lost points with extra-credit assignments.  **_If you need to miss class for any reason, please let me know as soon as possible_**. We will make arrangements for you to complete any assignments and go over any material you will be missing. I would much rather you focus on your health, attend your conference, or support friends and family in need than struggle to turn in assignments. 
 
 **_Participation:_** Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). If you have personal issues that prohibit you from joining freely in class discussion, e.g., shyness, language barriers, etc., that is not a problem. Please me know me as soon as possible and we will discuss alternative modes of participation.  
 
