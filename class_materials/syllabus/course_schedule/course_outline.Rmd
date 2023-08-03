@@ -22,6 +22,7 @@ header-includes:
 - \usepackage{parskip}
 - \usepackage{caption}
 - \usepackage{xcolor}
+# - \usepackage{lipsum} lipsum[1], lipsum[1-7]
 - \AtBeginDocument{\let\maketitle\relax}
 # - \usepackage{sectsty} \allsectionsfont{\raggedright}
 - \usepackage{sectsty} \sectionfont{\centering}
@@ -29,6 +30,8 @@ header-includes:
 - \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+# classoption:
+# - twocolumn
 output: pdf_document
   # word_document: default
 #   html_document
@@ -51,7 +54,268 @@ library(tidyverse)
 ## Course Description & Information
 \vspace{0.3cm} 
 
-Tropical Rain Forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by scientists that study rain forests: Why are we fascinated by rain forests? How have stereotypes about them permeated everything from pop culture to international relations? What gave rise to their remarkable biodiversity? What are the drivers and consequences of deforestation? Is rain forest conservation compatible with socioeconomic development? 
+<!-- ```{r slos1, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+<!-- slo1a<- c("Instructor") -->
+<!-- slo1b<- c("name") -->
+<!-- slo1c<-c("email") -->
+
+<!-- slo2a<- c("course info") -->
+<!-- slo2b<- c("info") -->
+<!-- slo2c<-c("more info") -->
+
+<!-- slo3a<- c("TA") -->
+<!-- slo3b<- c("name") -->
+<!-- slo3c<-c("email") -->
+
+<!-- slo4a<- c("objectives") -->
+<!-- slo4b<-c("Tropical Rain Forests cover approximately 15\\% of the Earth’s land surface but contain over 50\\% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by scientists that study rain forests: Why are we fascinated by rain forests? How have stereotypes about them permeated everything from pop culture to international relations? What gave rise to their remarkable biodiversity? What are the drivers and consequences of deforestation? Is rain forest conservation compatible with socioeconomic development?") -->
+<!-- slo4c<-c("even more objectives") -->
+
+<!-- slosa <- c(slo1a,slo1b,slo1c,slo3a,slo3b,slo3c) -->
+<!-- slosb <- c(slo4a,slo4b,slo4c,slo2a,slo2b,slo2c) -->
+<!-- slosc<-"" -->
+<!-- slosd<-"" -->
+<!-- slos <- data.frame(slosa,slosb,slosc,slosd) -->
+
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") -->
+<!-- # insert  \n\n where you want line break, then run:  -->
+<!-- # slos$slosa <- linebreak(slos$slosa) -->
+<!-- # slos$slosb <- linebreak(slos$slosb) -->
+<!-- #  -->
+<!-- # slos[3,1] <- paste0("\\flushleft{", slos[3,1], "}") -->
+<!-- # slos[6,1] <- paste0("\\flushleft{", slos[6,1], "}") -->
+<!-- # slos[3,2] <- paste0("\\flushleft{", slos[3,2], "}") -->
+<!-- # slos[6,2] <- paste0("\\flushleft{", slos[6,2], "}") -->
+<!-- ``` -->
+
+
+
+<!-- ```{r, echo=FALSE, out.width="10%"} --> 
+<!-- knitr::include_graphics("logo.png") --> 
+<!-- ``` --> 
+
+<!-- \begin{minipage}[t]{0.05\textwidth} --> 
+<!-- COL 1 \\ --> 
+<!-- \end{minipage} --> 
+<!-- \begin{minipage}[t]{0.95\textwidth} --> 
+<!-- COURSE AND UNIVERSITY POLICIES\\ --> 
+<!-- \end{minipage} --> 
+
+
+
+<!-- ```{r slos2, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} --> 
+<!-- slos %>% select(-slosc) %>%  --> 
+<!-- kable( --> 
+<!--       # digits = 2, --> 
+<!--       align="cc", --> 
+<!--       format="latex", --> 
+<!--       row.names = FALSE, --> 
+<!--       escape= F, --> 
+<!--       booktabs=T, --> 
+<!--       linesep = "", --> 
+<!--       # caption="Student Learning Objectives", --> 
+<!--       col.names = NULL --> 
+<!--       ) %>%  --> 
+<!--   kable_styling(latex_options = "HOLD_position") %>%  --> 
+<!--    kable_classic_2(full_width = F, --> 
+<!--                 # latex_options="scale_down", --> 
+<!--                 font_size = 10, --> 
+<!--                 position = "center") %>%  --> 
+<!--  column_spec(1, width = "25em") %>%  --> 
+<!-- column_spec(2, width = "25em", color = "black", background="white") %>%  --> 
+<!-- row_spec(c(1,4),bold=T, color = "white", background="green") %>%  --> 
+<!-- row_spec(c(2,5),italic =T, bold=T)   --> 
+
+<!-- # https://stackoverflow.com/questions/50118394/selecting-and-colouring-single-table-cells-with-kableextra-in-r-markdown-cell-sp --> 
+<!-- ``` --> 
+
+
+<!-- \begin{minipage}[t]{0.05\textwidth} --> 
+<!-- COL 1 \\ --> 
+<!-- \end{minipage} --> 
+<!-- \begin{minipage}[t]{0.95\textwidth} --> 
+<!-- COURSE AND UNIVERSITY POLICIES\\ --> 
+<!-- \end{minipage} --> 
+
+<!-- \begin{minipage}[t]{0.35\textwidth} -->
+<!-- ```{r slos3, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+
+
+<!-- # left[4,1] <- paste0("\\flushleft{", left[4,1], "}") -->
+<!-- # left[8,1] <- paste0("\\flushleft{", left[8,1], "}") -->
+
+<!-- left<-slos %>% select(slosa)   -->
+<!-- kable( -->
+<!--   left,# digits = 2, -->
+<!--       align="l", -->
+<!--       format="latex", -->
+<!--       row.names = FALSE, -->
+<!--       bottomrule = F, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       # caption="Student Learning Objectives", -->
+<!--       col.names = NULL -->
+<!--       ) %>%  -->
+<!--   kable_styling(latex_options = "HOLD_position") %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>% -->
+<!--  column_spec(1, width = "25em",color = "white", background="green") %>%  -->
+<!--   # column_spec(2, width = "10em") %>%  -->
+<!-- # column_spec(3, width = "0em") %>%  -->
+<!-- # row_spec(c(1,4),bold=T, color = "white", background="green") %>%  -->
+<!-- # row_spec(c(1), background="green") %>% -->
+<!-- # row_spec(c(2,5),italic =T, bold=T)  %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!-- sub("\\\\bottomrule", "", .) # remove bottom line  -->
+
+<!-- # https://stackoverflow.com/questions/50118394/selecting-and-colouring-single-table-cells-with-kableextra-in-r-markdown-cell-sp -->
+
+<!-- ``` -->
+<!-- \end{minipage} -->
+<!-- \begin{minipage}[t]{0.9\textwidth} -->
+
+<!-- ```{r slos4, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} -->
+
+<!-- right<-slos %>% select(slosb)  -->
+<!-- kable(right, -->
+<!--       # digits = 2, -->
+<!--       align="l", -->
+<!--       format="latex", -->
+<!--       bottomrule = F, -->
+<!--       row.names = FALSE, -->
+<!--       escape= F, -->
+<!--       booktabs=T, -->
+<!--       linesep = "", -->
+<!--       # caption="Student Learning Objectives", -->
+<!--       col.names = NULL -->
+<!--       ) %>%  -->
+<!--   kable_styling(latex_options = "HOLD_position") %>%  -->
+<!--    kable_classic_2(full_width = F, -->
+<!--                 # latex_options="scale_down", -->
+<!--                 font_size = 10, -->
+<!--                 position = "left") %>%  -->
+<!-- # column_spec(1, width = "0em") %>%  -->
+<!-- column_spec(1, width = "32em", color = "black", background="white") %>% -->
+<!-- # column_spec(2, width = "0em") %>%  -->
+<!-- # column_spec(2, width = "25em", color = "black", background="white") %>%  -->
+<!--   # row_spec(c(1), background="green") %>% -->
+<!--   # row_spec(c(1,4),bold=T, color = "white", background="green") %>%  -->
+<!--   # row_spec(c(1), background="green") %>% -->
+<!--   # column_spec(2, background="green") %>% -->
+<!-- row_spec(c(2,5),italic =T, bold=T)  %>%  -->
+<!--   sub("\\\\toprule", "", .) %>% # Removes top line -->
+<!-- sub("\\\\bottomrule", "", .) # remove bottom line  -->
+
+<!-- # https://stackoverflow.com/questions/50118394/selecting-and-colouring-single-table-cells-with-kableextra-in-r-markdown-cell-sp -->
+<!-- ``` -->
+
+<!-- \end{minipage} -->
+
+
+<!-- ```{r slos1, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} --> 
+<!-- instructor<- c("Dr. Emilio M. Bruna") --> 
+<!-- inst_email<-("email") --> 
+<!-- inst_phone<-("Phone") --> 
+<!-- inst_office<-("Office Location & Drop-In Hours")  --> 
+<!-- inst_info<-c(instructor,inst_email,inst_phone,inst_office) --> 
+<!-- ta<- c("priyanka") --> 
+<!-- ta_email<-("ta email") --> 
+<!-- ta_phone<-("ta phone") --> 
+<!-- ta_office<-("ta email")  --> 
+<!-- ta_info<-c(ta,ta_email,ta_phone,ta_office) --> 
+
+
+<!-- inst <- as_tibble(inst_info) %>% rename(X=value) %>% mutate(spacer="") %>% relocate(spacer,.before=1)%>% mutate(spacer2="")  --> 
+<!-- ta <- as_tibble(ta_info) %>% rename(X=value)%>% mutate(spacer="") --> 
+<!-- # inst2<-bind_rows(inst,ta) --> 
+
+
+
+
+
+<!-- # class_policies <- read_csv("./class_materials/syllabus/course_schedule/policies.csv") --> 
+<!-- # insert  \n\n where you want line break, then run:  --> 
+<!-- # slos$slosa <- linebreak(slos$slosa) --> 
+<!-- # slos$slosb <- linebreak(slos$slosb) --> 
+<!-- #  --> 
+<!-- # slos[3,1] <- paste0("\\flushleft{", slos[3,1], "}") --> 
+<!-- # slos[6,1] <- paste0("\\flushleft{", slos[6,1], "}") --> 
+<!-- # slos[3,2] <- paste0("\\flushleft{", slos[3,2], "}") --> 
+<!-- # slos[6,2] <- paste0("\\flushleft{", slos[6,2], "}") --> 
+<!-- ``` --> 
+<!-- ```{r teachers, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'} --> 
+
+
+<!-- # left[4,1] <- paste0("\\flushleft{", left[4,1], "}") --> 
+<!-- # left[8,1] <- paste0("\\flushleft{", left[8,1], "}") --> 
+
+<!-- # left<-slos %>% select(slosc,slosa,slosd)   --> 
+<!-- kable(inst, --> 
+<!--       align="l", --> 
+<!--       format="latex", --> 
+<!--       row.names = FALSE, --> 
+<!--       bottomrule = F, --> 
+<!--       escape= F, --> 
+<!--       booktabs=T, --> 
+<!--       linesep = "", --> 
+<!--       # caption="Student Learning Objectives", --> 
+<!--       col.names = NULL --> 
+<!--       ) %>%  --> 
+<!--   kable_styling(latex_options = "HOLD_position") %>%  --> 
+<!--    kable_classic_2(full_width = F, --> 
+<!--                 # latex_options="scale_down", --> 
+<!--                 font_size = 10, --> 
+<!--                 position = "left") %>% --> 
+<!--   column_spec(1, width = "20em") %>%  --> 
+<!--   # column_spec(2, width = "25em") %>%  --> 
+<!-- # column_spec(3, width = "0em") %>%  --> 
+<!-- row_spec(c(1),bold=T, color = "white", background="green")  --> 
+<!-- # %>%  --> 
+<!-- # # row_spec(c(1), background="green") %>% --> 
+<!-- # # row_spec(c(2,5),italic =T, bold=T)  %>%  --> 
+<!-- #   sub("\\\\toprule", "", .) %>% # Removes top line --> 
+<!-- # sub("\\\\bottomrule", "", .) # remove bottom line  --> 
+
+<!-- # https://stackoverflow.com/questions/50118394/selecting-and-colouring-single-table-cells-with-kableextra-in-r-markdown-cell-sp --> 
+
+<!-- ``` --> 
+
+
+<!-- \begin{minipage}[t]{0.5\textwidth} -->
+<!-- First Column Goodies.\\ -->
+<!-- More First Column Goodies.\\ -->
+<!-- \end{minipage} -->
+<!-- \begin{minipage}[t]{0.5\textwidth} -->
+<!-- Course Description \\ -->
+
+<!-- Tropical Rain Forests cover approximately 15\% of the Earth’s land surface but contain over 50\% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by scientists that study rain forests: Why are we fascinated by rain forests? How have stereotypes about them permeated everything from pop culture to international relations? What gave rise to their remarkable biodiversity? What are the drivers and consequences of deforestation? Is rain forest conservation compatible with socioeconomic development? \\ -->
+
+
+<!-- **By the end of the course students will be able to:**  \\ -->
+
+<!-- * Recognize and describe stereotypes about rain forests \& their residents  \\ -->
+<!-- * Analyze rain forest tropes in art, literature, \& popular culture  \\ -->
+<!-- * Discuss \& evaluate hypotheses for the origins and maintenance of tropical biodiversity  \\ -->
+<!-- * Explain \& compare human history in rain forests  \\ -->
+<!-- * Review contemporary threats to rain forests  \\ -->
+<!-- * Analyze and visualize data on deforestation  \\ -->
+<!-- * Review and contrast strategies for rain forest conservation \& restoration  \\ -->
+<!-- * Identify rain forests in their daily lives \& set personal goals for advancing their conservation  \\ -->
+<!-- * Produce materials for communicating about rain forests to family and peers  \\ -->
+
+
+<!-- \end{minipage} -->
+
+### Course Description: Abridged Version in the Course Catalog  
+
+This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development.
+
+### Course Description: Longer & More Exciting Version.  
+Tropical rain forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by researchers studying rain forests: Why are we fascinated by tropical rain forests? What gave rise to their remarkable biodiversity? How have stereotypes about them permeated everything from pop culture to international relations? What are the national and international drivers and consequences of deforestation? Is forest conservation compatible with socioeconomic development? Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world.
+
 
 **By the end of the course students will be able to:**  
 
@@ -64,6 +328,7 @@ Tropical Rain Forests cover approximately 15% of the Earth’s land surface but 
 * Review and contrast strategies for rain forest conservation & restoration
 * Identify rain forests in their daily lives & set personal goals for advancing their conservation
 * Produce materials for communicating about rain forests to family and peers
+
 
 ### Class Day, Time, & Location 
 
@@ -101,9 +366,9 @@ Tropical Rain Forests cover approximately 15% of the Earth’s land surface but 
   * To get help arranging a study group
   * _You don't need a reason...just come on by._
 
-**Required & Recommended Course Materials**: All course materials, including readings and videos, will be made available on the course Canvas page. However, many of the assigned articles from the New York Times have dynamic multimedia data visualizations and video that can't be appreciated in pdf format. _Students in this class should sign up for free online access to the NY Times by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734)._
+**Required & Recommended Course Materials**: Students are not required to purchase any textbooks or course materials. All materials, including readings and videos, are made available on the course Canvas page. However, many of the assigned articles from the New York Times have dynamic multimedia data visualizations and video that can't be appreciated in pdf format. _Students in this class should sign up for free online access to the NY Times by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734)._
 
-**Materials and Supplies Fees**: There are no additional fees for this course. 
+**Materials and Supplies Fees**: None. 
 
 ### **Quest & GenEd Credits**  
 \vspace{0.3cm}
@@ -143,10 +408,10 @@ kable(assignments,
       linesep = "",
       # caption="Graded Coursework"
       ) %>% 
-   kable_classic_2(full_width = T,
-                latex_options="scale_down",
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
                 font_size = 8,
-                position = "left") %>% 
+                position = "center") %>% 
   column_spec(1, width = "10em") %>%
   column_spec(2, width = "18em") %>%
   # column_spec(3, width = "5em") %>% 
@@ -157,6 +422,15 @@ kable(assignments,
   add_indent(6)
 
 ```
+
+**Regrades:** Requests for re-evaluation of any quizzes, exams, or assignments will only be considered if accompanied by a letter explaining why you think you deserve additional credit and the number of additional points you think you deserve. The deadline for submitting these requests is one week after the work has been returned. 
+
+**Grade Points:** For information on how UF assigns grade points, visit: https://catalog.ufl.edu/ UGRD/academic-regulations/grades-grading-policies/ 
+
+**Participation: **Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). If you have personal issues that prohibit you from joining freely in class discussion, e.g., shyness, language barriers, etc., that is not a problem. Please me know me as soon as possible and we will discuss alternative modes of participation. 
+
+**Class Discussions & Group Work:** Learning in our class will be achieved in part via work carried out with groups of fellow students. This will require structured and unstructured discussions and dialogues within and between groups, where we will explore some challenging, important problems and increase our understanding of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear others say. There may be times when we need patience, courage, imagination, and of course, mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. Disrespectful or disruptive behavior will not be tolerated. And always remember that as scholars, we must employ critical thinking, rely on data, and cite verifiable sources and experts when evaluating if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint, or belief. 
+
 
 <!-- In-class assignments -->
 <!-- 1. Day 1 Survey (Y/N Grade) -->
@@ -633,9 +907,9 @@ kable(calendar,
 <!-- * IN CLASS: CLASS PROJECT FAIR -->
 ## Course Policies
 \vspace{0.1cm} 
-### Grading, Attendance, and Participation
-\vspace{0.3cm} 
-Requirements for class attendance and make-up exams, assignments, and other work in this course are consistent with university policies that can be found at: https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/  
+<!-- ### Grading, Attendance, and Participation -->
+<!-- \vspace{0.3cm}  -->
+<!-- Requirements for class attendance and make-up exams, assignments, and other work in this course are consistent with university policies that can be found at: https://catalog.ufl.edu/UGRD/academic-regulations/attendance-policies/   -->
 
 **_Attendance:_** Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. _Some of the in-class activities, however, can not be completed on your own._ If you miss class on one one of these days, you can elect to make up the lost points with extra-credit assignments.  **_If you need to miss class for any reason, please let me know as soon as possible_**. We will make arrangements for you to complete any assignments and go over any material you will be missing. I would much rather you focus on your health, attend your conference, or support friends and family in need than struggle to turn in assignments. 
 
@@ -664,55 +938,55 @@ Requirements for class attendance and make-up exams, assignments, and other work
 \vspace{0.3cm}
 Learning in our class will be achieved in part via work carried out with groups of fellow students. This will require structured and unstructured discussions and dialogues within and between groups, where we will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience,  courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. _Disrespectful or disruptive behavior will not be tolerated_. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
 
-### COVID-19 Statement
-\vspace{0.3cm}
-It's not over, people. Things will to continue to be unpredictable as new variants emerge, and . As such, situations may arise during the semester that complicate course participation (for students) or instruction (for the TA or Professor). If you are affected in any way by Covid-19, let us know so we can plan accordingly. You should not come to class if you suspect having contracted Covid-19 or are ill; just let us know and we'll work something out. Finally, please be respectful of others and their health decisions or needs. Mask use is still recommended by UF, as is vaccination. More guidance can be found at the CDC website (https://www.cdc.gov/media/releases/2022/p0811-covid-guidance.html) and the UF Covid Resources Page (https://coronavirus.ufl.edu/)
+<!-- ### COVID-19 Statement -->
+<!-- \vspace{0.3cm} -->
+<!-- It's not over, people. Things will to continue to be unpredictable as new variants emerge, and . As such, situations may arise during the semester that complicate course participation (for students) or instruction (for the TA or Professor). If you are affected in any way by Covid-19, let us know so we can plan accordingly. You should not come to class if you suspect having contracted Covid-19 or are ill; just let us know and we'll work something out. Finally, please be respectful of others and their health decisions or needs. Mask use is still recommended by UF, as is vaccination. More guidance can be found at the CDC website (https://www.cdc.gov/media/releases/2022/p0811-covid-guidance.html) and the UF Covid Resources Page (https://coronavirus.ufl.edu/) -->
 
-### Children in the Classroom
-\vspace{0.3cm}
- UF does not have a formal policy on children in the classroom. The following policy reflects my own perspective and commitment to student-parents.  
+<!-- ### Children in the Classroom -->
+<!-- \vspace{0.3cm} -->
+<!--  UF does not have a formal policy on children in the classroom. The following policy reflects my own perspective and commitment to student-parents.   -->
 
-* **_You and your nursing baby are welcome in class anytime._** I never want students to feel like they have to choose between feeding their baby and continuing their education. 
-* **_Occasionally bringing a child to class because of a gap in care is perfectly acceptable._** I understand that minor illnesses and unforeseen disruptions in childcare often put parents in the position of having to chose between attending class or staying home to care for them. Let me know in advance if at all possible.
-* **_If you bring your child to class:_** Please sit close to the exit so that if your child needs attention you can more easily step outside until their needs have been met (and so other students can continue learning). Non-parents in the class, I ask that you please be willing to offer your seat near a door to parents as needed.
-* **_Let me know how I can help._** Finally, I understand that balancing school, childcare and perhaps even a job can be exhausting and a barrier to learning. I maintain the same high expectations for all students in my class, and will work with you to find ways you can balance your responsibilities as a parent and student.
+<!-- * **_You and your nursing baby are welcome in class anytime._** I never want students to feel like they have to choose between feeding their baby and continuing their education.  -->
+<!-- * **_Occasionally bringing a child to class because of a gap in care is perfectly acceptable._** I understand that minor illnesses and unforeseen disruptions in childcare often put parents in the position of having to chose between attending class or staying home to care for them. Let me know in advance if at all possible. -->
+<!-- * **_If you bring your child to class:_** Please sit close to the exit so that if your child needs attention you can more easily step outside until their needs have been met (and so other students can continue learning). Non-parents in the class, I ask that you please be willing to offer your seat near a door to parents as needed. -->
+<!-- * **_Let me know how I can help._** Finally, I understand that balancing school, childcare and perhaps even a job can be exhausting and a barrier to learning. I maintain the same high expectations for all students in my class, and will work with you to find ways you can balance your responsibilities as a parent and student. -->
 
 
-### Students Requiring Accommodation
-\vspace{0.3cm}
-Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting https://disability.ufl.edu/students/get-started/. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.
+<!-- ### Students Requiring Accommodation -->
+<!-- \vspace{0.3cm} -->
+<!-- Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting https://disability.ufl.edu/students/get-started/. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning. -->
 
-### UF Evaluations Process
-\vspace{0.3cm}
-Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via https://ufl.bluera.com/ufl/. Summaries of course evaluation results are available to students at https://gatorevals.aa.ufl.edu/public-results/.
+<!-- ### UF Evaluations Process -->
+<!-- \vspace{0.3cm} -->
+<!-- Students are expected to provide professional and respectful feedback on the quality of instruction in this course by completing course evaluations online via GatorEvals. Guidance on how to give feedback in a professional and respectful manner is available at https://gatorevals.aa.ufl.edu/students/. Students will be notified when the evaluation period opens, and can complete evaluations through the email they receive from GatorEvals, in their Canvas course menu under GatorEvals, or via https://ufl.bluera.com/ufl/. Summaries of course evaluation results are available to students at https://gatorevals.aa.ufl.edu/public-results/. -->
 
-### University Honesty Policy
-\vspace{0.3cm}
-UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.” The Honor Code (https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.  
+<!-- ### University Honesty Policy -->
+<!-- \vspace{0.3cm} -->
+<!-- UF students are bound by The Honor Pledge which states, “We, the members of the University of Florida community, pledge to hold ourselves and our peers to the highest standards of honor and integrity by abiding by the Honor Code. On all work submitted for credit by students at the University of Florida, the following pledge is either required or implied: “On my honor, I have neither given nor received unauthorized aid in doing this assignment.” The Honor Code (https://www.dso.ufl.edu/sccr/process/student-conduct-honor-code/) specifies a number of behaviors that are in violation of this code and the possible sanctions. Furthermore, you are obligated to report any condition that facilitates academic misconduct to appropriate personnel. If you have questions or concerns, consult with the instructor or TAs.   -->
 
-### In-Class Recording
-\vspace{0.3cm} 
-**_Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled_.** The only allowable purposes are (1) for personal educational use, (2) in connection with a complaint to the university, or (3) as evidence in, or in preparation for, a criminal or civil proceeding. All other purposes are prohibited. Specifically, students may not publish recorded lectures without the written consent of the instructor. 
+<!-- ### In-Class Recording -->
+<!-- \vspace{0.3cm}  -->
+<!-- **_Students are allowed to record video or audio of class lectures. However, the purposes for which these recordings may be used are strictly controlled_.** The only allowable purposes are (1) for personal educational use, (2) in connection with a complaint to the university, or (3) as evidence in, or in preparation for, a criminal or civil proceeding. All other purposes are prohibited. Specifically, students may not publish recorded lectures without the written consent of the instructor.  -->
 
-**_A “class lecture” is:_** an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a University of Florida course. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session. 
+<!-- **_A “class lecture” is:_** an educational presentation intended to inform or teach enrolled students about a particular subject, including any instructor-led discussions that form part of the presentation, and delivered by any instructor hired or appointed by the University, or by a guest instructor, as part of a University of Florida course. A class lecture does not include lab sessions, student presentations, clinical presentations such as patient history, academic exercises involving solely student participation, assessments (quizzes, tests, exams), field trips, private conversations between students in the class or between a student and the faculty or lecturer during a class session.  -->
 
-**_Publication without permission of the instructor is prohibited._** To “publish” means to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code
+<!-- **_Publication without permission of the instructor is prohibited._** To “publish” means to share, transmit, circulate, distribute, or provide access to a recording, regardless of format or medium, to another person (or persons), including but not limited to another student within the same class section. Additionally, a recording, or transcript of a recording, is considered published if it is posted on or uploaded to, in whole or in part, any media platform, including but not limited to social media, book, magazine, newspaper, leaflet, or third-party note/tutoring services. A student who publishes a recording without written consent may be subject to a civil cause of action instituted by a person injured by the publication and/or discipline under UF Regulation 4.040 Student Honor Code and Student Conduct Code -->
 
-## UF Resources for Students 
-\vspace{0.3cm}
-**U Matter, We Care:** If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit [U Matter, We Care website](https://umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress.
-    
-**Counseling and Wellness Center:** Visit the [Counseling and Wellness Center website](https://counseling.ufl.edu/) or call 352-392-1575 for information on crisis services as well as non-crisis services. 
+<!-- ## UF Resources for Students  -->
+<!-- \vspace{0.3cm} -->
+<!-- **U Matter, We Care:** If you or someone you know is in distress, please contact umatter@ufl.edu, 352-392-1575, or visit [U Matter, We Care website](https://umatter.ufl.edu/) to refer or report a concern and a team member will reach out to the student in distress. -->
 
-**Student Health Care Center:** Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the [Student Health Care Center website](https://shcc.ufl.edu/). 
+<!-- **Counseling and Wellness Center:** Visit the [Counseling and Wellness Center website](https://counseling.ufl.edu/) or call 352-392-1575 for information on crisis services as well as non-crisis services.  -->
 
-**University Police Department:** Visit [UF Police Department website](https://police.ufl.edu/) or call 352-392-1111 (or 9-1-1 for emergencies). 
+<!-- **Student Health Care Center:** Call 352-392-1161 for 24/7 information to help you find the care you need, or visit the [Student Health Care Center website](https://shcc.ufl.edu/).  -->
 
-**UF Health Shands Emergency Room / Trauma Center:** For immediate medical care call 352-733-0111 or go to the emergency room at 1515 SW Archer Road, Gainesville, FL 32608; Visit the [UF Health Emergency Room and Trauma Center website](https://ufhealth.org/emergency-room-trauma-center).
+<!-- **University Police Department:** Visit [UF Police Department website](https://police.ufl.edu/) or call 352-392-1111 (or 9-1-1 for emergencies).  -->
 
-**Field and Fork Pantry**: The Hitchcock Pantry can provide food and toiletries for students experiencing food insecurity.  https://pantry.fieldandfork.ufl.edu/.
+<!-- **UF Health Shands Emergency Room / Trauma Center:** For immediate medical care call 352-733-0111 or go to the emergency room at 1515 SW Archer Road, Gainesville, FL 32608; Visit the [UF Health Emergency Room and Trauma Center website](https://ufhealth.org/emergency-room-trauma-center). -->
 
-**The Writing Studio**: The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing studio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops.  
+<!-- **Field and Fork Pantry**: The Hitchcock Pantry can provide food and toiletries for students experiencing food insecurity.  https://pantry.fieldandfork.ufl.edu/. -->
+
+<!-- **The Writing Studio**: The writing studio is committed to helping University of Florida students meet their academic and professional goals by becoming better writers. Visit the writing studio online at http://writing.ufl.edu/writing-studio/ or in 2215 Turlington Hall for one-on-one consultations and workshops.   -->
 
 <!-- ## General Education and Quest SLOs/Objectives -->
 <!-- \vspace{0.3cm}  -->
@@ -725,4 +999,33 @@ UF students are bound by The Honor Pledge which states, “We, the members of th
 <!-- * International Objectives (for N co-designation) -->
 
 <!-- * International Student Learning Outcomes (for N co-designation) -->
+In-class activities: In-class exercises are designed to reinforce key concepts from readings and lectures, discuss the assigned readings, and learn/practice skills that will be used in the analytical essays or the final project. Some are completed individually, while others require working in groups or pairs. Activities range from analyzing tropical images in works of art to graphing species diversity data to negotiating priority areas for conservation with other groups. Each activity has instructions and a rubric that defines what is required for submission and how grades are assigned; they are designed to be completed in class with the assistance of classmates, the TA, and instructor. Although there will be an in-class activity every class session, only the 20 with the highest score will be included in the final grade. M
 
+Note: most in-class activities can be completed independently, but by doing them in class, you will benefit from working collaboratively with the other students. However, some of the in-class activities can only be completed during the class session. If you need to miss class for any reason, please let me know as soon as possible so we can plan alternative means for you to complete assignments and review material you will be missing.
+
+Movie Reviews: Your assignment is to watch three films set in tropical rain forests and briefly explain how the rain forest setting is presented and advances each film’s narrative. Your review should not be a summary of the film and its plot (i.e., a descriptive review) or an overall judgment of whether the film is "good" or "bad" (i.e., an evaluative review). Start by documenting the rain forest tropes we discussed in class for each film using the Trope Checklist on the course website, then explain how each film's use of these tropes reinforces or subverts one or more of the historical stereotypes about rain forests and the people that live in them that we discussed in class. Support your claims with specific examples drawn from the movie’s plot, characters, visuals, or use of sound.
+
+Analytic Essay: Brazil and Indonesia are two of the countries that have the most tropical forest within their borders. Consequently, considerable attention is paid to documenting trends in forest loss in these countries, as well as in trying to infer the internal and external factors - economic, social, political - that might be responsible for any changes in the rates of deforestation over time. Your assignment is to (1) calculate and compare deforestation in Brazil and Indonesia from 2001-2021, and (2) identify the factors that are most likely responsible for the observed trends. [Note: this was the essay for Fall 2022, it will be modified in subsequent years as appropriate] 
+
+Reflective Essay: A reflection on what you observed and learned from our simulations of global CO2 emissions under alternative policy scenarios using the En-ROADS simulation platform and subsequent “climate negotiations.” [Note: an expanded prompt can be seen below in Section V(2)] 
+
+Final Project: To develop materials to communicate information about rain forests with either (a) UF undergraduates or (b) members of your family. This project requires identifying the message and its importance with the COMPASS 'Message Box', developing a tool for communicating the message to your chosen audience (e.g., infographic, video message, paintings or works of art, social media posts), and a brief reflection on the process, product, and efficacy. [Note: The complete assignment includes a thorough description of the COMPASS Message Box, a long list of potential projects with templates, and examples of previous submissions. It is designed to encourage student creativity].
+
+# Quest Learning Experiences
+## 1. Details of Experiential Learning Component
+This course includes multiple experiential learning components, including:  
+1)	an In-home palm oil survey: Students will go through their homes and survey for products they use at least 1-2 times per week that contain palm oil or palm oil derivatives.
+2)	A Photo Safari at the FLMNH Florida Butterfly Rain Forest: Students will search for examples of plants that are representative of different pollination syndromes and represent different leaf forms.
+3)	Research on temporal trends in tropical deforestation: Students will gather and analyze data comparing the rates of deforestation in tropical countries and hypothesize as to the mechanisms responsible for the patterns.
+## 2. Details of Self-Reflection Component
+
+Students will have the opportunity to select one of the following about which to write a brief self-reflection essay: 
+
+1)	Having experimented with simulated alternatives for reducing global CO2, please reflect critically on what you observed and learned from our “climate negotiations”. What trends give you hope that your proposals are possible? What can you personally do to help create the necessary changes? Which of the proposals do you favor and why? Things to keep in mind for your responses and reflection include how well do you think your proposal does in meeting the Paris climate goals, how would the economy be different at different points in the future under your proposal, and what it would it take for your proposal to be realized.
+
+2)	Now that semester has ended, take time to reflect critically on the following: (1) what have you learned from your readings, discussions, and preparing your course project about the challenge of communicating about tropical rain forests to audiences that may not know much about them? (2) What actions could you take going forward that to advance rain forest conservation? How likely are you to take them, and what is motivating or hindering your actions?
+
+
+
+
+\newpage

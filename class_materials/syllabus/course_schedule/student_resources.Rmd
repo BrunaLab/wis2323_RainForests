@@ -16,8 +16,8 @@ header-includes:
 - \usepackage{fancyhdr}
 - \pagestyle{fancy}
 - \fancyfoot{}
-- \fancyhead[R]{Syllabus, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+# - \fancyhead[R]{Syllabus, p. \thepage}
+# - \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{caption}
