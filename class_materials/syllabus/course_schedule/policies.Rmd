@@ -348,12 +348,18 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 <!-- \newgeometry{left=0.5in,right=0.5in, top=0.25in, bottom=0.25in}     -->
 
 <!-- \vspace*{5cm}             -->
+
+
+```{r vine, echo=FALSE, include=TRUE,fig.cap="", out.width = '20%', fig.align="center" }
+# knitr::include_graphics("./course_schedule/icons/vine.png")
+knitr::include_graphics("./course_schedule/icons/vine.png")
+```
+
 \newpage
 # UF RESOURCES FOR STUDENTS  
 &nbsp;
 \setlength{\leftskip}{1cm}
 \setlength{\rightskip}{1.5cm} 
-
 
 \textbf{\color{green}Wellness and Mental Health:} Students experiencing crises or personal problems that interfere with their general well-being are encouraged to utilize the university’s counseling resources. The Counseling & Wellness Center provides confidential counseling services at no cost for currently enrolled students. Resources are available on campus for students having personal problems or lacking clear career or academic goals, which interfere with their academic performance.
  
