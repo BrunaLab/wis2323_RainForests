@@ -10,7 +10,7 @@ twitter: https://twitter.com/BrunaLab
 phone: "(352) 514-3935"
 web: www.BrunaLab.org
 email: embruna@ufl.edu
-geometry: margin=.75in
+geometry: margin=0.87in
 fontsize: 11pt
 linkcolor: darkmidnightblue
 urlcolor: darkmidnightblue
@@ -20,7 +20,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Syllabus, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{IDS 2935 - Future of Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{geometry}
@@ -44,7 +44,7 @@ header-includes:
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \usepackage{floatrow}
-- \DeclareFloatSeparators{mysep}{\hskip-99em}
+- \DeclareFloatSeparators{mysep}{\hskip-94em}
   # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
 - \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
 output: pdf_document
@@ -53,14 +53,7 @@ output: pdf_document
 \definecolor{darkmidnightblue}{HTML}{003366}
 \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
 
-```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/readings.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd','./syllabus_sections/assignment_overview.Rmd')}
+```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/readings.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd')}
 ```
 
-<!-- './syllabus_sections/course_outline.Rmd', -->
-<!-- # './syllabus_sections/quest.Rmd' -->
-
-
-<!-- ```{r, child=c('./syllabus_sections/course_outline.Rmd','./slo/sl_objectives.Rmd','./slo/slo_secondary.Rmd','./slo/sl_outcomes.Rmd','./slo/sl_outcomes_secondary.Rmd')} -->
-<!-- ``` -->
-
-
+<!-- ,'./syllabus_sections/assignment_overview.Rmd' -->
