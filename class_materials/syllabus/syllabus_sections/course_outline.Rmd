@@ -1,0 +1,525 @@
+---
+title: 'Syllabus'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+web: www.BrunaLab.org
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: (352) 514-3935
+email: embruna@ufl.edu
+geometry: margin=0.75in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyfoot{}
+  - \usepackage[default]{sourcesanspro}
+  - \usepackage{parskip}
+  - \usepackage{geometry}
+  - \usepackage{caption}
+  - \usepackage{xcolor}
+  - \definecolor{green}{RGB}{0,102,0}
+  - \definecolor{blue}{RGB}{0, 0, 139}
+  - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+  - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+  - \AtBeginDocument{\let\maketitle\relax}
+  - \usepackage[none]{hyphenat}
+  - \usepackage[document]{ragged2e}
+  - \usepackage{graphicx}
+  - \usepackage{geometry}
+  - \usepackage{sectsty}\allsectionsfont{\raggedright}
+  - \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{titlesec}
+  - \usepackage{longtable}
+  - \usepackage{tabu}
+  - \usepackage{wrapfig}
+  - \usepackage[export]{adjustbox}
+  - \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \usepackage{pdflscape}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+  - \usepackage{floatrow}
+  - \DeclareFloatSeparators{mysep}{\hskip-99em}
+  # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}
+  - \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
+
+
+# classoption:
+# - twocolumn
+output: pdf_document
+  # word_document: default
+#   html_document
+# weight: 5
+    # df_print: paged
+---
+
+```{r setup_syllabus, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+library(RColorBrewer)
+library(viridis)   
+```
+
+# The Future of Rain Forests
+
+## IDS 2935 - Quest 2 - Fall 2022
+
+\vspace{0.6cm}
+
+<!-- ## Instructors -->
+
+<!-- \vspace{0.3cm} -->
+
+<!-- \begin{center} -->
+
+<!-- \end{center} -->
+
+<!-- ---  -->
+
+```{r course_info, echo=FALSE,message = FALSE,warning=FALSE}
+
+title<-c("The Future of Rain Forests (IDS2935")
+year<-c("Fall Semester 2023")
+
+class_time<-c("Tuesday, 11:45 am-1:40 pm","Thursday 12:50-1:40 pm")
+class_loc<-c("FLG-0280","LIT-0237")
+
+prof_name<-c("Dr. Emilio M. Bruna")
+prof_email<-c("embruna@ufl.edu")
+prof_phone<-c("(352) 846-0634")
+# prof_office<-c("Office: location")
+
+ta_name<-c("Priyanka Hari Haran")
+ta_email<-c("priyanka email")
+ta_phone<-c("(352) 846-0634")
+# ta_office<-c("Office: location")
+
+
+prof<-c("Instructor",prof_name, prof_email, prof_phone)
+ta<-c("Teaching Assistant",ta_name, ta_email, ta_phone)
+class_time<-c("Class Sessions",class_time,"")
+class_location<-c("Location",class_loc,"")
+prof<-as_tibble(prof)
+ta<-as_tibble(ta)
+time<-as_tibble(class_time)
+loc<-as_tibble(class_location)
+course_info<-bind_cols(prof,ta,time,loc) %>% rename("Instructor" ="value...1",
+                                                      "Teaching Assistant" ="value...2",
+                                                      "Class Day and Time" ="value...3",
+                                                      "Location" ="value...4"
+                                                      )
+```
+
+<!-- ***Abridged Version in the UF Course Catalog:***  -->
+
+# Course Overview
+
+\vspace{0.3cm}
+
+This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development.
+
+<!-- ***Longer, More Exciting Version:***  -->
+
+<!-- Tropical rain forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. Students in this class will investigate the same fundamental questions asked by researchers studying rain forests:  -->
+
+<!-- - Why are we fascinated by tropical rain forests? -->
+
+<!-- - What gave rise to their remarkable biodiversity? -->
+
+<!-- - How did 'jungle' stereotypes permeate everything from art to international relations? -->
+
+<!-- - What are the national and international drivers and consequences of deforestation? -->
+
+<!-- - Is forest conservation compatible with socioeconomic development? -->
+
+<!-- Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world. -->
+
+```{r profs_table, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
+course_info %>%
+  kbl(booktabs = T,
+      bottomrule = F,
+      # toprule = F,
+      # midrule = F,
+      escape= F,
+      format="latex",
+      align="llll",
+      col.names = NULL) %>%
+  kable_paper(full_width = F,
+              position = "left") %>%
+  kable_styling(latex_options = "HOLD_position") %>%
+  row_spec(1,bold=T,background="green", color = "white") %>%
+  column_spec(1,width = "10em", background="white", latex_valign = "m",color = "black") %>%
+  column_spec(2, width = "10em",latex_valign = "m", background = "white", color="black") %>%
+  column_spec(3, width = "12em",latex_valign = "m", background = "white", color="black") %>%
+  column_spec(4, width = "8em",latex_valign = "m", background = "white", color="black") %>%
+  sub("\\\\toprule", "", .) %>% # Removes top line
+  sub("\\\\bottomrule", "", .) # remove bottom line
+```
+
+## Course Goals
+
+\vspace{0.3cm}
+
+**By the end of the course students will be able to:**
+
+-   Recognize and describe stereotypes about rain forests & their residents
+-   Analyze rain forest tropes in art, literature, & popular culture
+-   Discuss & evaluate hypotheses for the origins and maintenance of tropical biodiversity
+-   Explain & compare human history in rain forests
+-   Review contemporary threats to rain forests
+-   Analyze and visualize data on deforestation
+-   Review and contrast strategies for rain forest conservation & restoration
+-   Identify rain forests in their daily lives & set personal goals for advancing their conservation
+-   Produce materials for communicating about rain forests to family and peers
+
+<!-- \vspace{-0.6cm}  -->
+
+```{r hummingbird, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" }
+knitr::include_graphics("./syllabus_sections/icons/hummingbird.png")
+# knitr::include_graphics("./icons/hummingbird.png")
+```
+
+<!-- \vspace{-0.9cm} -->
+
+## GenEd and Quest Information
+
+\vspace{0.3cm}
+
+**This course fulfills the following Quest and GenEd requirements:**
+
+-   Quest 2
+-   GenEd Biological Sciences
+-   GenEd International (N).
+
+A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U.
+
+
+
+<!-- , fig.margin=TRUE-->
+
+```{r gorilla, echo=FALSE, include=TRUE,fig.cap="Required Course Materials", out.width = '3%' , fig.align="left"}
+knitr::include_graphics("./syllabus_sections/icons/gorilla.png")
+# knitr::include_graphics("./icons/gorilla.png")
+```
+<!-- \vspace{-1cm} -->
+
+<!-- ## Required Course Materials & Supplies Fees -->
+
+<!-- \vspace{0.3cm} -->
+
+**Students are not required to purchase any textbooks or course materials;** all materials, including readings and videos, will be available on the course Canvas page. However, many of the assigned readings from the *New York Times* and *Washington Post* have dynamic multimedia data visualizations and video that can't be appreciated in the posted .pdf format. *Students in this class should sign up for free online access to the New York Times* and *Washington Post* by following the instructions at [this UF Libraries Website](https://businesslibrary.uflib.ufl.edu/c.php?g=943928&p=7708734).
+
+**Materials and Supplies Fees**: None.
+
+```{r beetle, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" }
+knitr::include_graphics("./syllabus_sections/icons/beetle.png")
+# knitr::include_graphics("./icons/beetle.png")
+```
+
+## Instructor and TA Office Hours
+
+\vspace{0.0cm}
+
+**Instructor**: Wednesday and Friday 10:30-11:45 am either in-person *(directions to lab below)* or via zoom *(link on class canvas page)*. You can drop by anytime during session *or* you can sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me). *If you can't make it one of those days, let me know and we will find a time that works for you.*
+
+**TA**: Wednesday and Friday 10:30 am - 12 noon via zoom *(link on class canvas page)* or in-person at the Tropical Ecology & Conservation Lab *(directions below)*.
+
+**Location:** The Tropical Ecology & Conservation Lab Lab *(aka the Rain Forest Cafe)* is located at 711 Newell Drive; for a map to the lab click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
+
+```{r palm, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" }
+knitr::include_graphics("./syllabus_sections/icons/palm.png")
+# knitr::include_graphics("./icons/palm.png")
+```
+
+# Assignments, Grades, & Course Policies
+
+<!-- ```{r graph, echo=FALSE, include=TRUE, warning=FALSE, out.width = '80%',fig.align="center" } -->
+
+<!-- # create a dataset -->
+
+<!-- semester <- c("Assignments") -->
+
+<!-- tasks <- c( -->
+
+<!--   "In-class\nActivities",  -->
+
+<!--   "Movie\nReview" , -->
+
+<!--   "Analytic\nEssay", -->
+
+<!--   "Reflective\nEssay", -->
+
+<!--   "Final\nProject" -->
+
+<!--   ) -->
+
+<!-- points <- c( -->
+
+<!--   400, -->
+
+<!--   100, -->
+
+<!--   150, -->
+
+<!--   150, -->
+
+<!--   200 -->
+
+<!--   ) -->
+
+<!-- data <- data.frame(semester,tasks,points) -->
+
+<!-- data<-as_tibble(data) %>%  -->
+
+<!--   mutate(tasks=as.factor(tasks), -->
+
+<!--          semester=as.factor(semester) -->
+
+<!--          ) %>%  -->
+
+<!--   arrange(points) %>%    # First sort by val. This sort the dataframe but NOT the factor levels -->
+
+<!--   mutate(tasks=factor(tasks, levels=tasks)) %>%  -->
+
+<!--   mutate(perc=round(points/sum(points)*100),2) %>%  -->
+
+<!--   mutate(barlabel=paste(tasks,points,sep="\n")) %>%  -->
+
+<!--   mutate(barlabel=paste(barlabel,"pts",sep=" ")) %>%  -->
+
+<!--   mutate(barlabel=paste(barlabel,"\n(", perc,"%)", sep=""))   -->
+
+<!-- # # Stacked + percent -->
+
+<!-- # ggplot(data, aes(fill=tasks, y=points, x=semester)) +  -->
+
+<!-- #   geom_bar(position="fill", stat="identity") -->
+
+<!-- # Stacked -->
+
+<!-- hw_plot<-ggplot(data,  -->
+
+<!--        aes(fill=tasks, label = barlabel, y=points, x=semester)) +  -->
+
+<!--   scale_colour_brewer(palette = "YlOrRd", direction = - 1) +  -->
+
+<!--   scale_fill_brewer(palette = "Paired", direction=-1)+ -->
+
+<!--   # scale_fill_viridis(discrete = T, option="D") + -->
+
+<!--   geom_bar(position="stack", stat="identity") + -->
+
+<!--   geom_text(size = 6, position = position_stack(vjust = 0.5),fontface="bold", color="white")+ -->
+
+<!--   coord_flip()+ -->
+
+<!--   # geom_col(width = 0.5)+ -->
+
+<!--   # annotate("text",  -->
+
+<!--   #          x=1.4,  -->
+
+<!--   #          y=3,  -->
+
+<!--   #          label= paste("Total course points:",sum(data$points),sep = " "), -->
+
+<!--   #          fontface="bold", -->
+
+<!--   #          size=8, -->
+
+<!--   #          color="white", -->
+
+<!--   #          hjust="left") +  -->
+
+<!--   # theme_classic()+ -->
+
+<!--   theme_void()+ -->
+
+<!--   # theme(plot.margin = unit(c(0,4,0,0), "pt")) + -->
+
+<!--   theme(legend.position="none") -->
+
+<!-- ggsave("./class_materials/syllabus/syllabus_sections/icons/hw.png", width = 30, height = 4, units="cm") -->
+
+<!-- ``` -->
+
+<!-- ```{r hw, echo=FALSE, include=TRUE,fig.cap="", out.width = '100%', fig.align="center" } -->
+
+<!-- # knitr::include_graphics("./syllabus_sections/icons/hw.png") -->
+
+<!-- knitr::include_graphics("./icons/hw.png") -->
+
+<!-- ``` -->
+
+<!-- \captionsetup[table]{labelformat=empty} -->
+
+<!-- \definecolor{darkmidnightblue}{HTML}{003366} -->
+
+<!-- \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}} -->
+
+\vspace{0.3cm}
+
+Learning in our class is achieved with an diverse array of methods ranging from data analysis to essays to projects. In most class sessions you will also be working with small groups of students to complete an in-class assignment that reinforces the major themes of the day's topic. In keeping with the philosophy of the Quest program, this course also has *Experiential Learning and Self-Reflection Components*. For details on the different types of assignments and the Quest Learning Components, see "Overview of Class Activities and Assignments" below.
+
+\vspace{0.3cm}
+
+```{r assign, echo=FALSE,message = FALSE,warning=FALSE}
+assignments <- read_csv("./assignments.csv") 
+
+df2<- c("","","",sum(assignments$Points)) 
+df2<-as.character(df2)
+df2[4]<-paste("TOTAL = ",df2[4],sep="")
+assignments <- rbind(assignments,df2)
+assignments <-assignments %>% select(-Due)
+
+# landscape()
+# assignments[5, 3]<-cell_spec(assignments[6, 3], "latex",  align="c")
+kable(assignments,
+      # digits = 2,
+      align="llc",
+      format="latex",
+      row.names = FALSE,
+      escape= F,
+      booktabs=T,
+      linesep = "",
+      # caption="Graded Coursework"
+      ) %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 8,
+                position = "center") %>% 
+  column_spec(1, width = "10em") %>%
+  column_spec(2, width = "18em") %>%
+  # column_spec(3, width = "5em") %>% 
+  column_spec(3, width = "6em") %>% 
+  row_spec(0,hline_after = F, bold=T) %>% 
+  row_spec(c(1:5),hline_after = T) %>% 
+  row_spec(6,bold=T) %>% 
+  add_indent(6) %>% 
+  kable_styling(latex_options = "HOLD_position")
+
+```
+
+## Attendance & Participation
+
+\vspace{0.3cm}
+
+***Attendance:*** Though attendance is not required, many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. 
+
+*Some of the in-class activities can not be completed outside of class time.* If you miss class on one one of these days, that is why the grade for in-class activities is based on a subset of the total activities; you can also elect to make up lost points with extra-credit assignments. *If you need to miss class for any reason, please let me know as soon as possible*. We will make arrangements for you to complete any assignments and go over any material you will be missing. I would much rather you focus on your health, attend your conference, or support friends and family in need than struggle to turn in assignments.
+
+***Participation:*** Consistent informed, thoughtful, and considerate class participation is encouraged (and in some cases required). *If you have personal issues that prohibit you from joining freely in class discussion (e.g., shyness, language barriers, medical condition): no problem.* let us know and we will discuss alternative modes of participation.
+
+***Important Note:*** We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
+
+***Grade Assignment*** (based on the % of the total possible points earned during the semester):
+\vspace{0.3cm}
+
+
+<!-- |               |               |               |               |          | -->
+<!-- |---------------|---------------|---------------|---------------|---------| -->
+<!-- | A  = 94--100% | B+ = 87--89%  | C+ = 77--79%  | D+ = 67--69%  | E < 60% | -->
+<!-- | A- = 90--93%  | B  = 84--86%  | C  = 74--76%  | D  = 64--66%  |         | -->
+<!-- |               | B- = 80--83%  | C- = 70--73%  | D- = 60--63%  |         | -->
+
+
+>A grades: A = 94--100%, A- = 90--93%  
+>B grades: B+ = 87--89%, B = 84--86%, B- = 80--83%   
+>C grades: C+ = 77--79%, C = 74--76%, C- = 70--73%  
+>D & E grades: D+ = 67--69%, D = 64--66%, D- = 60--63%, E < 60
+
+**_Regrades:_** Requests for re-evaluation of any quizzes, exams, or assignments will only be considered if accompanied by a letter explaining why you think you deserve additional credit and the number of additional points you think you deserve. The deadline for submitting these requests is one week after the work has been returned.
+
+**_Grade Points:_** For information on how UF assigns grade points, visit: 
+\newline
+<https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/
+
+```{r chainsaw, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" }
+knitr::include_graphics("./syllabus_sections/icons/chainsaw.png")
+# knitr::include_graphics("./icons/chainsaw.png")
+```
+
+# Semester Overview & Key Dates
+\vspace{0.0cm}
+<!-- \captionsetup[table]{labelformat=empty} -->
+
+<!-- ```{=tex} -->
+<!-- \definecolor{darkmidnightblue}{HTML}{003366} -->
+<!-- \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}} -->
+<!-- ``` -->
+
+```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
+calendar <- read_csv("./schedule.csv") %>% 
+    mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>% 
+  select(-X1,-Week1) %>% 
+  mutate(DATE=paste(Day,Month,sep="-")) %>% 
+  mutate(SESSION=as.character(SESSION)) %>% 
+  select(WEEK,SESSION,DATE,TOPIC, `ASSIGNMENT DISTRIBUTED or DUE`) %>% 
+  replace_na(list(DATE="",WEEK="",SESSION="", TOPIC="", `ASSIGNMENT DISTRIBUTED or DUE`="")) %>% 
+  rename(" "="SESSION") 
+  
+
+calendar$WEEK <- gsub("NA NA","", calendar$WEEK)
+calendar$DATE <- gsub("NA-NA","", calendar$DATE)
+calendar$WEEK <- gsub("NA Final Exam","", calendar$WEEK)
+calendar$WEEK <- gsub("Finals Week NA","Finals Week", calendar$WEEK)
+# names(calendar) <- c("","","")
+
+kable(calendar,
+      # digits = 2,
+      align="l",
+      format="latex",
+      row.names = FALSE,
+      escape= TRUE,
+      booktabs=T,
+      linesep = "",
+      # caption = "Semester Overview and Key Dates"
+      ) %>% 
+    kable_styling(font_size = 50) %>%
+    gsub("font-size: initial !important;", 
+         "font-size: 50pt !important;", 
+         .) %>% 
+   kable_styling(latex_options = "HOLD_position") %>% 
+   kable_classic_2(full_width = F,
+                # latex_options="scale_down",
+                font_size = 10,
+                position = "left") %>%
+  # column_spec(1, bold = F, border_right = T) %>%
+  # column_spec(2, width = "5em", background = "white",border_right = T) %>% 
+  pack_rows("WHY ARE WE FASCINATED BY TROPICAL RAIN FORESTS?", 1, 7) %>%
+  pack_rows("THE ECOLOGY & EVOLUTION OF TROPICAL RAIN FORESTS", 8, 22) %>%
+  pack_rows("THE DRIVERS AND IMPACTS OF DEFORESTATION", 23, 30) %>%
+  pack_rows("THE FUTURE OF TROPICAL RAIN FORESTS", 31, 48) %>%
+  # pack_rows("Finals Week", 49, 49) %>%
+  kable_styling(
+    bootstrap_options = c("hover"),
+                full_width = T,
+                latex_options= c("scale_down","HOLD_position"),
+                font_size = 8,
+                position = "left") %>% 
+  column_spec(1, width = "6em") %>%
+  column_spec(2, width = "1em") %>%
+  column_spec(3, width = "4em") %>%
+  column_spec(4, width = "23em") %>% 
+  column_spec(5, bold=T) %>% 
+  row_spec(0, bold=T) %>% 
+  row_spec(49, bold=T) 
+# %>% 
+#   add_header_above(c("Semester Overview & Key Dates" = 5), bold=T,color= '#003366')
+
+# column_spec(3, width = "15em") %>%
+# column_spec(4, width = "3em") %>%
+# row_spec(0,hline_after = F, bold=T) %>%
+# row_spec(c(1:2),hline_after = T)
+
+```
+
+

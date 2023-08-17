@@ -1,0 +1,66 @@
+---
+title: "Syllabus"
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+# output:
+#   pdf_document: default
+#   word_document: default
+github: embruna
+twitter: https://twitter.com/BrunaLab
+phone: "(352) 514-3935"
+web: www.BrunaLab.org
+email: embruna@ufl.edu
+geometry: margin=.75in
+fontsize: 11pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+site: bookdown::bookdown_site
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Syllabus, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{geometry}
+- \usepackage{caption}
+- \usepackage{xcolor}
+- \definecolor{green}{RGB}{0,102,0}
+- \definecolor{blue}{RGB}{0, 0, 139}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage[none]{hyphenat}
+- \usepackage{setspace}
+- \usepackage[document]{ragged2e}
+- \usepackage{graphicx}
+- \usepackage{sectsty}\allsectionsfont{\raggedright}
+- \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{titlesec}
+- \usepackage[export]{adjustbox}
+- \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \usepackage{floatrow}
+- \DeclareFloatSeparators{mysep}{\hskip-99em}
+  # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
+- \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
+output: pdf_document
+---
+
+\definecolor{darkmidnightblue}{HTML}{003366}
+\captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
+
+```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/readings.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd','./syllabus_sections/assignment_overview.Rmd')}
+```
+
+<!-- './syllabus_sections/course_outline.Rmd', -->
+<!-- # './syllabus_sections/quest.Rmd' -->
+
+
+<!-- ```{r, child=c('./syllabus_sections/course_outline.Rmd','./slo/sl_objectives.Rmd','./slo/slo_secondary.Rmd','./slo/sl_outcomes.Rmd','./slo/sl_outcomes_secondary.Rmd')} -->
+<!-- ``` -->
+
+
