@@ -1,0 +1,69 @@
+---
+title: "Untitled"
+author: "Emilio M. Bruna"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+In-class assignments
+
+1. Day 1 Survey (Y/N Grade)
+
+1. Text Analysis - Historical.
+
+1. Photo/Lit Analysis.
+
+1. TODO: Movie Trailer Analysis (put in context of reading).
+
+1. Comparison of LLP and Tropical Forest structure in videos.
+
+1. Geography Quiz Bowl  (Y/N Grade).
+
+1. STRI Plot Diversity/Abundance Data Analysis.
+
+1. iNaturalist Lat Div Gradient.
+
+1. FLMNH Photo Safari.
+
+1. TODO: Paradox of Luxuriance Day. Questions about the reading? PCE Violations?
+
+1. Rural/Urban Population Analysis.
+
+1. TODO: Narratives Revisited.
+
+1. Movie Bingo  (Y/N Grade).
+
+1. "What is a forest? (edit to revisit after discussion?")  (Y/N Grade).
+
+1. Deforestation Data Plots.
+
+1. Deforestation 1: Palm Oil Survey.
+
+1. Deforestation 2: draw the supply chain.
+
+1. Show your stripes  (Y/N Grade).
+
+1. En-roads Group Dashboard  (Y/N Grade).
+
+1. TODO: Consumer Choices.
+
+1. Durian Fest   (Y/N Grade).
+
+1. TODO: Int'l Frameworkds : Conservation Financing Sheets?
+
+1. TODO: Local Initaitives.
+
+1. TODO: Protected Areas (currently - list of protected areas visited in last 6 mos).
+
+1. Community Conservation Negotiation Game (Y/N Grade).
+
+1. TODO: Tropical Forests & Global Health.
+
+1. Q for Journalist  (Y/N Grade).
+
+1. Conservation Values Survey  (Y/N Grade).
+
+1. indigenous Groups/Languages Quiz
+
+1. (Relative) Species Diversity in Different Groups
+
+1. Palm Oil Stakeholder Analysis  (Y/N Grade)

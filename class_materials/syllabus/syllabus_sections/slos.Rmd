@@ -49,10 +49,11 @@ library(tidyverse)
 ```
 \newpage
 
+\newgeometry{left=0.5in,right=0.5in,top=0.8in,}
 # STUDENT LEARNING OBJECTIVES  
 ## B = Biological Sciences, Q2 = Quest 2
 
-
+\vspace{-0.5cm}
 
 ```{r slos1, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
 slo1a<- c("CONTENT")
@@ -213,7 +214,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 ```
 
 \end{minipage}
-
+\restoregeometry
 <!-- \newpage -->
 <!-- ![](.\gibbon.jpeg){#id .class width=20% height=20%} -->
 
