@@ -11,7 +11,7 @@ main:
     url: docs/instructor-info
     weight: 10
   - name: Syllabus
-    url: "https://ids2935.netlify.app/uploads/IDS2935_syllabus.pdf"
+    url: "syllabus_FutureOfRainForests_IDS2935.pdf"
     # url: docs/syllabus
     identifier: syllabus
     weight: 20
