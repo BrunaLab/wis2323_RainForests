@@ -28,11 +28,11 @@ header-includes:
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 # output: html_document
 output: pdf_document
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./static/uploads")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 
 ---
 
@@ -112,13 +112,10 @@ Sahan T. M. Dissanayake & Sarah A. Jacobson (2016) Policies with varying costs a
 
 \newpage
 ## Land Conservation Game: Decision and Earnings Worksheet
-\vspace{0.5cm} 
-### Name:________________________
-\vspace{1cm} 
-### My Agricultural Quality (Card Number):_______
-\vspace{1cm} 
-### My location (also circle in grid below):_________
-\vspace{1cm} 
+\vspace{0.25cm} 
+### Name: __________________________________________
+### My land's location (on the grid below):______
+### Agricultural Quality of my Land (No. on Card):_______
 ```{r table2, echo=FALSE,message = FALSE,warning=FALSE}
 number<-seq(1:5)
 A<-paste(rep("A",5),number,sep="")
@@ -135,6 +132,7 @@ K<-paste(rep("K",5),number,sep="")
 L<-paste(rep("L",5),number,sep="")
 
 A2<-data.frame(A,B,C,D,E,E2,G,H,I,J,K,L)
+
 # A2<-A2 %>% rename(
 #   # `Front Door`="A",
 #                   `Front of Class\nrow 6`="F"
@@ -144,15 +142,13 @@ A2<-data.frame(A,B,C,D,E,E2,G,H,I,J,K,L)
 #                   ) 
 
 kbl(A2, align = "c",
-    caption = "Classroom location of each plot of land.") %>%
+    caption = "Location in the classroom of each plot of land.",
+    col.names = NULL) %>%
   kable_paper(full_width = F) %>%
   kable_styling(latex_options = "HOLD_position") %>% 
     add_header_above(c("Front of Class" = 12))
 
 ```
-
-
-
 ```{r table3, echo=FALSE,message = FALSE,warning=FALSE}
 
 CP1<-seq(1:6)
@@ -170,17 +166,22 @@ ES<-c(rep("$    ",6))
 Earnings<-c(rep("$    ",6))
 # A3<-data.frame(CP1, ST,Bid,Choice,FI,CP2,ES,Earnings)
 A3<-data.frame(CP1, ST,Choice,FI,CP2,ES,Earnings)
+# total<-c("","","","","","TOTAL EARNINGS: $","")
+# total<-c("","","","","","","")
+# A3<-rbind(A3,total)
 
 A3<-A3 %>% rename(`Contract Period`=CP1,`Subsidy Type`=ST, `Farming Income`=FI,`Conserv. Payment`= CP2,`Ecosyst. Serv.`=ES)
 kbl(A3, align = "l",
     caption = "My decisions and earnings (fill in the table below as the contract periods progress):") %>%
   kable_paper(full_width = F) %>% 
-  column_spec(1, width = "1.7cm")%>%
+  column_spec(1, width = "2cm")%>%
   column_spec(2, width = "2cm")%>%
   column_spec(3:8, width = "1.7cm")%>%
-  kable_styling(latex_options = "HOLD_position")
+  kable_styling(latex_options = "HOLD_position") 
+# %>% 
+#   pack_rows("TOTAL", 7, 1) 
 
 ```
-\vspace{3cm} 
-**TOTAL EARNINGS: $_____________**
+<!-- \vspace{10cm} -->
+  > **TOTAL EARNINGS: $_____________**
 

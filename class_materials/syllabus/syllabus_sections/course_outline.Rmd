@@ -38,7 +38,7 @@ header-includes:
   - \usepackage{tabu}
   - \usepackage{wrapfig}
   - \usepackage[export]{adjustbox}
-  - \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\section}{0pt}{24pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
   - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
   - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
   - \usepackage{pdflscape}
@@ -58,6 +58,7 @@ output: pdf_document
 # weight: 5
     # df_print: paged
 ---
+\thispagestyle{empty}
 
 ```{r setup_syllabus, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -68,14 +69,19 @@ library(RColorBrewer)
 library(viridis)   
 ```
 
-# The Future of Rain Forests
+```{r banner, echo=FALSE, include=TRUE, out.width = '100%', fig.align="center"}
+knitr::include_graphics("./syllabus_sections/icons/banner.png")
+# knitr::include_graphics("./icons/hummingbird.png")
+```
 
-## IDS 2935 - Fall 2023
 
-\vspace{0.3cm}
+<!-- # The Future of Rain Forests -->
 
----
+<!-- ## IDS 2935 - Fall 2023 -->
 
+<!-- \vspace{0.3cm} -->
+
+<!-- --- -->
 ```{r course_info, echo=FALSE,message = FALSE,warning=FALSE}
 
 title<-c("The Future of Rain Forests (IDS2935")
@@ -87,12 +93,12 @@ class_loc<-c("FLG-0280 (T)","LIT-0237 (Th)")
 prof_name<-c("Dr. Emilio M. Bruna")
 prof_email<-c("embruna@ufl.edu")
 prof_phone<-c("(352) 846-0634")
-# prof_office<-c("Office: location")
+prof_office<-c("Office: TEC Lab, 711 Newell Dr.")
 
 ta_name<-c("Priyanka Hari Haran")
-ta_email<-c("priyanka email")
-ta_phone<-c("(352) 846-0634")
-# ta_office<-c("Office: location")
+ta_email<-c("phariharan1@ufl.edu")
+ta_phone<-c("(352) 846-0527")
+ta_office<-c("Office: TEC Lab, 711 Newell Dr.")
 
 
 prof<-c("Instructor",prof_name, prof_email, prof_phone)
@@ -131,6 +137,7 @@ course_info<-bind_cols(prof,ta,time,loc) %>% rename("Instructor" ="value...1",
 <!-- - Is forest conservation compatible with socioeconomic development? -->
 
 <!-- Because these questions and their answers are inherently multidisciplinary, the course will include content from the humanities, social sciences, and biophysical sciences. While the course focuses on tropical countries, a central theme of the course is exploring the individual, local, national, and global impacts of tropical rain forests in an increasingly interconnected world. -->
+\vspace{0.5cm}
 
 ```{r instructors, echo=FALSE,message = FALSE,warning=FALSE,fig.pos='H'}
 # course_info %>% select(-Location) %>% 
@@ -146,7 +153,7 @@ course_info %>%
   kable_paper(full_width = F,
               position = "left") %>%
   kable_styling(latex_options = "HOLD_position") %>%
-  row_spec(1,bold=T,background="green", color = "white") %>%
+  row_spec(1,bold=T,background="white", color = "darkmidnightblue") %>%
   column_spec(1,width = "10em", background="white", latex_valign = "m",color = "black") %>%
   column_spec(2, width = "10em",latex_valign = "m", background = "white", color="black") %>%
   column_spec(3, width = "11em",latex_valign = "m", background = "white", color="black") %>%
@@ -155,23 +162,17 @@ course_info %>%
   sub("\\\\bottomrule", "", .) # remove bottom line
 ```
 
+<!-- \vspace{-0.5cm} -->
+
+<!-- --- -->
+
 \vspace{-0.5cm}
 
----
-
-\vspace{-0.5cm}
-
-# Course Overview  
-
-\vspace{0.3cm}
-
-This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development.  
-
-<!-- ## Course Goals -->
+<!-- # Course Overview   -->
 
 <!-- \vspace{0.3cm} -->
 
-**By the end of the course students will be able to:**  
+This course investigates the fundamental issues addressed by scientists studying tropical rain forests, including what gave rise to their remarkable biodiversity, the drivers and consequences of deforestation, why people are fascinated by rain forests, cultural stereotypes about the tropics, and if forest conservation is compatible with socioeconomic development. ***By the end of the course students will be able to:***  
 
 -   Recognize and describe stereotypes about rain forests & their residents
 -   Analyze rain forest tropes in art, literature, & popular culture
@@ -222,26 +223,27 @@ knitr::include_graphics("./syllabus_sections/icons/gorilla.png")
 
 **Materials and Supplies Fees**: None.
 
+\newpage
 
 ```{r office_hours, echo=FALSE, include=TRUE,fig.cap="Instructor and TA Office Hours", out.width = '3%', fig.pos='h', fig.align="left" }
 knitr::include_graphics("./syllabus_sections/icons/beetle.png")
 # knitr::include_graphics("./icons/beetle.png")
 ```
 
-\vspace{-1.5cm}
+<!-- \vspace{-1.5cm} -->
 
 <!-- ## Instructor and TA Office Hours -->
 <!-- \vspace{-0.3cm} -->
 
 **Instructor:** Wednesday and Friday 10:30-11:45 am either in-person *(directions to lab below)* or via zoom *(link on class canvas page)*. You can drop by anytime during session *or* you can sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me). *If you can't make it one of those days, let me know and we will find a time that works for you.*
 
-**Teaching Assistant**: Monday and Tuesday 2:00 pm-3 pm via zoom or in-person.
+**Teaching Assistant**: Monday and Tuesday 2:00 pm-3:00 pm via zoom or in-person.
 
 **Location:** The Tropical Ecology & Conservation Lab Lab *(aka the Rain Forest Cafe)* is located at 711 Newell Drive; for a map to the lab click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
 
 --- 
 
-\vspace{-0.3cm}
+\vspace{-0.7cm}
 # Assignments, Grades, & Participation
 \vspace{0.3cm}
 Learning in our class is achieved with an diverse array of methods ranging from data analysis to essays to projects. In most class sessions you will also be working with small groups of students to complete an in-class assignment that reinforces the major themes of the day's topic. In keeping with the philosophy of the Quest program, this course also has *Experiential Learning and Self-Reflection Components*. For details on the different types of assignments and the Quest Learning Components, see course Canvas page.
@@ -257,7 +259,7 @@ knitr::include_graphics("./syllabus_sections/icons/vine.png")
 ```
 \vspace{-0.5cm}
 
-```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '100%',fig.align="center" }
+```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '92%',fig.align="center" }
 
 knitr::include_graphics("./syllabus_sections/icons/hw.png")
 ```
@@ -342,7 +344,7 @@ knitr::include_graphics("./syllabus_sections/icons/monkey.png")
 
 ***Important note regarding class discussions and group work:*** We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
 
-```{r ridges_image, echo=FALSE, include=TRUE, out.width = '85%', fig.align="center" }
+```{r ridges_image, echo=FALSE, include=TRUE, out.width = '95%', fig.align="center" }
 knitr::include_graphics("./syllabus_sections/icons/ridges.png")
 # knitr::include_graphics("./icons/ridges.png")
 ```

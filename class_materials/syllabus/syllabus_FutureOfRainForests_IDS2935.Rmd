@@ -40,14 +40,20 @@ header-includes:
 - \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
 - \usepackage{titlesec}
 - \usepackage[export]{adjustbox}
-- \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\section}{0pt}{24pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \usepackage{floatrow}
 - \DeclareFloatSeparators{mysep}{\hskip-94em}
+
   # - \floatsetup[figure]{capposition=beside,capbesideposition={left,top}}  
 - \floatsetup[figure]{capposition=beside,capbesidesep=mysep,capbesideposition={right, center}}
 output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 \definecolor{darkmidnightblue}{HTML}{003366}

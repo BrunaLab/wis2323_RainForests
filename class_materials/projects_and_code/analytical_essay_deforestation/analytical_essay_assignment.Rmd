@@ -63,10 +63,10 @@ library(kableExtra)
 *Submission:* Via Canvas  
 
 
-**Essay Topic: **Two of the countries with the most tropical forest within their borders are Brazil (BRA) and Indonesia (IDN). Consequently, considerable attention is paid to documenting trends in forest loss in these countries, as well as in trying to infer the internal and external factors - economic, social, political - that might be responsible for any changes in the rates of deforestation over time. **_Your assignment is to write an essay in which you:_**
+**Essay Topic: **Brazil and indonesia are two of the countries that have the most tropical forest within their borders. Consequently, considerable attention is paid to documenting trends in forest loss in these countries, as well as in trying to infer the internal and external factors - economic, social, political - that might be responsible for any changes in the rates of deforestation over time. **_Your assignment is to write an essay in which you:_**
 
 * Calculate and compare deforestation in BRA and IDN from 2001-2021, and 
-* Propose the factors responsible for the observed trends. Support your hypothesis with evidence from the scholarly literature and logival arguments.
+* Identify the factors responsible for the observed trends. Support your hypothesis with evidence from the scholarly literature and logival arguments.
 
 To complete your assignment, you will need to do the following:
 

@@ -61,11 +61,11 @@ library(tidyverse)
 ## **PROJECT OVERVIEW:**   
 The Final Project for this course is to review, synthesize, and communicate the things we have learned this semester in ways that to audiences outside of our classroom. Ample research has shown that visual media can have the significant impact on how effectively a message is communicated - appropriate, strategic, and creative visuals can inspire the audience, lend clarity to a message, and, in general, say things that words alone cannot. 
 
-For this project, use the concepts you’ve learned in this course to effectively apply visuals to a business-related message. Below, you will find just a few examples of how visuals can be utilized t   qo communicate a message in the business setting. Feel free to choose one of these examples, or select one that is not listed.
+
+<!-- Increasing awareness about issues for which there is the first step towards mobilizing social change. We will put aside whether or not there is indeed an "information deficit"    -->
 
 
-Increasing awareness about issues for which there is the first step towards mobilizing social change. We will put aside whether or not there is indeed an "information deficit"   
-So the awareness campaigns also need to point towards specific actions people can take to actually advance rain forest conservation.   
+<!-- So the awareness campaigns also need to point towards specific actions people can take to actually advance rain forest conservation.    -->
 **Your assignment is to develop materials to communicate information about rain forests with either (a) UF undergraduates or (b) members of your family.**<!-- https://ssir.org/articles/entry/stop_raising_awareness_already# -->
 
   * **Value: **200 Points
