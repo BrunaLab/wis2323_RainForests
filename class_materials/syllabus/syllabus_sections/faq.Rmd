@@ -2,7 +2,6 @@
 title: "faq"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-output: pdf_document
 github: embruna
 twitter: https://twitter.com/BrunaLab
 phone: "(352) 514-3935"
@@ -38,6 +37,8 @@ header-includes:
 web: www.BrunaLab.org
 # classoption:
 #  - twocolumn
+# output: html_document
+output: pdf_document
 ---
 
 ```{r setup_faq, include=FALSE}
@@ -87,7 +88,7 @@ t1<-c("\\textbf{I can give you ten}. \\textbf{(1)} To introduce yourself. \\text
 p2<- c("\\color{black}How will you send announcements to the class?")
 t2<-c("Canvas! Check the course Canvas page for announcements and be sure you are recieving Canvas emails and updates.")
 
-p3<- c("\\color{black}What works should we do \\textit{before} class?")
+p3<- c("\\color{black}What work should we do \\textit{before} class?")
 t3<-c("Read, watch, listen to, or review all materials assigned for the session. This material will set the stage for the in-class activities.")
 
 p4<- c("\\color{black}What will we do \\textit{during} class? \\newline When is 'in-class' work due?")
@@ -97,7 +98,7 @@ p6<- c('\\color{black}When is the "in-class" work due?')
 t6<-c("One week from the date it was assigned.")
 
 p7<- c("\\color{black}What if I miss class?")
-t7<-c("Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's only a subset of the in-class assignments count towards your grade and we offer extra credit.")
+t7<-c("Attendance is not required, but in many of the sessions we will be completing activities in class that count towards your grade. Most of these can be completed independently, but by doing them in class you will benefit from working collaboratively with the other students. Some of the in-class activities, however, can not be completed on your own. That's why only a subset of the in-class assignments count towards your grade and we offer extra credit.")
 
 p8<-c("\\color{black}I know I will miss class on a certain date. What should I do?")
 t8<-c("Let us know as soon as possible so we can make arrangements for you to review material you will miss and complete assignments.")
@@ -171,7 +172,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -210,7 +211,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -247,7 +248,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -286,7 +287,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -325,7 +326,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -364,7 +365,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 <!--     # toprule = F, -->
 <!--     # midrule = F, -->
 <!--     escape= F, -->
-<!--     format="latex", -->
+<!-- format="latex", -->
 <!--     align="cll", -->
 <!--     col.names = NULL) %>% -->
 <!-- kable_paper(full_width = F, font_size = 10) %>% -->
@@ -403,7 +404,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -441,7 +442,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -480,7 +481,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
@@ -519,7 +520,7 @@ kbl(booktabs = T,
     # toprule = F,
     # midrule = F,
     escape= F,
-    format="latex",
+format="latex",
     align="cll",
     col.names = NULL) %>%
 kable_paper(full_width = F, font_size = 10) %>%
