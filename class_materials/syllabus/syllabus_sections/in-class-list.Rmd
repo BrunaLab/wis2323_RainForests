@@ -1,69 +1,63 @@
 ---
-title: "Untitled"
+title: 'In-class Assignments'
 author: "Emilio M. Bruna"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.time(), '%Y')`"
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+site: bookdown::bookdown_site
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyfoot{}
+  - \usepackage[default]{sourcesanspro}
+  - \definecolor{blue}{RGB}{0, 0, 139}
+  - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+  - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+  - \AtBeginDocument{\let\maketitle\relax}
+  - \usepackage[none]{hyphenat}
+  - \usepackage[document]{ragged2e}
+  - \usepackage{sectsty}\allsectionsfont{\raggedright}
+  - \usepackage{sectsty}\sectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{sectsty}\subsectionfont{\centering\color{darkmidnightblue}}
+  - \usepackage{titlesec}
+  - \titlespacing{\section}{0pt}{22pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+  - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 output: pdf_document
 ---
+
 In-class assignments
 
 1. Day 1 Survey (Y/N Grade)
-
 1. Text Analysis - Historical.
-
 1. Photo/Lit Analysis.
-
 1. TODO: Movie Trailer Analysis (put in context of reading).
-
 1. Comparison of LLP and Tropical Forest structure in videos.
-
 1. Geography Quiz Bowl  (Y/N Grade).
-
 1. STRI Plot Diversity/Abundance Data Analysis.
-
 1. iNaturalist Lat Div Gradient.
-
 1. FLMNH Photo Safari.
-
 1. TODO: Paradox of Luxuriance Day. Questions about the reading? PCE Violations?
-
 1. Rural/Urban Population Analysis.
-
 1. TODO: Narratives Revisited.
-
 1. Movie Bingo  (Y/N Grade).
-
 1. "What is a forest? (edit to revisit after discussion?")  (Y/N Grade).
-
 1. Deforestation Data Plots.
-
 1. Deforestation 1: Palm Oil Survey.
-
 1. Deforestation 2: draw the supply chain.
-
 1. Show your stripes  (Y/N Grade).
-
 1. En-roads Group Dashboard  (Y/N Grade).
-
 1. TODO: Consumer Choices.
-
 1. Durian Fest   (Y/N Grade).
-
 1. TODO: Int'l Frameworkds : Conservation Financing Sheets?
-
 1. TODO: Local Initaitives.
-
 1. TODO: Protected Areas (currently - list of protected areas visited in last 6 mos).
-
 1. Community Conservation Negotiation Game (Y/N Grade).
-
 1. TODO: Tropical Forests & Global Health.
-
 1. Q for Journalist  (Y/N Grade).
-
 1. Conservation Values Survey  (Y/N Grade).
-
 1. indigenous Groups/Languages Quiz
-
 1. (Relative) Species Diversity in Different Groups
-
 1. Palm Oil Stakeholder Analysis  (Y/N Grade)
