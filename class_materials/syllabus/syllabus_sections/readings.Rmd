@@ -96,6 +96,8 @@ library(viridis)
 
 > ***Read:*** Excerpts from Historical Narratives [6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
 
+> ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon
+
 ### Wk 2-2 Rain Forest Imagery in Art & Literature
 
 \vspace{0.3cm}
@@ -116,13 +118,17 @@ library(viridis)
 
 > ***Read:*** Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)] (newspaper story, 5-10 min. read)
 
-### Wk 3-2 What is a Rain Forest?
+### Wk 3-2 What (and where) is a Rain Forest?
 
 \vspace{0.3cm}
 
 > *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
 
 > ***Watch:*** Why Does Earth Have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]; 2 min long]
+
+> ***Watch:*** Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. [Video/DVD] BBC Worldwide. Retrieved from https://video.alexanderstreet.com/watch/Jungles-2
+
+
 
 ## WEEK 4
 
@@ -164,11 +170,8 @@ library(viridis)
 
 > *Goal: To observe and catalog the diversity of plant and animal life forms that can be found in rain forests and review hypothesized mechanisms for the origins of tropical diversity.*
 
-> ***Watch:*** Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo), 4 min long].
+> ***Watch:*** Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. [Video/DVD] BBC Worldwide. Retrieved from https://video.alexanderstreet.com/watch/borneo-sacred-forest 
 
-> ***Watch:*** A slightly less dramatic video in which you can get a better idea of the flower's size: [[here](https://www.youtube.com/watch?v=0cGRujABwuQ), 3 min long]
-
-> ***Watch:*** Maybe this is the biggest flower: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI), 2 min long]
 
 ### Wk 5-2: Origins of Tropical Biodiversity
 
@@ -178,6 +181,13 @@ library(viridis)
 
 > ***Read:*** "Ch. 3: The Realm of Plants" from Kricher, J. C. (2017). The new neotropical companion. In The New Neotropical Companion. Princeton University Press. (18 pp).
 
+> ***Watch:*** An introduction to Army Ants: [[link to video](https://www.youtube.com/watch?v=p16g5IVCdeE), 9 min long].
+
+> ***Watch:*** See also this Army Ant Video by the BBC: [[link to video](https://www.youtube.com/watch?v=JsfiUR0ZzLw), 3 min long].
+
+> ***Watch:*** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM), 14 min long].
+
+
 ## WEEK 6
 
 ### Wk 6-1: Maintenance of Tropical Biodiversity
@@ -186,11 +196,11 @@ library(viridis)
 
 > *Goal: To review the biotic and abiotic mechanisms in tropical rain forests that permit the coexistence of so many species.*
 
-> ***Watch:*** An introduction to Army Ants: [[link to video](https://www.youtube.com/watch?v=p16g5IVCdeE), 9 min long].
+> ***Watch:*** Is this the biggest flower in the world? "BBC Earth: Corpse Flower Stinks of Death" [[link to video](https://www.youtube.com/watch?v=YxIpl38rsMo), 4 min long].
 
-> ***Watch:*** See also this Army Ant Video by the BBC: [[link to video](https://www.youtube.com/watch?v=JsfiUR0ZzLw), 3 min long].
+> ***Watch:*** A slightly less dramatic video in which you can get a better idea of the flower's size: [[here](https://www.youtube.com/watch?v=0cGRujABwuQ), 3 min long]
 
-> ***Watch:*** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM), 14 min long].
+> ***Watch:*** Maybe this is the biggest flower: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI), 2 min long]
 
 ### Wk 6-2: The Paradox of Luxuriance & Forest Disturbance
 
@@ -208,7 +218,8 @@ library(viridis)
 
 > *Goal: To understand the history of human occupation of rain forests including the contemporary demographic transition from rural to urban occupation; to review the different ways in which humans have historically modified rain forests and how this has shaped current rain forest biodiversity.*
 
-> ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
+> ***Watch:*** Kristine Allington, Michael Amundson, Linithd Aparicio, & Caitlin Saks (Producers), & Townsley, G. (Director). (2023). Ancient Builders of the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/ancient-builders-of-the-amazon 
+
 
 ### Wk 7-2 Narratives Revisited: Biology, History, Fiction, Reality
 
@@ -217,6 +228,9 @@ library(viridis)
 > ***Watch:*** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/), 50 min long].
 
 > ***Read:*** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read].
+
+> ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
+
 
 ## WEEK 8
 
@@ -383,6 +397,8 @@ library(viridis)
 \vspace{0.3cm}
 
 > *Goal: To learn about the relationship between deforestation and the emergence and spread of tropical diseases like Zika and Malaria from the tropics to other regions of the globe*.
+
+<!-- James Barrat, & Tangled Bank Studios (Producers), & Barrat, J. (Director). (2016). Spillover: Zika, Ebola and Beyond. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/spillover-zika-ebola-and-beyond -->
 
 > ***Read:*** Lavinas Picq, Manuela 2020. "Spreading Faith, and Disease". NY Times. [[read online](https://www.nytimes.com/2020/10/02/opinion/amazon-missionaries-tribes-disease.html), 15 min read].
 
