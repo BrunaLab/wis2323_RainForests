@@ -55,11 +55,30 @@ library(tidyverse)
 library(kableExtra)
 library(here)
 ```
+
+
+### UPDATE BASED ON CONVERSTION WITH ED SPECIALIST - UFL
+
+1. chose the two movies as either opposites (good depiction/bad depiction) or reinforcesrs (same tropes in different movies)
+1. Reviewing Trailers might be a good in class activity because they are short and will have many of the same elements
+1. Perhaps focus on a more limited set of tropes (10-15) and have them fill out for the entire movie (so people don't quit after getting the ten they need).
+1. untapped opportunity to preview future aspects of the course (e.g., ask questions as part of assignment such as 'how do does this make you feel about conservation", or "what biodiversity / types of species do you see (or hear)  in forests")
+1. She liked the idea of how quantifying how "trope-ey" the movies were. One possibility of a class activity afterwards would be to put movies on a gradient of trope-iness, perahps with some discussion about themovies we all saw and then students can place the one they chose to watch on a gradient. Maybe to get at this have people fill out a matrix in which they fill out some information about the movies (how they depict people, situations, the forest, etc). they can use the "ndex score" to rank their movies. In class the students can explain to the other styiudents why they put the movie they watched on the axis. 
+1. Check out Jigsaw technique as a possibility for in class work: https://www.jigsaw.org/
+1. No more "review" essay: instead make it short answer and in-class work. 
+
+
+
+
+
+
+
+
 # Tropical Tropes in Film 
 \vspace{0.5cm}
 ## Assignment Overview
 \vspace{0.3cm}
-Your assignment is to watch **three** films set in tropical rain forests and review how the rain forest setting is presented and advances the films' narrative. Your review should _not_ be a summary of the film and it's plot (i.e., a *descriptive review*) or an overall judgment of whether the film is "good" or "bad" (i.e.,  an *evaluative review*). **For each film need to do the following:** 
+Your assignment is to watch **three** films set in tropical rain forests and review how the rain forest setting is presented and advances the films' narrative. Your review should _not_ be a summary of the film and its plot (i.e., a *descriptive review*) or an overall judgment of whether the film is "good" or "bad" (i.e., an *evaluative review*). **For each film need to do the following:** 
 
 1. Document the tropes about rain forests used in each film (using the _Trope Checklist_)
 
