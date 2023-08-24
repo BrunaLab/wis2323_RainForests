@@ -8,11 +8,11 @@ title: Assignments
 type: book
 weight: 40
 ---
-In addition to in-class work, this course has four assigned projects.
+Evaluation in this course is based on the following:
 
-## In-Class Activities
+## In-Class Active Learning Activities
 ## Movie Reviews
-## Analytic Essay Deforestation 
-## Reflective Essay
-## Conservation Campaign
+## Analytic Essay: Rates and Drivers of Deforestation 
+## Reflective Essay: Climate Change
+## Final Group Project / Conservation Campaign 
 

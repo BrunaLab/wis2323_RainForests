@@ -2,7 +2,9 @@
 title: "faq"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-github: embruna
+output:
+  html_document:
+    df_print: paged
 twitter: https://twitter.com/BrunaLab
 phone: "(352) 514-3935"
 email: embruna@ufl.edu
@@ -35,10 +37,7 @@ header-includes:
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 web: www.BrunaLab.org
-# classoption:
-#  - twocolumn
-# output: html_document
-output: pdf_document
+github: embruna
 ---
 
 ```{r setup_faq, include=FALSE}

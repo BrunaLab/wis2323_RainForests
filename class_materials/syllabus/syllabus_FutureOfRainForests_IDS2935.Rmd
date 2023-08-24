@@ -60,7 +60,7 @@ knit: (function(inputFile, encoding) {
 \definecolor{darkmidnightblue}{HTML}{003366}
 \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
 
-```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/readings.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd')}
+```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd','./syllabus_sections/readings.Rmd')}
 ```
 
 <!-- ,'./syllabus_sections/assignment_overview.Rmd' -->

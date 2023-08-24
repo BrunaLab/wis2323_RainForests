@@ -88,7 +88,7 @@ title<-c("The Future of Rain Forests (IDS2935")
 year<-c("Fall Semester 2023")
 
 class_time<-c("Tuesdays 11:45-1:40 and","Thursdays 12:50-1:40")
-class_loc<-c("FLG-0280 (T)","LIT-0237 (Th)")
+class_loc<-c("CSE E231 (T)","LIT-0237 (Th)")
 
 prof_name<-c("Dr. Emilio M. Bruna")
 prof_email<-c("embruna@ufl.edu")
@@ -235,11 +235,15 @@ knitr::include_graphics("./syllabus_sections/icons/beetle.png")
 <!-- ## Instructor and TA Office Hours -->
 <!-- \vspace{-0.3cm} -->
 
-**Instructor:** Wednesday and Friday 10:30-11:45 am either in-person *(directions to lab below)* or via zoom *(link on class canvas page)*. You can drop by anytime during session *or* you can sign can up for a specific time slot in advance at [embruna.youcanbook.me](https://embruna.youcanbook.me). *If you can't make it one of those days, let me know and we will find a time that works for you.*
+**Instructor:** Wednesday & Friday 10:30-11:45 am (in-person & online). Drop by anytime or sign up for a specific time here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).
 
-**Teaching Assistant**: Monday and Tuesday 2:00 pm-3:00 pm via zoom or in-person.
+**Teaching Assistant:** Friday 1:30-3 pm (in-person & online).
 
-**Location:** The Tropical Ecology & Conservation Lab Lab *(aka the Rain Forest Cafe)* is located at 711 Newell Drive; for a map to the lab click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
+- ***Location - in-person:*** The Tropical Ecology & Conservation Lab is located next to the Rawlings Hall bus stop (711 Newell Drive; to find a map click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
+
+- ***Location - online:*** use the zoom link on the course Canvas page. We are online the entire session.
+  
+**If you can't make it these days/times:** Please let us know - we will find a time to meet that works for you.
 
 --- 
 
@@ -313,7 +317,7 @@ knitr::include_graphics("./syllabus_sections/icons/hw.png")
 <!-- >C grades: C+ = 77--79%, C = 74--76%, C- = 70--73%   -->
 <!-- >D & E grades: D+ = 67--69%, D = 64--66%, D- = 60--63%, E < 60 -->
 
-\vspace{0.3cm}
+<!-- \vspace{0.3cm} -->
 
 **_Grade Points:_** For information on how UF assigns grade points, visit: 
 \newline

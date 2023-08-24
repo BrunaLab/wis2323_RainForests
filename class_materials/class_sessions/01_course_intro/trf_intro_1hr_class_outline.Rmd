@@ -135,18 +135,18 @@ time_remain <- 50 - total_time
 * **Review the answers**  
 
 > 1. Main Ingredient: Cacao
-> 1. Primary producers 3 countries produce ~70% of world's Cacao  
->     #1. Ivory Coast:  ~2,200,000 metric tons (46%)  
->     #2. Ghana: ~820,000 metric tons (17%)  
->     #3. Ecuador ~370,000 metric tons (6%)
-> 1. World's leading consumer of cacao products: USA (797,000 tons in 2021)
-
+> 1. Primary producers 3 countries produce ~77% of world's Cacao.
+> 1. World's leading consumer of cacao products: USA (797,000 tons in 2021).
+> 1. *Update numbers [here.](https://www.statista.com/statistics/263855/cocoa-bean-production-worldwide-by-region/#:~:text=About%2070%20percent%20of%20the,the%20world%C2%B4s%20cocoa.)*
 
 * **Why Cacao?** Cacao is a perfect example of the challenges faced when considering the Future of Rain Forests  
 
-> 1. Hugely important crop at the macroeconomic (major national export for many countries, multibillion dollar industry) and microeconomic level (major source of family income)
-> 1. Threatened by climate change
-> 1. Increasing global demand has major consequences for rain forests  
+> 1. Hugely important crop at the macroeconomic (major national export for many countries, multibillion dollar industry) and microeconomic level (major source of family income). 
+> 1. Threatened by climate change.
+> 1. Increasing global demand has major consequences for rain forests, especially the US.
+> 1. US eats about three billion kilograms (6.6 bi lbs) of chocolate confectionery annually. Avg us consumer  eats about 9 kg of chocolate per year.
+> 1. *Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*
+
 
 * We're going to study these challenges and consider - and maybe even come up with - the potential soluctions to them.
 

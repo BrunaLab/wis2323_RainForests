@@ -96,7 +96,6 @@ library(viridis)
 
 > ***Read:*** Excerpts from Historical Narratives [6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
 
-> ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon
 
 ### Wk 2-2 Rain Forest Imagery in Art & Literature
 
@@ -231,6 +230,7 @@ library(viridis)
 
 > ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
 
+> ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon
 
 ## WEEK 8
 

@@ -35,6 +35,7 @@ header-includes:
 - \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 output: pdf_document
+# output: md_document
   # word_document: default
 # output: html_document
 # weight: 5
