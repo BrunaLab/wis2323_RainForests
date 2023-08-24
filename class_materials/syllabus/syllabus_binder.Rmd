@@ -52,6 +52,7 @@ header-includes:
 output: pdf_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile,
+  output_file = "syllabus_FutureOfRainForests_IDS2935.pdf",
   encoding = encoding,
   output_dir = "./static/uploads")
   })
@@ -60,7 +61,7 @@ knit: (function(inputFile, encoding) {
 \definecolor{darkmidnightblue}{HTML}{003366}
 \captionsetup{labelformat=empty,font={color=darkmidnightblue,bf,large}}
 
-```{r, child=c('./syllabus_sections/course_outline.Rmd','./syllabus_sections/faq.Rmd','./syllabus_sections/policies.Rmd','./syllabus_sections/slos.Rmd','./syllabus_sections/readings.Rmd')}
+```{r, child=c('./course_outline.Rmd','./faq.Rmd','./policies.Rmd','./slos.Rmd','./readings.Rmd')}
 ```
 
-<!-- ,'./syllabus_sections/assignment_overview.Rmd' -->
+<!-- ,'./assignment_overview.Rmd' -->

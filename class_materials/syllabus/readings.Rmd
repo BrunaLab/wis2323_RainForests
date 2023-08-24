@@ -529,6 +529,6 @@ library(viridis)
 <!-- 1. Palm Oil Stakeholder Analysis  (Y/N Grade) -->
 
 <!-- ```{r fire, echo=FALSE, include=TRUE,fig.cap="", out.width = '7%', fig.align="center" } -->
-<!-- knitr::include_graphics("./syllabus_sections/icons/fire.png") -->
+<!-- knitr::include_graphics("./icons/fire.png") -->
 <!-- # knitr::include_graphics("./icons/fire.png") -->
 <!-- ``` -->

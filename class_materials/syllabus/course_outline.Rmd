@@ -70,7 +70,7 @@ library(viridis)
 ```
 
 ```{r banner, echo=FALSE, include=TRUE, out.width = '100%', fig.align="center"}
-knitr::include_graphics("./syllabus_sections/icons/banner.png")
+knitr::include_graphics("./icons/banner.png")
 # knitr::include_graphics("./icons/hummingbird.png")
 ```
 
@@ -188,7 +188,7 @@ This course investigates the fundamental issues addressed by scientists studying
 \vspace{0.3cm}
 
 ```{r gened_details, echo=FALSE, include=TRUE,fig.cap="GenEd and Quest Information", out.width = '3%', fig.align="left"}
-knitr::include_graphics("./syllabus_sections/icons/hummingbird.png")
+knitr::include_graphics("./icons/hummingbird.png")
 # knitr::include_graphics("./icons/hummingbird.png")
 ```
 
@@ -213,7 +213,7 @@ A minimum grade of C is required for Quest and General Education credit. Courses
 <!-- , fig.margin=TRUE-->
 
 ```{r materials, echo=FALSE, include=TRUE,fig.cap="Required Course Materials   ", out.width = '3%' , fig.align="left"}
-knitr::include_graphics("./syllabus_sections/icons/gorilla.png")
+knitr::include_graphics("./icons/gorilla.png")
 # knitr::include_graphics("./icons/gorilla.png")
 ```
 \vspace{-0.3cm}
@@ -226,7 +226,7 @@ knitr::include_graphics("./syllabus_sections/icons/gorilla.png")
 \newpage
 
 ```{r office_hours, echo=FALSE, include=TRUE,fig.cap="Instructor and TA Office Hours", out.width = '3%', fig.pos='h', fig.align="left" }
-knitr::include_graphics("./syllabus_sections/icons/beetle.png")
+knitr::include_graphics("./icons/beetle.png")
 # knitr::include_graphics("./icons/beetle.png")
 ```
 
@@ -258,14 +258,14 @@ Learning in our class is achieved with an diverse array of methods ranging from 
 \vspace{0.1cm}
 
 ```{r grading, echo=FALSE, include=TRUE,fig.cap="Assignments (1000 points total)", out.width = '3%', fig.align="left" }
-knitr::include_graphics("./syllabus_sections/icons/vine.png")
+knitr::include_graphics("./icons/vine.png")
 # knitr::include_graphics("./icons/vine.png")
 ```
 \vspace{-0.5cm}
 
 ```{r graph2, echo=FALSE,message = FALSE,warning=FALSE, out.width = '85%',fig.align="center" }
 
-knitr::include_graphics("./syllabus_sections/icons/hw.png")
+knitr::include_graphics("./icons/hw.png")
 ```
 
 
@@ -324,13 +324,13 @@ knitr::include_graphics("./syllabus_sections/icons/hw.png")
 <https://catalog.ufl.edu/UGRD/academic-regulations/grades-grading-policies/
 
 <!-- ```{r chainsaw, echo=FALSE, include=TRUE,fig.cap="", out.width = '3%', fig.align="left" } -->
-<!-- knitr::include_graphics("./syllabus_sections/icons/chainsaw.png") -->
+<!-- knitr::include_graphics("./icons/chainsaw.png") -->
 <!-- # knitr::include_graphics("./icons/chainsaw.png") -->
 <!-- ``` -->
 
 
 ```{r attendance, echo=FALSE, include=TRUE,fig.cap="Attendance and Participation", out.width = '3%', fig.align="left" }
-knitr::include_graphics("./syllabus_sections/icons/monkey.png")
+knitr::include_graphics("./icons/monkey.png")
 # knitr::include_graphics("./icons/palm.png")
 ```
 
@@ -350,7 +350,7 @@ knitr::include_graphics("./syllabus_sections/icons/monkey.png")
 ***Important note regarding class discussions and group work:*** We will explore some challenging, important problems and increase our understandings of different perspectives and approaches for addressing them. These conversations may not always be easy; we sometimes will make mistakes in both how we communicate our perspective and what we hear other say. There may be times when we need patience, courage, imagination, and of course mutual respect to engage our texts, classmates, instructors, guests, and our own ideas and experiences. *Disrespectful or disruptive behavior will not be tolerated*. And always remember that as scholars we must employ critical thinking, rely on data, and cite verifiable sources and experts to interrogate all assigned readings and subject matter in this course as a means of determining if we agree with classmates and instructors. No lesson is intended to espouse, promote, advance, inculcate, or compel a particular feeling, perception, viewpoint or belief.
 
 ```{r ridges_image, echo=FALSE, include=TRUE, out.width = '95%', fig.align="center" }
-knitr::include_graphics("./syllabus_sections/icons/ridges.png")
+knitr::include_graphics("./icons/ridges.png")
 # knitr::include_graphics("./icons/ridges.png")
 ```
 

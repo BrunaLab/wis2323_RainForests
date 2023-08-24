@@ -1,4 +1,4 @@
-data <- read_csv("./class_materials/syllabus/syllabus_sections/assignments.csv") %>%
+data <- read_csv("./class_materials/syllabus/assignments.csv") %>%
 # data <- read_csv("./assignments.csv") %>%
   mutate(semester="Assignments") %>% 
   rename(tasks=Assignment) %>% 
@@ -54,4 +54,4 @@ ggplot(data,
   theme(plot.title = element_text(size = 22))+
   theme(plot.title = element_text(hjust = 0.5)) 
 
-ggsave("./class_materials/syllabus/syllabus_sections/icons/hw.png", width = 8, height = 4.5, units="in")
+ggsave("./class_materials/syllabus/icons/hw.png", width = 8, height = 4.5, units="in")

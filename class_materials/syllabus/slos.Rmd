@@ -79,7 +79,7 @@ slosc<-""
 slosd<-""
 slos <- data.frame(slosa,slosb,slosc,slosd)
 
-# class_policies <- read_csv("./class_materials/syllabus/syllabus_sections/policies.csv")
+# class_policies <- read_csv("./class_materials/syllabus/policies.csv")
 # insert  \n\n where you want line break, then run: 
 # slos$slosa <- linebreak(slos$slosa)
 # slos$slosb <- linebreak(slos$slosb)
@@ -226,7 +226,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 <!-- text <- c( -->
 <!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
 <!-- class_policies <- data.frame(policy, text) -->
-<!-- # class_policies <- read_csv("./class_materials/syllabus/syllabus_sections/policies.csv") -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/policies.csv") -->
 
 <!-- kable(class_policies, -->
 <!--       # digits = 2, -->
@@ -256,7 +256,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 <!-- text <- c( -->
 <!--   "Students with disabilities or learning barriers that would like to request academic accommodations should connect with the Disability Resource Center by visiting \\url{https://disability.ufl.edu/students/get-started/}. Please share your letter with me and discuss access needs as early as possible in the semester so that I can do whatever is necessary to ensure your participation and learning.") -->
 <!-- class_policies <- data.frame(policy, text) -->
-<!-- # class_policies <- read_csv("./class_materials/syllabus/syllabus_sections/policies.csv") -->
+<!-- # class_policies <- read_csv("./class_materials/syllabus/policies.csv") -->
 
 <!-- kable(class_policies, -->
 <!--       # digits = 2, -->

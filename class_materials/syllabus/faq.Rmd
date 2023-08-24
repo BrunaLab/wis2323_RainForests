@@ -65,7 +65,7 @@ library(kableExtra)
 
 
 <!-- ```{r hummer, echo=FALSE, include=TRUE,fig.cap="", out.width = '10%', fig.align="center" } -->
-<!-- # knitr::include_graphics("./syllabus_sections/icons/hummingbird.png") -->
+<!-- # knitr::include_graphics("./icons/hummingbird.png") -->
 <!-- knitr::include_graphics("./icons/hummingbird.png") -->
 <!-- ``` -->
 
@@ -125,15 +125,15 @@ t9<-c("UF does not have a policy on children in the classroom; the following is 
 # calendar-plus
 
 # icon<-c(
-#   "./syllabus_sections/icons/envelope-circle-check.png",
-#   "./syllabus_sections/icons/mug-saucer.png",
-# "./syllabus_sections/icons/bullhorn.png",
-# "./syllabus_sections/icons/house-user.png",
-# "./syllabus_sections/icons/person-chalkboard.png",
-# "./syllabus_sections/icons/volume-xmark.png",
-# "./syllabus_sections/icons/calendar-check.png",
-# "./syllabus_sections/icons/calendar-xmark.png",
-# "./syllabus_sections/icons/calendar-plus.png"
+#   "./icons/envelope-circle-check.png",
+#   "./icons/mug-saucer.png",
+# "./icons/bullhorn.png",
+# "./icons/house-user.png",
+# "./icons/person-chalkboard.png",
+# "./icons/volume-xmark.png",
+# "./icons/calendar-check.png",
+# "./icons/calendar-xmark.png",
+# "./icons/calendar-plus.png"
 # )
 # logo<-as.data.frame(icons)
 # logo<-c(icons,icons,icons)
@@ -161,7 +161,7 @@ t9<-c("UF does not have a policy on children in the classroom; the following is 
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/envelope-circle-check.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/envelope-circle-check.png}"),
 policy = p0,
 text=t0
 )
@@ -200,7 +200,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/mug-saucer.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/mug-saucer.png}"),
 policy = p1,
 text=t1
 )
@@ -237,7 +237,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-  logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/bullhorn.png}"),
+  logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/bullhorn.png}"),
 policy = p2,
 text=t2
 )
@@ -275,7 +275,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/house-user.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/house-user.png}"),
 policy = p3,
 text=t3
 )
@@ -314,7 +314,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/person-chalkboard.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/person-chalkboard.png}"),
 policy = p4,
 text=t4
 )
@@ -353,7 +353,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 <!-- # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output -->
 <!-- # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin -->
 <!-- tbl_img <- data.frame( -->
-<!-- logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/calendar-check.png}"), -->
+<!-- logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-check.png}"), -->
 <!-- policy = p6, -->
 <!-- text=t6 -->
 <!-- ) -->
@@ -392,7 +392,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/calendar-xmark.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-xmark.png}"),
 policy = p7,
 text=t7
 )
@@ -431,7 +431,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/calendar-plus.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/calendar-plus.png}"),
 policy = p8,
 text=t8
 )
@@ -469,7 +469,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/volume-xmark.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/volume-xmark.png}"),
 policy = p5,
 text=t5
 )
@@ -508,7 +508,7 @@ sub("\\\\bottomrule", "", .) # remove bottom line
 # https://stackoverflow.com/questions/64919240/align-text-and-images-in-a-table-pdf-output
 # https://tex.stackexchange.com/questions/397708/package-xkeyval-error-valign-undefined-in-families-gin
 tbl_img <- data.frame(
-logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./syllabus_sections/icons/person-breastfeeding-wt.png}"),
+logo = c("\\includegraphics[valign=T,scale=.4,raise=6mm]{./icons/person-breastfeeding-wt.png}"),
 policy=p9,
 text=t9
 )

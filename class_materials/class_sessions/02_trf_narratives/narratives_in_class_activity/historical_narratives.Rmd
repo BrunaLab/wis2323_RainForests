@@ -34,11 +34,11 @@ output:
 editor_options: 
   markdown: 
     wrap: 72
-# knit: (function(inputFile, encoding) {
-#   rmarkdown::render(inputFile,
-#   encoding = encoding,
-#   output_dir = "./static/uploads")
-#   })
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
 ---
 
 <!-- UPDATES TO MAKE: Add links to the public repositories of these texts on google books, etc. so people can find the original texts and images -->
