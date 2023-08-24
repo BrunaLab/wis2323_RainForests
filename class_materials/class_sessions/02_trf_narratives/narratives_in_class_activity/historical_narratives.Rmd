@@ -34,11 +34,11 @@ output:
 editor_options: 
   markdown: 
     wrap: 72
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile,
-  encoding = encoding,
-  output_dir = "./static/uploads")
-  })
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
 ---
 
 <!-- UPDATES TO MAKE: Add links to the public repositories of these texts on google books, etc. so people can find the original texts and images -->
@@ -67,7 +67,10 @@ knitr::opts_chunk$set(echo = TRUE)
 # Historical Narratives & Travelogues (Text & Images)
 
 \vspace{0.3cm}
-### ITEM 1: Passage from *The Travels of Marco Polo* by Rustichello da Pisa (c. 1300)  
+
+--- 
+
+### TEXT 1: Passage from *The Travels of Marco Polo* by Rustichello da Pisa (c. 1300)  
 \vspace{0.2cm}  
 _Marco Polo (September 15, 1254 -- January 8, 1324) was a Venetian merchant who
 traveled through Asia between 1271 and 1295. The published account of his 
@@ -236,73 +239,9 @@ quiet, and fond of an easy life. Many come hither from Upper India to
 have their bodies painted with the needle in the way we have elsewhere 
 described, there being many adepts at this craft in the city. -->
 
-<!-- \newpage -->
-\vspace{3cm}
-### ITEM 2: *Left Side of King Cochin* by Hans Burgkmair (from his *Set of Exotic Races*, 1508)  
-\vspace{0.2cm}
+--- 
 
-_Hans Burgkmair the Elder (1473-1531) was a German painter. The Kingdom of 
-Cochin was a late medieval coastal kingdom in Southern India. King Unni 
-Goda Varma of Cochin welcomed Pedro Álvares Cabral on 24 December 1500 and 
-negotiated a treaty of alliance with Portugal._
-
-![](./texts_images/paintings/burgkmair.jpeg){height=70%}
-
-<!-- \newpage -->
-<!-- ### ITEM 3: General and Natural History of the Indies Gonzalo Fernández de Oviedo y Valdés (1526)   -->
-
-<!-- \vspace{0.2cm}  -->
-
-<!-- *Gonzalo Fernández de Oviedo y Valdés (1478 -- 1557) participated in the 
-Spanish colonization of the West Indies, arriving in the first few years 
-after Christopher Columbus.*   -->
-
-<!-- > Wonderful are the works of God, and very different in genres the 
-animated things in various provinces and parts of the world, thus in 
-their species and forms, as in its greatness and proportion, and in 
-its effects and particularities: and in such a way, that none of the 
-land animals, or fish and animals of the water, you can not finish 
-writing or knowing by human diligence, nor have the lives of the men 
-who have occupied themselves in this, to say it all, nor will there be 
-a lack of things to notice to all those who are alive or come after us" -->
-
-<!-- <<THIS PASSAGE WAS TOUGH TO UNDERSTAND, SEE IF YOU CAN FIND A BETTER ONE>> -->
-\newpage
-### ITEM 3: Engravings by Theodore de Bry from his *Collected travels in the east Indies and west Indies* (1594)  
-\vspace{0.2cm}  
-*Theodor de Bry (1528 – 1598) was an engraver, goldsmith, editor and 
-publisher, famous for his depictions of early European expeditions to the 
-Americas. Most of his [illustrations] were based on first-hand observations 
-by explorers, even if De Bry himself, acting as a recorder of information, 
-never visited the Americas.* 
-
-<!-- ![](./texts_images/paintings/debry2.jpeg){height=70%} -->
-
-
-> ![](./texts_images/paintings/debry3.jpeg){width=70%}
-
-<!-- More on de Bry [here](https://smarthistory.org/engravings-theodore-de-bry/) -->
-
-<!-- \newpage -->
-<!-- ### ITEM 4: Cristóbal de Acuña, [*A relation of the great river of 
-Amazons in South-America. : Containing all the particulars of Father 
-Christopher d'Acugna's voyage, made at the command of the king of Spain.*]
-(https://www.loc.gov/resource/rbc0001.2019gen09583/?sp=77&clip=135,64,1441,2203&ciw=296&rot=0) (1597). -->
-                                                                                                                    
-
-<!-- *Cristóbal Diatristán de Acuña (1597-c. 1676) was a Spanish missionary and 
-explorer. In 1639 he accompanied Pedro Teixeira in his second exploration of 
-the Amazon, in order to take scientific observations, and draw up a report 
-for the Spanish government. * -->
-
-<!-- <!-- ![Acuna Text No 1](./texts_images/acuna/acuna5.png)\ -->
-<!-- ![Acuna Text No 2](./texts_images/acuna/acuna1.png){height=70%}!
-[Acuna Text No 3](./texts_images/acuna/acuna2.png){height=70%} -->
-<!-- ![Acuna Text No 4](./texts_images/acuna/acuna3.png){height=70%}!
-[Acuna Text No 5](./texts_images/acuna/acuna4.png){height=70%} -->
-
-\newpage
-### ITEM 4: Walter Raleigh, [*The discovery of the large, rich, and beautiful Empire of Guiana, with a relation of the great and golden city of Manoa (which the Spaniards call El Dorado)*](https://www.gutenberg.org/files/2272/2272-h/2272-h.htm) (c. 1620). 
+### TEXT 2: Passage from Walter Raleigh's [*"The discovery of the large, rich, and beautiful Empire of Guiana, with a relation of the great and golden city of Manoa (which the Spaniards call El Dorado)"*; written c. 1620.](https://www.gutenberg.org/files/2272/2272-h/2272-h.htm). 
 \vspace{0.2cm}
 _Sir Walter Raleigh (c. 1552–1618) was one of the most important 
 figures of the Elizabethan era and played a key role in English 
@@ -345,91 +284,9 @@ any one, nor had one ill-disposed to my knowledge; nor found any
 calentura or other of those pestilent diseases which dwell in all hot
 regions, and so near the equinoctial line.
 
-<!-- ### ITEM 5: Walter Raleigh, [*History of the World*]
-(https://www.google.com/books/edition/The_history_of_the_world/FwUMAQAAMAAJ?hl=en&gbpv=0) (1614) -->
+--- 
 
-<!-- > SECT. VIII: Of their opinion that seat paradise under the equinoctial: 
-and of the pleasant habitation under those climates. -->
-
-<!-- > Those which come nearer unto reason find paradise under the  
-equinoctial line, as Tertullian, Bonaventure, and Durandus; judging,  
-that thereunder might be found most pleasure, and the greatest  
-fertility of soil: but against it "Thomas Aquinas objecteth the  
-distemperate heat, which he supposeth to be in all places so directly  
-under the sun; but this is non causa pro causa; for although paradise  
-could not be under the line, because Eden is far from it, in which  
-paradise was; and because there is no part of Euphrates, 'Tigris, or  
-Ganges under it, (Ganges being one of the four rivers, as they  
-suppose,) yet this conceit of distemper (being but an old opinion) is  
-found to be very untrue, though for the conjecture not to be  
-condemned, considering the age when those fathers wrote, grounded  
-chiefly on this: that whereas it appeared, that every country, as it  
-lay by degrees nearer the tropic, and so toward the equinoctial, did  
-so much the more exceed in heat; it was therefore a reasonable  
-conjecture, that those countries which were situated directly under  
-it, were of a distemper uninhabitable: but it seemeth that Tertullian  
-conceived better, and so did Avicenne, for they both thought them  
-habitable enough: and though (perchance) in those days it might be  
-thought a fantastical opinion, (as all are which go against the  
-vulgar) yet we now find, that if there be any place upon the earth of  
-that nature, beauty, and delight, that paradise had, the same must be  
-found within that supposed uninhabitable burnt zone, or within the  
-tropics, and nearest to the line itself. For hereof experience hath  
-informed reason, and time hath made those things apparent which were  
-hidden, and could not by any contemplation be discovered. Indeed it  
-hath so pleased God to provide for all living creatures, wherewith he  
-hath filled the world, that such inconveniences which we contemplate  
-afar off, are found by trial and the witness of men's travels to be so  
-qualified, as there is no portion of the earth made in vain, or as a  
-fruitless lump to fashion out the rest. For °God himself; saith  
-Isaiah, that formed the earth and made it; he that prepared it, he  
-created it not in vain, he formed it to be inhabited. Now we find that  
-these hottest regions of the world seated under the equinoctial line,  
-or near it, are so refreshed with a daily gale of easterly wind,  
-(which the Spaniards call the Brize,) that doth evermore blow  
-strongest in the heat of the day, as the downright beams of the sun  
-cannot so much master it, that there is any inconvenience or  
-distemperate heat found thereby. -->
-
-<!-- > Secondly, the nights are so cold, 
-fresh, and equal, by reason of the entire interposition of the earth, 
-as (for those places which myself have seen, near the line and under 
-it) I know no other part of the world of better, or equal temper; only 
-there are some tracts, which by accident of high mountains are barred 
-from this air and fresh wind, and some few sandy parts without trees, 
-which are not therefore so well inhabited as the rest ; and such 
-difference of soils we find also in all other parts of the world. But 
-(for the greatest part) those regions have so many goodly rivers, 
-fountains, and little brooks, abundance of high cedars, and other 
-stately trees casting shade, so many sorts of delicate fruits, ever 
-bearing, and at all times beautified with blossom and fruit, both 
-green and ripe, as it may of all other parts be best compared to the 
-paradise of Eden: the boughs and branches are never unclothed and left 
-naked; their sap creepeth not under ground into the root, fearing the 
-injury of the frost; neither doth Pomona at any times despise her 
-withered husband Vertumnus, in his winterquarters and old age. 
-Therefore are these countries called terre vitiose, "vicious 
-countries" for nature being liberal to all without labour, necessity 
-imposing no industry or travel, idleness bringeth forth no other 
-fruits than vain thoughts or lisencious pleasures.  -->
-
-<!-- > So that to conclude this part, Tertullian and those of his opinion were 
-not deceived in the nature of the place: but Aquinas, who misliked this opinion,
-and followed a worse. And (to say the truth) all the schoolmen were gross 
-in this particular. -->
-
-
-<!-- <<THIS IS AS FAR AS WE GOT IN CLASS. EITHER FIND SHORTER ONES 
-ABOVE OR DELETE THE ONES BELOW>> -->
-
-
-<!-- ![Raleigh](./texts_images/raleigh/raleigh3.png){height=50%}   -->
-
-<!-- ![Raleigh](./texts_images/raleigh/raleigh1.png){height=50%}   -->
-
-<!-- ![Raleigh](./texts_images/raleigh/raleigh2.png){height=50%}   -->
-\newpage
-### ITEM 5: Captain James Cook, [*CAPTAIN COOK'S JOURNAL DURING HIS FIRST VOYAGE ROUND THE WORLD MADE IN H.M. BARK "ENDEAVOUR" (1768-71) A Literal Transcription of the Original MSS. with notes and introdution edited by Capt. W.J.L. Wharton, R.N., F.R.S. Hydrographer of the Admiralty.*](https://www.gutenberg.org/files/8106/8106-h/8106-h.htm)  
+### TEXT 3: Passage from: [*CAPTAIN COOK'S JOURNAL DURING HIS FIRST VOYAGE ROUND THE WORLD MADE IN H.M. BARK "ENDEAVOUR" (1768-71): A Literal Transcription of the Original MSS. with notes and introduction edited by Capt. W.J.L. Wharton, R.N., F.R.S. Hydrographer of the Admiralty.*](https://www.gutenberg.org/files/8106/8106-h/8106-h.htm).
 
 \vspace{0.2cm}
 
@@ -482,40 +339,9 @@ rapidly disappearing.)
 
 > ^1^_New Holland was the name given to what is today known as Australia_
 
-<!-- ### ITEM 6: Text and Images from Prince Maximilian zu Wied's *Travels to Brazil, 1820* -->
-<!-- \vspace{0.2cm} -->
-<!-- *Prince Alexander Philipp Maximilian zu Wied-Neuwied (1782–1867) was a 
-German explorer and naturalist. From 1815–1817 he led an expedition to the 
-southeast of Brazil.* -->
+--- 
 
-<!-- > *Puris in their Hut*: When our first curiousity was satisfied," writes 
-the Prince (p. 118), "we requested the savages to conduct us to their huts... 
-They are certainly some of the most simple in the world...small and so exposed 
-on every side, that when the weather is unfavourable the brown inmates are seen 
-seeking protection against it by crowding close round the fire...: at other 
-times the man lies stretched at his ease in his hammock, while the woman 
-attends the fire, and broils meat, which is stuck on a pointed stick. -->
-
-<!-- > *Opening of the New Road along the Mucuri:* As the rivers afford the 
-means of the most speedy communication, it has been resolved to make these 
-roads along them.   -->
-
-<!-- > *A Family of Botocudos on a Journey:* The sight of the Botocudos 
-astonished us beyond all expression; we had never before seen such strange and 
-singularly ugly beings. Their original countenances were farther disfigured by 
-large pieces of wood which they wore in their lower lips and in their ears: the 
-lip is thus made to project very much, and the ears of some of them hang like 
-large wings down to their shoulders. -->
-
-<!-- ![Puris in their Hut](./texts_images/paintings/maximillian1.jpeg){height=40%}   -->
-
-<!-- ![Opening of the New Road along the Mucuri](./texts_images/paintings/maximillian2.jpeg){height=40%} -->
-
-<!-- ![A Family of Botocudos on a Journey](./texts_images/paintings/maximillian3.jpeg){height=40%}   -->
-
-<!-- \newpage -->
-\newpage
-### ITEM 6: Henry Morton Stanley, [*Through the Dark Continent Or The Sources of the Nile Around the Great Lakes of Equatorial Africa and Down the Livingstone River to the Atlantic Ocean*]((https://www.google.com/books/edition/Through_the_Dark_Continent_Or_The_Source/UMHjwSzNAJsC?hl=en&gbpv=1)) (1879)
+### TEXT 4: Passage from Henry Morton Stanley's [*Through the Dark Continent Or The Sources of the Nile Around the Great Lakes of Equatorial Africa and Down the Livingstone River to the Atlantic Ocean.*, published 1879.]((https://www.google.com/books/edition/Through_the_Dark_Continent_Or_The_Source/UMHjwSzNAJsC?hl=en&gbpv=1))
 \vspace{0.2cm}
 
 _Stanley was a Welsh-American explorer and journalist famous for exploring 
@@ -578,7 +404,6 @@ sense of danger is always present, and pervades ouir minds whether in
 our sleeping or our waking hours.
 
 <!-- ![Henry Morton Stanley (1872).](./texts_images/stanley/Henry_Morton_Stanley_1.jpeg){height=40%}  -->
-
 
 <!-- ![Stanley](./texts_images/stanley/stanley1.png){height=50%}  -->
 
@@ -693,3 +518,203 @@ Indians." Op. cit. , Vol. I, p. 361 . 117
 <!-- ![alt text here](./texts_images/zahm/zahm3.png){height=50%}  -->
 
 <!-- ![alt text here](./texts_images/zahm/zahm4.png){height=50%} --> 
+
+--- 
+
+\newpage
+
+### IMAGE 1: Hans Burgkmair
+\vspace{0.2cm}
+
+_Hans Burgkmair the Elder (1473-1531) was a German painter. The Kingdom of 
+Cochin was a late medieval coastal kingdom in Southern India. King Unni 
+Goda Varma of Cochin welcomed Pedro Álvares Cabral on 24 December 1500 and 
+negotiated a treaty of alliance with Portugal._
+
+```{r Burgkmair, echo=FALSE, fig.cap="\\textit{Left Side of King Cochin} by Hans Burgkmair (from his \\textit{Set of Exotic Races}, 1508)", out.width = '100%', fig.align="center"}
+knitr::include_graphics("./texts_images/paintings/burgkmair.jpeg")
+```
+
+<!-- ![](./texts_images/paintings/burgkmair.jpeg){height=70%} -->
+
+\newpage
+
+### IMAGE 2: Theodore de Bry
+\vspace{0.2cm}  
+*Theodor de Bry (1528 – 1598) was an engraver, goldsmith, editor and 
+publisher, famous for his depictions of early European expeditions to the 
+Americas. Most of his [illustrations] were based on first-hand observations 
+by explorers, even if De Bry himself, acting as a recorder of information, 
+never visited the Americas.* 
+
+<!-- ![](./texts_images/paintings/debry2.jpeg){height=70%} -->
+
+```{r deBry, echo=FALSE, fig.cap="Illustration from Theodor de Bry's \\textit{Collected travels in the east Indies and west Indies} (1594).", out.width = '60%', fig.align="center"}
+knitr::include_graphics("./texts_images/paintings/debry3.jpeg")
+```
+<!-- > ![](./texts_images/paintings/debry3.jpeg){width=70%} -->
+
+
+
+<!-- \newpage -->
+<!-- ### ITEM 3: General and Natural History of the Indies Gonzalo Fernández de Oviedo y Valdés (1526)   -->
+
+<!-- \vspace{0.2cm}  -->
+
+<!-- *Gonzalo Fernández de Oviedo y Valdés (1478 -- 1557) participated in the 
+Spanish colonization of the West Indies, arriving in the first few years 
+after Christopher Columbus.*   -->
+
+<!-- > Wonderful are the works of God, and very different in genres the 
+animated things in various provinces and parts of the world, thus in 
+their species and forms, as in its greatness and proportion, and in 
+its effects and particularities: and in such a way, that none of the 
+land animals, or fish and animals of the water, you can not finish 
+writing or knowing by human diligence, nor have the lives of the men 
+who have occupied themselves in this, to say it all, nor will there be 
+a lack of things to notice to all those who are alive or come after us" -->
+
+<!-- <<THIS PASSAGE WAS TOUGH TO UNDERSTAND, SEE IF YOU CAN FIND A BETTER ONE>> -->
+<!-- \newpage -->
+
+<!-- More on de Bry [here](https://smarthistory.org/engravings-theodore-de-bry/) -->
+
+<!-- \newpage -->
+<!-- ### ITEM 4: Cristóbal de Acuña, [*A relation of the great river of 
+Amazons in South-America. : Containing all the particulars of Father 
+Christopher d'Acugna's voyage, made at the command of the king of Spain.*]
+(https://www.loc.gov/resource/rbc0001.2019gen09583/?sp=77&clip=135,64,1441,2203&ciw=296&rot=0) (1597). -->
+                                                                                                                    
+
+<!-- *Cristóbal Diatristán de Acuña (1597-c. 1676) was a Spanish missionary and 
+explorer. In 1639 he accompanied Pedro Teixeira in his second exploration of 
+the Amazon, in order to take scientific observations, and draw up a report 
+for the Spanish government. * -->
+
+<!-- <!-- ![Acuna Text No 1](./texts_images/acuna/acuna5.png)\ -->
+<!-- ![Acuna Text No 2](./texts_images/acuna/acuna1.png){height=70%}!
+[Acuna Text No 3](./texts_images/acuna/acuna2.png){height=70%} -->
+<!-- ![Acuna Text No 4](./texts_images/acuna/acuna3.png){height=70%}!
+[Acuna Text No 5](./texts_images/acuna/acuna4.png){height=70%} -->
+
+
+<!-- ### ITEM 5: Walter Raleigh, [*History of the World*]
+(https://www.google.com/books/edition/The_history_of_the_world/FwUMAQAAMAAJ?hl=en&gbpv=0) (1614) -->
+
+<!-- > SECT. VIII: Of their opinion that seat paradise under the equinoctial: 
+and of the pleasant habitation under those climates. -->
+
+<!-- > Those which come nearer unto reason find paradise under the  
+equinoctial line, as Tertullian, Bonaventure, and Durandus; judging,  
+that thereunder might be found most pleasure, and the greatest  
+fertility of soil: but against it "Thomas Aquinas objecteth the  
+distemperate heat, which he supposeth to be in all places so directly  
+under the sun; but this is non causa pro causa; for although paradise  
+could not be under the line, because Eden is far from it, in which  
+paradise was; and because there is no part of Euphrates, 'Tigris, or  
+Ganges under it, (Ganges being one of the four rivers, as they  
+suppose,) yet this conceit of distemper (being but an old opinion) is  
+found to be very untrue, though for the conjecture not to be  
+condemned, considering the age when those fathers wrote, grounded  
+chiefly on this: that whereas it appeared, that every country, as it  
+lay by degrees nearer the tropic, and so toward the equinoctial, did  
+so much the more exceed in heat; it was therefore a reasonable  
+conjecture, that those countries which were situated directly under  
+it, were of a distemper uninhabitable: but it seemeth that Tertullian  
+conceived better, and so did Avicenne, for they both thought them  
+habitable enough: and though (perchance) in those days it might be  
+thought a fantastical opinion, (as all are which go against the  
+vulgar) yet we now find, that if there be any place upon the earth of  
+that nature, beauty, and delight, that paradise had, the same must be  
+found within that supposed uninhabitable burnt zone, or within the  
+tropics, and nearest to the line itself. For hereof experience hath  
+informed reason, and time hath made those things apparent which were  
+hidden, and could not by any contemplation be discovered. Indeed it  
+hath so pleased God to provide for all living creatures, wherewith he  
+hath filled the world, that such inconveniences which we contemplate  
+afar off, are found by trial and the witness of men's travels to be so  
+qualified, as there is no portion of the earth made in vain, or as a  
+fruitless lump to fashion out the rest. For °God himself; saith  
+Isaiah, that formed the earth and made it; he that prepared it, he  
+created it not in vain, he formed it to be inhabited. Now we find that  
+these hottest regions of the world seated under the equinoctial line,  
+or near it, are so refreshed with a daily gale of easterly wind,  
+(which the Spaniards call the Brize,) that doth evermore blow  
+strongest in the heat of the day, as the downright beams of the sun  
+cannot so much master it, that there is any inconvenience or  
+distemperate heat found thereby. -->
+
+<!-- > Secondly, the nights are so cold, 
+fresh, and equal, by reason of the entire interposition of the earth, 
+as (for those places which myself have seen, near the line and under 
+it) I know no other part of the world of better, or equal temper; only 
+there are some tracts, which by accident of high mountains are barred 
+from this air and fresh wind, and some few sandy parts without trees, 
+which are not therefore so well inhabited as the rest ; and such 
+difference of soils we find also in all other parts of the world. But 
+(for the greatest part) those regions have so many goodly rivers, 
+fountains, and little brooks, abundance of high cedars, and other 
+stately trees casting shade, so many sorts of delicate fruits, ever 
+bearing, and at all times beautified with blossom and fruit, both 
+green and ripe, as it may of all other parts be best compared to the 
+paradise of Eden: the boughs and branches are never unclothed and left 
+naked; their sap creepeth not under ground into the root, fearing the 
+injury of the frost; neither doth Pomona at any times despise her 
+withered husband Vertumnus, in his winterquarters and old age. 
+Therefore are these countries called terre vitiose, "vicious 
+countries" for nature being liberal to all without labour, necessity 
+imposing no industry or travel, idleness bringeth forth no other 
+fruits than vain thoughts or lisencious pleasures.  -->
+
+<!-- > So that to conclude this part, Tertullian and those of his opinion were 
+not deceived in the nature of the place: but Aquinas, who misliked this opinion,
+and followed a worse. And (to say the truth) all the schoolmen were gross 
+in this particular. -->
+
+
+<!-- <<THIS IS AS FAR AS WE GOT IN CLASS. EITHER FIND SHORTER ONES 
+ABOVE OR DELETE THE ONES BELOW>> -->
+
+
+<!-- ![Raleigh](./texts_images/raleigh/raleigh3.png){height=50%}   -->
+
+<!-- ![Raleigh](./texts_images/raleigh/raleigh1.png){height=50%}   -->
+
+<!-- ![Raleigh](./texts_images/raleigh/raleigh2.png){height=50%}   -->
+<!-- \newpage -->
+
+
+
+<!-- ### ITEM 6: Text and Images from Prince Maximilian zu Wied's *Travels to Brazil, 1820* -->
+<!-- \vspace{0.2cm} -->
+<!-- *Prince Alexander Philipp Maximilian zu Wied-Neuwied (1782–1867) was a
+German explorer and naturalist. From 1815–1817 he led an expedition to the
+southeast of Brazil.* -->
+
+<!-- > *Puris in their Hut*: When our first curiousity was satisfied," writes
+the Prince (p. 118), "we requested the savages to conduct us to their huts...
+They are certainly some of the most simple in the world...small and so exposed
+on every side, that when the weather is unfavourable the brown inmates are seen
+seeking protection against it by crowding close round the fire...: at other
+times the man lies stretched at his ease in his hammock, while the woman
+attends the fire, and broils meat, which is stuck on a pointed stick. -->
+
+<!-- > *Opening of the New Road along the Mucuri:* As the rivers afford the
+means of the most speedy communication, it has been resolved to make these
+roads along them.   -->
+
+<!-- > *A Family of Botocudos on a Journey:* The sight of the Botocudos
+astonished us beyond all expression; we had never before seen such strange and
+singularly ugly beings. Their original countenances were farther disfigured by
+large pieces of wood which they wore in their lower lips and in their ears: the
+lip is thus made to project very much, and the ears of some of them hang like
+large wings down to their shoulders. -->
+
+<!-- ![Puris in their Hut](./texts_images/paintings/maximillian1.jpeg){height=40%}   -->
+
+<!-- ![Opening of the New Road along the Mucuri](./texts_images/paintings/maximillian2.jpeg){height=40%} -->
+
+<!-- ![A Family of Botocudos on a Journey](./texts_images/paintings/maximillian3.jpeg){height=40%}   -->
+
+<!-- \newpage -->
+

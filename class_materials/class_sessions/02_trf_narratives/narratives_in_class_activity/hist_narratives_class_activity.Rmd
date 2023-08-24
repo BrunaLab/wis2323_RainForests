@@ -53,27 +53,31 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Historical Narratives and the Depiction of Tropical Rain Forests and People    
 \vspace{0.3cm}
 
-Whether or not you realize it, every time you reads a passage of text you are breaking it apart into its unique elements - words - and then analyzing the words and their arrangement into sentences to infer what the author hopes to convey. This interpretation will be shaped in part by your experiences, the cultural environment in which you were raised, and the sociopolitical moment in which they are read.  
+Whether or not we realize it, when we read a passage of text we are breaking it apart into its unique elements - words - and then processing the individual words (or groups of words) to infer what the author is intending to communicate. The conclusions we draw from this inference are shaped in part by our individual experiences and environment (economic status, education, cultural background, identity), and the sociopolitical moment in which they are read.  
 
-As readers we usually do this *"Text Analysis"* subconsciously, but we can also step back and do it explicitly: we can extract keywords from the text and analyze them to draw conclusions about the messages conveyed by an author's choices. For instance, we can analyze if the words used in a passage have meanings that are typically "positive", "negative", or "neutral", and from that conclude what a reader of a passage would conclude about the subject matter This is called *Sentiment Analysis*
+As readers we usually do this *"Text Analysis"* subconsciously, but we can also step back and do it explicitly: we can extract key words or phrases from a passage, characterize features of these words (e.g., their objective meaning, the subjective emotional response they evoke in a reader), and use this information to infer how the author's choice of language could influence a reader's conclusions. For instance, we can analyze if the words used in a passage have meanings that are typically "positive", "negative", or "neutral", and from that conclude what a reader of a passage would conclude about the subject matter. This research method is known as   *Sentiment Analysis*.
 
-**You will be doing some simple Sentiment Analysis on reports written by some of the first Europeans to travel through (_i.e._, 'explore') tropical rain forests.** We will then use your results to collectively identify the major themes these historical reports established about tropical forests and the people that lived there. In future sessions, we will attempt to determine if these themes are reflected in over 500 years of cultural expression ranging from poetry to comic books _(spoiler alert: they are)_.
+**You and your colleagues will be doing some simple Sentiment Analysis on reports written by some of the first Europeans to travel through (_i.e._, 'explore') tropical rain forests.** We will then use your results to collectively identify the major themes these historical reports established about tropical forests and the people that lived there. In future sessions, we will attempt to determine if these themes are reflected in over 500 years of cultural expression ranging from poetry to comic books _(spoiler alert: they are)_.
 
 ### Instructions - Part 1 (Do on your own, bring to the next session)  
 
-1. Download the .pdf file of historical texts and images: [[link to file](https://ids2935.netlify.app/uploads/historical_narratives.pdf)] and the spreadsheet for recording data [[link to download](https://ids2935.netlify.app/uploads/narrative_score_sheet.xlsx)].
+1. Download the .pdf file of historical texts and images: [[link to file](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]. 
 
-1. Read (or examine) each text or image. As you do so, mark or note especially powerful descriptions of places, people, or behavior. 
 
-1. Enter these words or phrases into this spreadsheet. Be sure to note from which text they came (Item1, Item2, etc.)
+1. As you read each text, highlight especially powerful descriptions of places, people, or the author's feelings about what they were experiencing.  Try to highlight just individual words or short phrases, not the entire sentence.
 
-1. Assign each of these words/phrases a score based on if they are 'positive (+1)', 'negative (-1)', or 'neutral (0)'.
+1. In the margin next to the highlighted word or phrase, write either '+1' (if the meaning it conveys is positive) or '-1)' (if the meaning it conveys is negative).
 
-1. Upload the spreadsheet with the words/phrases and their scores to Canvas when finished
+1. At the bottom of the passage record the sum of these scores (e.g., for a passage with phrases assigned scores of '+1/+1/-1/-1/-1/-1/+1/-1' you would write down 'Total: -2'
 
+1. Now look at the examples of some of the drawings that were included in these texts. What sentiment do they evoke? Do they reinforce the conclusions drawn from the text? Assign each of these images a score from '-5' (strongly negative) to '+5' (strongly positive).
+
+**BRING YOUR ANNOTATED TEXTS TO CLASS**. In class you will have the opportunity to compare your conclusions with those of other students, so _bring your marked texts and come prepared to discuss them with your group._ 
+
+***Note***: *you can annotate either a paper copy or the pdf, but you may find it easier to discuss with your group if you did the annotations on a printed copy.*
 
 <!-- Were there any words or phrases whole group agreed on? Any that you disagreed on? -->
-when back from group", EB has each sentence on screen and then records how many groups had that as +1,-1,) 
+<!-- when back from group", EB has each sentence on screen and then records how many groups had that as +1,-1,)  -->
    
 <!-- 5. Sometimes the things _left out_ by the author are as informative as the things they _did_ say. Can you infer anything from what *wasn't* said? -->
 
