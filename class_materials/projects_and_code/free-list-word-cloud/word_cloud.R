@@ -21,7 +21,7 @@ library("tidyverse")
 library(stopwords)
 
 
-words<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2023/Book1.csv") %>% 
+words_2023<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2023.csv") %>% 
   mutate(words=tolower(words)) %>% 
   mutate(words=gsub("south/central america", "central america, south america", words, fixed = TRUE)) %>% 
   mutate(words=gsub("rain/humidity", "rain, humidity", words, fixed = TRUE)) %>% 
@@ -79,23 +79,16 @@ words<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2023/B
     word == "toucan" ~ "toucans",
     TRUE ~ word)) 
   
-
-# write_csv(word, "./class_materials/free-list-word-cloud/2022/cleanwords_2022.csv")
-write_csv(words, "./class_materials/projects_and_code/free-list-word-cloud/2022/cleanwords_2023.csv")
-
-
-# 
-# 
-# 
-wordcloud <- words %>% 
+wordcloud <- words_2023 %>% 
   mutate(word=str_to_title(word)) %>% 
   mutate(word=gsub(" ", "", word, fixed = TRUE)) 
   
 
-unique1<- wordcloud %>% summarize(n_distinct(word))
-unique_2023<-as_tibble(unique(wordcloud$word))
-# write_csv(unique_2022, "./class_materials/projects_and_code/free-list-word-cloud/2022/unique_cleanwords_2022.csv")
+# count of unique words
+wordcloud %>% summarize(n_distinct(word))
 
+# tibble of unique words
+as_tibble(unique(wordcloud$word))
 
 # text<-tolower(wordcloud$word)
 text<-wordcloud$word
@@ -135,23 +128,15 @@ set.seed(1234)
 wc_fig<-wordcloud(words = d$word,
                   freq = d$freq,
                   min.freq = 1,
-                  max.words = 290,
-                  random.order = FALSE,
+                  max.words = 290, # Set top n words
+                  random.order = FALSE, # Words in decreasing freq
                   random.color=FALSE,
                   # rot.per = 0.35,
-                  # scale=c(3,1),
-                  rot.per = 0,
+                  # scale=c(3,1),  # Set min and max scale
+                  rot.per = 0, # % of vertical words
                   fixed.asp = T,
+                  # use.r.layout=TRUE, # Use C++ collision detection
                   colors = brewer.pal(8, "BrBG"))
 
-
-
-wordcloud(words = d$word,
-          scale=c(5,0.5),     # Set min and max scale
-          max.words=100,      # Set top n words
-          random.order=FALSE, # Words in decreasing freq
-          # , rot.per=0.35       # % of vertical words
-          use.r.layout=FALSE, # Use C++ collision detection
-          colors=brewer.pal(8, "Dark2"))
 
 dev.off()
