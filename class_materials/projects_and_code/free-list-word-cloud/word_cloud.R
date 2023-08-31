@@ -21,66 +21,100 @@ library("tidyverse")
 library(stopwords)
 
 
-word<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2022/words_2022.csv") %>% 
-# word<-read_csv("./2022/words_2022.csv") %>% 
+words<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2023/Book1.csv") %>% 
+  mutate(words=tolower(words)) %>% 
+  mutate(words=gsub("south/central america", "central america, south america", words, fixed = TRUE)) %>% 
+  mutate(words=gsub("rain/humidity", "rain, humidity", words, fixed = TRUE)) %>% 
+  mutate(words=gsub("unique animals/plants", "unique animals, unique plants", words, fixed = TRUE)) %>% 
+  mutate(words=gsub("green/fresh", "green, fresh", words, fixed = TRUE)) %>% 
   separate(words,c(letters[seq(1:8)]),sep=",") %>% 
   pivot_longer(everything(),
                names_to = "word",) %>% 
   select(-word) %>% 
   rename(word=value) %>% 
-  mutate(word=tolower(word)) %>% 
   mutate(word=trimws(word)) %>% 
-  mutate(word=gsub('\\', "", word, fixed = TRUE)) %>% 
+  # mutate(word=gsub('\\', "", word, fixed = TRUE)) %>% 
   arrange(word) %>% 
   drop_na() %>% 
-  mutate(word=as.factor(word))
-
+  mutate(word=as.factor(word)) %>% 
+  mutate(word = case_when(
+    word == "amazone" ~ "amazon",
+    word == "the amazon" ~ "amazon",
+    word == "forg" ~ "frogs",
+    word == "poison dart frog" ~ "poison dart frogs",
+    word == "humid\\" ~ "humid",
+    word == "rainy\\" ~ "rain",
+    word == "lush\\" ~ "lush",
+    word == "lushes" ~ "lush",
+    word == "and wet" ~ "wet",
+    word == "earth lungs" ~ "lungs of the world",
+    word == "and wet" ~ "wet",
+    word == "a lot of rain" ~ "rain",
+    word == "raindrops" ~ "rain",
+    word == "constant rain" ~ "rain",
+    word == "high rainfall" ~ "rain",
+    word == "rainfall" ~ "rain",
+    word == "heavy rains" ~ "rain",
+    word == "rainy" ~ "rain",
+    word == "animal life" ~ "animals",
+    word == "beauty" ~ "beautiful",
+    word == "biodiverse" ~ "(bio)diversity",
+    word == "forests" ~ "forest",
+    word == "diverse" ~ "(bio)diversity",
+    word == "diversity" ~ "(bio)diversity",
+    word == "biodiversity" ~ "(bio)diversity",
+    word == "heat" ~ "hot",
+    word == "humidity" ~ "humid",
+    word == "lots of noises" ~ "noisy",
+    word == "plant life" ~ "plant life",
+    word == "monkey" ~ "monkeys",
+    word == "monkeys swinging from trees" ~ "monkeys",
+    word == "places of high diversity" ~ "(bio)diversity",
+    word == "rio- the movie" ~ "the movie 'rio'",
+    word == "tall trees and plants" ~ "tall trees",
+    word == "tree" ~ "trees",
+    word == "treefrogs" ~ "tree frogs",
+    word == "vital to ecosystems" ~ "vital",
+    word == "waterfall" ~ "waterfalls",
+    word == "toucan" ~ "toucans",
+    TRUE ~ word)) 
+  
 
 # write_csv(word, "./class_materials/free-list-word-cloud/2022/cleanwords_2022.csv")
-write_csv(word, "./class_materials/projects_and_code/free-list-word-cloud/2022/cleanwords_2022.csv")
+write_csv(words, "./class_materials/projects_and_code/free-list-word-cloud/2022/cleanwords_2023.csv")
 
 
+# 
+# 
+# 
+wordcloud <- words %>% 
+  mutate(word=str_to_title(word)) %>% 
+  mutate(word=gsub(" ", "", word, fixed = TRUE)) 
+  
+
+unique1<- wordcloud %>% summarize(n_distinct(word))
+unique_2023<-as_tibble(unique(wordcloud$word))
+# write_csv(unique_2022, "./class_materials/projects_and_code/free-list-word-cloud/2022/unique_cleanwords_2022.csv")
 
 
-
-wordcloud<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2022/post_openrefine_words_2022.csv") %>%
-# wordcloud<-read_csv("./2022/post_openrefine_words_2022.csv") %>%
-  select(word2) %>% 
-  mutate(word2=gsub(" ",".",word2)) %>% 
-  arrange() %>% 
-  mutate(word2 = case_when(
-    word2 == "big/tall.trees" ~ "large.trees",
-    word2 == "cats/big.animals" ~ "big.animals",
-    word2 == "threatened.by.humans/industry" ~ "threatened",
-    word2 == "the.amazon" ~ "amazon",
-    TRUE ~ word2
-  )) %>% 
-  add_row(word2 = "cats")
-
-
-
-unique1<- wordcloud %>% summarize(n_distinct(word2))
-unique_2022<-as_tibble(unique(wordcloud$word2))
-write_csv(unique_2022, "./class_materials/projects_and_code/free-list-word-cloud/2022/unique_cleanwords_2022.csv")
-
-
-text<-tolower(wordcloud$word2)
+# text<-tolower(wordcloud$word)
+text<-wordcloud$word
 docs = Corpus(VectorSource(text))   
 
 # Convert the text to lower case
-docs = tm_map(docs, 
-              content_transformer(tolower))
-
+# docs = tm_map(docs, 
+#               content_transformer(tolower))
+# 
 
 # Remove numbers
-docs = tm_map(docs, removeNumbers)
+# docs = tm_map(docs, removeNumbers)
 
 # Remove white spaces
 docs = tm_map(docs, stripWhitespace)
 
 
 
-dtm = TermDocumentMatrix(docs)
+dtm = TermDocumentMatrix(docs, control=list(removePunctuation=T, tolower=F, stopwords=T))
 
 m = as.matrix(dtm)
 v = sort(rowSums(m), decreasing = TRUE)
@@ -92,154 +126,32 @@ document_tm_clean <- removeSparseTerms(dtm, 0.8)
 document_tm_clean_mat <- as.matrix(document_tm_clean)
 
 
-# # Graph 3: commonality word cloud : first top 2000 common words across classes
-# png("#103_commonality_wordcloud.png", width = 480, height = 480)
-# commonality.cloud(document_tm_clean_mat, max.words=200, random.order=FALSE)
-# dev.off()
 
-dev.new(width = 1000, height = 1000, unit = "px")
+# dev.new(width = 1000, height = 1000, unit = "px")
+
+
+set.seed(1234)
+
 wc_fig<-wordcloud(words = d$word,
                   freq = d$freq,
                   min.freq = 1,
-                  max.words = 200,
+                  max.words = 290,
                   random.order = FALSE,
                   random.color=FALSE,
                   # rot.per = 0.35,
-                  # scale=c(4,.5),
+                  # scale=c(3,1),
                   rot.per = 0,
-                  colors = brewer.pal(8, "Spectral"))
-# colors = brewer.pal(8, "Dark2"))
-Word Cloud - Week 1, unique words: `r unique1`
-
-
-```{r setup2, include = FALSE,include = FALSE, echo = FALSE, message = FALSE, warning = FALSE}
-
-
-# word<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2022/words_final_2022.csv") %>% 
-word<-read_csv("./2022/words_final_2022.csv") %>% 
-  select(word=9) %>% 
-  rename("words"=1) %>% 
-  separate(words,c(letters[seq(1:8)]),sep=",") %>% 
-  # select(words) %>% 
-  pivot_longer(everything(),
-               names_to = "word",) %>% 
-  select(-word) %>% 
-  rename(word=value) %>% 
-  mutate(word=tolower(word)) %>% 
-  mutate(word=trimws(word)) %>% 
-  mutate(word=gsub('\\', "", word, fixed = TRUE)) %>% 
-  arrange(word) %>% 
-  drop_na() 
-
-
-word$word<-gsub("biodiverse" , "biodiversity",word$word)
-word$word<-gsub("canopies" , "canopy",word$word)
-word$word<-gsub("canopies of large trees" , "canopy",word$word)
-word$word<-gsub("carbon sinks" , "carbon sink",word$word)
-word$word<-gsub("cattle ranches" , "cattle ranching",word$word)
-word$word<-gsub("deforestation- losing them" , "deforestation",word$word)
-word$word<-gsub("diverse wildlife" , "biodiversity",word$word)
-word$word<-gsub("diverse" , "biodiversity",word$word)
-word$word<-gsub("exploitation" , "exploited",word$word)
-word$word<-gsub("high biodiversity" , "biodiversity",word$word)
-word$word<-gsub("importance" , "important",word$word)
-word$word<-gsub("indigenous" , "indigenous people",word$word)
-word$word<-gsub("\"blood monkey\"" , "Blood Monkey",word$word)
-word$word<-gsub("natives" , "indigenous people",word$word)
-word$word<-gsub("palm oil and beef" , "palm oil",word$word)
-word$word<-gsub("palm oil and beef" , "beef",word$word)
-word$word<-gsub("rich in species" , "biodiversity",word$word)
-word$word<-gsub("rich" , "biodiversity",word$word)
-word$word<-gsub("richness" , "biodiversity",word$word)
-word$word<-gsub("tucan" , "toucan",word$word)
-word$word<-gsub("wet and rainy" , "rainy",word$word)
-word$word<-gsub("biodiversity" , "(bio)diversity",word$word)
-
-word<-word %>% 
-  mutate(word = case_when(
-    word == "diversity" ~ "(bio)diversity",
-    word == "(bio)diversityness" ~ "(bio)diversity",
-    TRUE ~ word
-  )) %>% 
-  add_row(word = "wet")
+                  fixed.asp = T,
+                  colors = brewer.pal(8, "BrBG"))
 
 
 
-# write_csv(word, "./class_materials/projects_and_code/free-list-word-cloud/2022/cleanwords_2022_edited.csv")
-write_csv(word, "./2022/cleanwords_final_2022_edited.csv")
-```
+wordcloud(words = d$word,
+          scale=c(5,0.5),     # Set min and max scale
+          max.words=100,      # Set top n words
+          random.order=FALSE, # Words in decreasing freq
+          # , rot.per=0.35       # % of vertical words
+          use.r.layout=FALSE, # Use C++ collision detection
+          colors=brewer.pal(8, "Dark2"))
 
-
-```{r cleanup3,include = FALSE, echo = FALSE, message = FALSE, warning = FALSE}
-# wordcloud<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/2022/cleanwords_final_2022_edited.csv") %>%
-wordcloud<-read_csv("./2022/cleanwords_final_2022_edited.csv") %>%
-  select(word) %>% 
-  mutate(word=gsub(" ",".",word)) %>% 
-  arrange()
-unique2<- wordcloud %>% summarize(n_distinct(word))
-
-```
-
-
-
-
-
-
-
-<!-- text = readLines(file.choose()) -->
-  ```{r fig2,echo = FALSE, message = FALSE, warning = FALSE}
-
-text<-tolower(wordcloud$word)
-docs = Corpus(VectorSource(text))   
-
-# Convert the text to lower case
-docs = tm_map(docs, 
-              content_transformer(tolower))
-
-
-# Remove numbers
-docs = tm_map(docs, removeNumbers)
-
-# Remove white spaces
-docs = tm_map(docs, stripWhitespace)
-
-
-
-dtm = TermDocumentMatrix(docs)
-
-m = as.matrix(dtm)
-v = sort(rowSums(m), decreasing = TRUE)
-d = data.frame(word = names(v), freq = v)
-head(d, 10)
-
-
-document_tm_clean <- removeSparseTerms(dtm, 0.8)
-document_tm_clean_mat <- as.matrix(document_tm_clean)
-
-
-# # Graph 3: commonality word cloud : first top 2000 common words across classes
-# png("#103_commonality_wordcloud.png", width = 480, height = 480)
-# commonality.cloud(document_tm_clean_mat, max.words=200, random.order=FALSE)
-# dev.off()
-
-
-wc_fig_final<-wordcloud(words = d$word,
-                        freq = d$freq,
-                        min.freq = 1,
-                        max.words = 200,
-                        random.order = FALSE,
-                        random.color=FALSE,
-                        # rot.per = 0.35,
-                        rot.per = 0,
-                        # colors = brewer.pal(8, "Dark2"))
-                        colors = brewer.pal(8, "Spectral"))
-# colors = "red")
-
-```
-
-
-Word Cloud - Week 16, unique words: `r unique2`
-
-
-
-
+dev.off()

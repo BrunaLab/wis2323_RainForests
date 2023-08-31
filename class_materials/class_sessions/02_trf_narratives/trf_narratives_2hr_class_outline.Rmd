@@ -60,7 +60,8 @@ opts_knit$set(width=75)
 
 ## Before Class
 
-1. Email Students 
+1. Email Students  
+
 > * class location
 > * reminder to bring printed version of the historical narratives
 
@@ -73,6 +74,13 @@ opts_knit$set(width=75)
 ## Pre-class Preparation (Students):
 
 1. Bring printout of the Historical Narratives
+1. Props  
+
+> * Ginger Plant or rhizomes
+> * Tumeric powder or Tea
+> * Black Pepper
+> * Cinnamon
+> * pumkin spice product (PSL Latte, or similar)
 
 ### Assignments
 
@@ -107,7 +115,12 @@ time_remain <- 130 - total_time
 # Class Outline (Total Time: `r total_time` min)
 \vspace{0.5cm}
 
-### **Intro: ** (`r Block1_intro` min)
+### **Intro: ** (`r Block1_intro` min)   
+
+
+1. Review the Word CLoud based on student responses to survey
+
+#### Historical Narratives
 
 1. Most Europeans entered the tropics in a political and social climate of colonization and exploitation (of people, their culture, and natural resources). 
 1. That shapes their perceptions of both tropical environments and the people they encountered.

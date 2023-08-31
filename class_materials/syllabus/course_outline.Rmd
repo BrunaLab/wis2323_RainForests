@@ -356,7 +356,7 @@ knitr::include_graphics("./icons/ridges.png")
 
 
 
-# Semester Overview & Key Dates
+# Semester Overview & Key Dates _(revised following Hurricane Idalia)_
 \vspace{0.0cm}
 <!-- \captionsetup[table]{labelformat=empty} -->
 
@@ -366,7 +366,7 @@ knitr::include_graphics("./icons/ridges.png")
 <!-- ``` -->
 
 ```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
-calendar <- read_csv("./schedule.csv") %>% 
+calendar <- read_csv("./schedule_hurricane.csv") %>% 
     mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>% 
   select(-X1,-Week1) %>% 
   mutate(DATE=paste(Day,Month,sep="-")) %>% 

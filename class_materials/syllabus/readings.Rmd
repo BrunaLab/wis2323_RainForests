@@ -88,7 +88,7 @@ library(viridis)
 
 ## WEEK 2
 
-### Wk 2-1: Historical Narratives
+### Wk 2-1: ~~Historical Narratives~~ (postponed due to Hurricane Idalia) 
 
 \vspace{0.3cm}
 
@@ -97,47 +97,46 @@ library(viridis)
 > ***Read:*** Excerpts from Historical Narratives [6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
 
 
-### Wk 2-2 Rain Forest Imagery in Art & Literature
+### Wk 2-2 Historical Narratives
 
 \vspace{0.3cm}
+
+> *Goal: To introduce and discuss how historical narratives by the first Europeans to visit the tropics have shaped contemporary perceptions of tropical rain forests and the colonial roots of tropical biology*
+
+> ***Read:*** Excerpts from Historical Narratives [6 pages: [link](https://ids2935.netlify.app/uploads/historical_narratives.pdf)]
+
+
+## WEEK 3
+
+### Wk 3-1 Historical Narratives (cont.); Rain Forest Imagery in Art & Literature
 
 > ***Read:*** Excerpts from Literature/Poetry [link](https://ids2935.netlify.app/03_trf_culture/lit_poetry.pdf) (5 pages) 
 
 > ***Review:*** Images of artwork [link] (4 pages)
 
-## WEEK 3
+\vspace{0.3cm}
 
-### Wk 3-1 The Rain Forest in Pop Culture
+### Wk 3-2 The Rain Forest in Pop Culture (pt 1)
 
 \vspace{0.3cm}
 
-> *Goal: To compare the presentations of rain forests by the global film and music industry and evaluate how these depictions influence perceptions of tropical countries & people.*
+> *Goal: To compare the use and presentation of rain forest images by the private sector and in different forms of popular culture, including the film and music industries, and to evaluate how these depictions influence perceptions of tropical countries & people.*
+
+
+> ***Read:*** None
+
+## WEEK 4
+
+### Wk 4-1 The Rain Forest in Pop Culture (pt 2)
+
+\vspace{0.3cm}
+
 
 > ***Read:*** Jolly, Priscilla. 2021. 'Godzilla vs. Kong': Monster movies evoke adventure but also 'dangers' of tropics. The Conversation. [[link to read online](https://theconversation.com/godzilla-vs-kong-monster-movies-evoke-adventure-but-also-dangers-of-tropics-158105)] (4 pages)
 
 > ***Read:*** Rose, Steve. 2016. "From Tarzan to Avatar: the problem with 'the white man in the jungle'". The Guardian [[link to read online](https://www.theguardian.com/film/2016/jul/06/why-the-white-man-in-the-jungle-film-wont-die)] (newspaper story, 5-10 min. read)
 
-### Wk 3-2 What (and where) is a Rain Forest?
 
-\vspace{0.3cm}
-
-> *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
-
-> ***Watch:*** Why Does Earth Have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]; 2 min long]
-
-> ***Watch:*** Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. [Video/DVD] BBC Worldwide. Retrieved from https://video.alexanderstreet.com/watch/Jungles-2
-
-
-
-## WEEK 4
-
-### Wk 4-1 What else is a Rain Forest?
-
-\vspace{0.3cm}
-
-> *Goal: To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals*
-
-> ***Read:*** "Ch. 4: Finding animals in the rainforest" from Kricher, J.C. (2017). The new neotropical companion. In The New Neotropical Companion. Princeton Univ. Press (13 pp)
 
 <!-- >***Watch: *** We will be using the following videos for our in-class activity, you can get a head start by watching them before class. -->
 
@@ -151,7 +150,29 @@ library(viridis)
 
 <!-- [Amazon video 3] (1 minutes)   -->
 
-### Wk 4-2 Patterns of Biodiversity 1
+### Wk 4-2 What is a Rain Forest?
+
+\vspace{0.3cm}
+
+> *Goal: To learn the different ways biologists define the "tropics" and how the structure and dynamics of tropical rain forests differ from those of forests in other parts of the world.*
+
+> ***Watch:*** Why Does Earth Have Deserts? [[link to video](https://www.youtube.com/watch?v=T6Us1sPXBfA)]; 2 min long]
+
+> ***Watch:*** Emma Napper, British Broadcasting Corporation, ZDF, T., Tencent, & France Télévisions (Producers), & Napper, E. (Director). (2016). Jungles. [Video/DVD] BBC Worldwide. Retrieved from https://video.alexanderstreet.com/watch/Jungles-2
+
+
+## WEEK 5
+
+### Wk 5-1 What else is a rain forest?
+
+\vspace{0.3cm}
+
+> *Goal: To understand the geological history of tropical rain forests, how climate, fire, and geological history drive the tipping point between forests and savannas, and how this biogeographic, geological, and climatic history shaped the evolution of tropical plants and animals*
+
+> ***Read:*** "Ch. 4: Finding animals in the rainforest" from Kricher, J.C. (2017). The new neotropical companion. In The New Neotropical Companion. Princeton Univ. Press (13 pp)
+
+
+### Wk 5-2: Patterns of Biodiversity 1
 
 \vspace{0.3cm}
 
@@ -161,20 +182,22 @@ library(viridis)
 
 > ***Watch:*** Why Are There So Many Species Near the Equator? [[link to video](https://www.youtube.com/watch?v=IrbKix96_k0), 4:50 long]
 
-## WEEK 5
 
-### Wk 5-1 Patterns of Biodiversity 2
+## WEEK 6
+
+### Wk 6-1: Patterns of Biodiversity 2
+
+\vspace{0.3cm}
+
+> ***Read:*** None
+
+### Wk 6-2: The Origins of Tropical Biodiversity, Disturbance, & The Paradox of Luxuriance
 
 \vspace{0.3cm}
 
 > *Goal: To observe and catalog the diversity of plant and animal life forms that can be found in rain forests and review hypothesized mechanisms for the origins of tropical diversity.*
 
 > ***Watch:*** Ingrid Kvale, & British Broadcasting Corporation (Producers), & Kvale, I. (Director). (2021). Borneo: Sacred Forest. [Video/DVD] BBC Worldwide. Retrieved from https://video.alexanderstreet.com/watch/borneo-sacred-forest 
-
-
-### Wk 5-2: Origins of Tropical Biodiversity
-
-\vspace{0.3cm}
 
 > *Goal: To understand how interspecific interactions led to the (co)evolution and diversification of tropical biodiversity*
 
@@ -186,10 +209,13 @@ library(viridis)
 
 > ***Watch:*** A closer look at the Army Ant Birds: [[link to video](https://www.youtube.com/watch?v=SQPcIYV_vKM), 14 min long].
 
+> *Goal: To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance".*
 
-## WEEK 6
+> ***Read:*** Langewiesche, William. 2022. "The War for the Rainforest." NY Times. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]
 
-### Wk 6-1: Maintenance of Tropical Biodiversity
+## WEEK 7
+
+### Wk 7-1 FLMNH - Butterfly Rain Forest
 
 \vspace{0.3cm}
 
@@ -201,17 +227,7 @@ library(viridis)
 
 > ***Watch:*** Maybe this is the biggest flower: The Titan arum [[link to video](https://www.youtube.com/watch?v=5Jg-GlCXpEI), 2 min long]
 
-### Wk 6-2: The Paradox of Luxuriance & Forest Disturbance
-
-\vspace{0.3cm}
-
-> *Goal: To understand how such a productive biome can be built on such low-quality soils, and explore the implications of this "Paradox of Luxuriance".*
-
-> ***Read:*** Langewiesche, William. 2022. "The War for the Rainforest." NY Times. [[read online](https://www.nytimes.com/2022/03/16/magazine/amazon-rainforest-ituna-itata.html)]
-
-## WEEK 7
-
-### Wk 7-1 Humans are Part of Rain Forests
+### Wk 7-2 Humans are Part of Rain Forests
 
 \vspace{0.3cm}
 
@@ -219,18 +235,7 @@ library(viridis)
 
 > ***Watch:*** Kristine Allington, Michael Amundson, Linithd Aparicio, & Caitlin Saks (Producers), & Townsley, G. (Director). (2023). Ancient Builders of the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/ancient-builders-of-the-amazon 
 
-
-### Wk 7-2 Narratives Revisited: Biology, History, Fiction, Reality
-
-\vspace{0.3cm}
-
-> ***Watch:*** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/), 50 min long].
-
-> ***Read:*** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read].
-
-> ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min].
-
-> ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon
+<!-- MAKE NARRATIVES REVISTED PART OF THE MOVIE REVIEW ASSIGNMENT? -->
 
 ## WEEK 8
 
@@ -239,6 +244,18 @@ library(viridis)
 \vspace{0.3cm}
 
 > ***Read:*** 1-2 readings TBD based on movie chosen.
+
+
+<!-- \vspace{0.3cm} -->
+
+<!-- > ***Watch:*** Anthony Bourdain's Parts Unknown: Congo (S1E8) [[link to video](https://www.imdb.com/title/tt2849384/), 50 min long]. -->
+
+<!-- > ***Read:*** Bourdain's Field Notes: Congo [[read online](https://explorepartsunknown.com/congo/bourdains-field-notes-congo/), 5 min read]. -->
+
+<!-- > ***Listen:*** NPR's Throughline Podcast: "There Will Be Bananas" 1. NPR's Throughline Podcast: "There Will Be Bananas" [[listen online](https://www.npr.org/2020/01/07/794302086/there-will-be-bananas), 56 min]. -->
+
+<!-- > ***Watch:*** John Maggio, Hannah Olson, Ark Media, John Maggio Productions, & American Experience Films (Producers), & Maggio, J. (Director). (2018). Into the Amazon. [Video/DVD] Public Broadcasting Service. Retrieved from https://video.alexanderstreet.com/watch/into-the-amazon -->
+
 
 ### Wk 8-2 How much tropical rain forest is there?
 
