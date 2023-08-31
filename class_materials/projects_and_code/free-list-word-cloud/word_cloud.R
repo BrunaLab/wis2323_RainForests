@@ -1,9 +1,4 @@
 
-  
-# For more info on word-clouds see [this tutorial](https://www.geeksforgeeks.org/generating-word-cloud-in-r-programming/)
-
-
-
 
 # install the required packages
 # install.packages("tm")		 # for text mining
@@ -21,23 +16,65 @@ library("tidyverse")
 library(stopwords)
 
 
-words_2023<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2023.csv") %>% 
+
+# Quick Examples
+
+# Read text file
+
+# tutorial  ---------------------------------------------------------------
+
+# For more info on word-clouds see [this tutorial](https://www.geeksforgeeks.org/generating-word-cloud-in-r-programming/)
+
+
+# load submissions --------------------------------------------------------
+
+
+
+words_2021<-read.table("./class_materials/projects_and_code/free-list-word-cloud/words_2021.txt",sep=' ') %>% 
+  pivot_longer(where(is.character),
+               names_to = "word",) %>% 
+  mutate(year=2021) %>% 
+  select(year,value) %>% 
+  select(-word) %>% 
+  rename(word=value) %>% 
+  mutate(word=trimws(word)) %>% 
+  mutate(words=tolower(words)) 
+  
+
+words_2022<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2022.csv") %>% 
+  mutate(year=2022) %>% 
+  relocate(year,.before=1) %>% 
   mutate(words=tolower(words)) %>% 
+  select(-word) %>% 
+  rename(word=value) %>% 
+  mutate(word=trimws(word)) %>% 
+  mutate(words=tolower(words)) 
+
+words_2023<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2023.csv") %>% 
+  mutate(year=2023) %>% 
+  relocate(year,.before=1) %>% 
+  mutate(words=tolower(words)) %>% 
+  select(-word) %>% 
+  rename(word=value) %>% 
+  mutate(word=trimws(word)) %>% 
+  mutate(words=tolower(words)) 
+
+
+words <- bind_rows(words_2021,words_2022,words_2023) %>% 
+  mutate(words=gsub(".", "", words, fixed = TRUE)) %>% 
   mutate(words=gsub("south/central america", "central america, south america", words, fixed = TRUE)) %>% 
   mutate(words=gsub("rain/humidity", "rain, humidity", words, fixed = TRUE)) %>% 
   mutate(words=gsub("unique animals/plants", "unique animals, unique plants", words, fixed = TRUE)) %>% 
   mutate(words=gsub("green/fresh", "green, fresh", words, fixed = TRUE)) %>% 
   separate(words,c(letters[seq(1:8)]),sep=",") %>% 
-  pivot_longer(everything(),
+  pivot_longer(where(is.character),
                names_to = "word",) %>% 
-  select(-word) %>% 
-  rename(word=value) %>% 
-  mutate(word=trimws(word)) %>% 
   # mutate(word=gsub('\\', "", word, fixed = TRUE)) %>% 
   arrange(word) %>% 
   drop_na() %>% 
   mutate(word=as.factor(word)) %>% 
   mutate(word = case_when(
+    word == "amazone" ~ "amazon",
     word == "amazone" ~ "amazon",
     word == "the amazon" ~ "amazon",
     word == "forg" ~ "frogs",
@@ -79,7 +116,7 @@ words_2023<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/w
     word == "toucan" ~ "toucans",
     TRUE ~ word)) 
   
-wordcloud <- words_2023 %>% 
+wordcloud <- words %>% 
   mutate(word=str_to_title(word)) %>% 
   mutate(word=gsub(" ", "", word, fixed = TRUE)) 
   
