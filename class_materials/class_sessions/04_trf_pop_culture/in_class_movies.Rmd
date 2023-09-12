@@ -1,0 +1,125 @@
+---
+title: 'IDS 2935 - Tropical Tropes in Film'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{The Tropics in Film, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\centering\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output: pdf_document
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+# editor_options: 
+#   markdown: 
+#     wrap: 72
+# knit: (function(inputFile, encoding) {
+#   rmarkdown::render(inputFile,
+#   encoding = encoding,
+#   output_dir = "./static/uploads")
+#   })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Tropical Tropes and Imagery in Film
+<!-- \vspace{0.5cm} -->
+
+A **trope** (noun, pronunciation: /trōp/) is a cliché used in storytelling - a common, overused, and often stereotypical theme, device, characterization, or situation. Because movies are such an important form of Pop Culture, and films from the USA have such a large cultural impact on the rest of the world, we are going to see if the broad themes about rain forests that we identified as a group - themes which first emerged 500-700 years ago in historical and fictional narratives - are still present in these contemporary forms of narrative.  As a reminder, those broad themes were:
+
+The tropics are:
+1. A Paradise (vibrant, lush, nurturing)
+1. Hell on Earth (dangerous, violent, deadly)
+1. Mystical (spiritual, peaceful, harmonious, a place for self-discovery)
+1. Exploitable (the resources and the people)
+1. Conquerable (an environment that can be tamed, those that emerge alive can survive any future challenge)
+
+We can't watch multiple, complete movies during class, but we can watch their abbreviated format: their trailers. The trailers below can be found on the class' YouTube playlist of [Tropical Movie Trailers](https://youtube.com/playlist?list=PL5YVP-qXy1H9hSnUQ6B2VoOfgf16sGHc-&si=9rLnB7vH3Ecppa0s). Your group's job is to watch the movie trailers in each collection, and:
+
+(1) identify the theme or themes with which the movie aligns, 
+(2) identify any tropes that reinforce these themes, and 
+(3) discuss what these trailers "say" about tropical rain forests and the people that live there.
+
+Before you begin watching, though, here are the tropes to look out for. You can either divide them up among group members, or all members can try to spot all tropes. Be sure to confer after each trailer to see if you got all examples of each. 
+
+1. Adventurer Outfit: Beige or tan linens, big brown belt, boots, probably a rifle and binoculars; also, a safari hat called a pith helmet. (Monocle optional but recommended). Usually, the wearer is book-smart but ignorant of what they should actually wear for the expedition. Counterintuitively most of them needed more coverage in Real Life to avoid sunburns and harmful insects and during the age of African exploration the pith helmet was the narrow-brimmed model of Zulu War vintage, not the broad-brimmed "Bombay Bowler" of the post-1900 years.
+
+2. Chased by Angry Natives: Stock scene for the Adventurer Archaeologist and Evil Colonialist types, the Hollywood Natives are angry at the hero stealing their sacred idol or refusing to be their dinner, or even merely trespassing in their territory. Expect there to be hilariously ineffectual thrown spears and arrows, hooting and jumping as he makes a clean getaway via plane, boat, car, or train. Of course, this amounts to nothing so much as Mighty Whitey "preserving for posterity" the ancient sacred objects of a lesser culture to a place they’ll be truly appreciated: a public museum. The natives on the other hand, usually prefer seeing it as "theft" or "desecration," and hence the pursuit.
+
+3. Green Aesop: Any story with An Aesop with an environmental message which warns that unchecked pollution will either destroy the Earth or incur Mother Nature’s wrath. Sometimes the message may incorporate Science Is Bad as well, though it is becoming more common to feature good scientists who encourage green technology and environmentally friendly lifestyles. It might also tell the sad story of one plant. Can be done with subtlety or done blatantly.
+
+4. Inevitable Waterfall: If the characters are rafting, swimming, or just floating down a river, then they will either go over a waterfall or narrowly avoid going over a waterfall. Always. No exceptions.
+
+5. Jungle Drums: A sister trope to The Natives Are Restless, this harks back to the days in deepest darkest Africa, where the mood of the natives can be determined by their midnight drumming. If they’re banging away on those puppies till the wee small hours, trouble is definitely brewing. The more anxious white people can be driven to nervous exhaustion by Those Infernal Drums (a good name for a band), but the moment you really worry is when they stop, suddenly. Sometimes we get to see the wild abandoned dancing of the natives.
+
+6. Noisy Nature: Nature is usually quiet. Except in Movies. Possibly the best reason to use this trope is for our heroes to suddenly realize that it has suddenly gotten quiet.
+
+7. Raised by Natives: One of the classic story hooks is for an orphan child from a strange land be raised by the people native to the land he or she finds themselves in. His origins (the orphan is usually a boy) and the purpose of his parents’ trek so far from home is a mystery, but they’ll usually face an accident of some kind that wipes them all out save for him. Whatever the case, the child will be adopted by the chief and raised as one of his sons.
+
+8. Vine Swing: The usual way of transportation of a Nature Hero: grab a conveniently placed, always available vine on a tree, and swing on it to the next one.
+
+9. Damsel in Distress: A female character is put into immediate danger in order to put the cast in motion. Her plight unites the cast, causing them to put aside their differences and work together to save her or provide the premise for The Quest and is considered Older Than Dirt.
+
+10. Evil Colonialist: This is an imperialist or colonialist man who has just come to take advantage of the natives with a friendly smile and a rifle on his shoulder. He only cares about winning a quick buck at everyone else’s expense and exploiting the poor natives since he is convinced his race/culture is superior. Since he is either rich and powerful or in the middle of The character, usually a white one, was originally depicted as Western European (usually from Britain, Spain, France or Germany) but people from Eagleland joined the group later. nowhere where nobody can hear your screams, he becomes the king of the place. He is likely to be Chased by Angry Natives either when declaring such dominion or somewhere else along the line.
+
+11. Jungle Princess: this is a young woman of European extraction who has been raised in a jungle environment, usually by animals. Despite her upbringing, though, she has managed to grasp the basic rudiments of English, tools, and fashion — she is frequently seen wearing fetching leather or Fur Bikinis and wielding a spear. She is far more likely to have Rapunzel Hair than Wild Hair, and her legs and armpits will be inexplicably hairless. She’s likely to be an Earthy Barefoot Character. For some unfathomable reason, the animals of the jungle obey her slavishly instead of viewing her as lunch, and the woefully benighted Hollywood Natives treat her as a goddess. Inevitably she will be single when she first encounters a hunky American or European explorer. She will find him in the clutch of some local danger (being menaced by her tame leopard is always fun if it’s a romantic comedy), rescue him, and romance will ensue.
+
+12. Science Hero: A hero who uses science, technology and/or super-science to save the day. This hero is one part Badass Normal, two parts The Smart Guy, with a hint of Wrench Wench and Gadgeteer Genius. They’re defined mostly by being highly technically proficient scientists (often in all fields) and with a sense of adventure and curiosity. Plus, gadgets!
+
+13. Tropical Island Adventure: Whenever an adventure far from civilization is needed, a tropical island is where it usually will be set. Typically located in or based on the Caribbean, Oceania or Southeast Asia, tropical islands are a very popular location for adventures due to their exotic environment and wildlife, remoteness and disconnection from the rest of the world, allowing for more fantastic elements than would be seen in a more civilized setting, and being popular places for vacations, due to their usually sunny weather, warm climate and pristine beaches.
+
+14. Everything Here is Trying To Kill You: This warning - or some variation - will be spoken by the grizzled veteran of jungle adventures to the first-time rain forest visitors.
+
+15. Captured by Cannibals: One specific, discredited version of I’m a Humanitarian is the idea that when people from the "civilized world" (like missionaries and explorers) encounter Hollywood Natives, they are in danger of being eaten. The "civilized" characters may initially think that the natives are treating them as respected guests or even gods, and feeding them better than they ever have been... but then, without fail, out come the pots and the chanting.
+
+
+### Collection 1 
+*Six Days, Seven Nights
+*The Beach
+*The Jungle
+
+### Collection 2 
+*Congo
+*Primal
+*Gold 
+
+### Collection 3 
+*Avatar
+*Fern Gully
+*Emerald Forest
+
+### If you have time, Collection 4
+*Green Mansions
+*At Play in the Fields of the Lord
+*Apocalypse Now
+
+
+## After you have watched these trailers, discuss these questions among yourselves and submit your consensus answers via Canvas. 
+
+1. With which Rain Forest Themes that we generated in class does each film trailer overlap? _(Note that each film could align with more than 1)_
+2. Which of the following tropes does each trailer include? 
+
+3. Based on the trailer, what are your take-home messages about:
+
+a) Rain Forest biodiversity, especially the types of species one encouters in a rain forest
+b) The People that live in rain forests (both indigenous and non-indigenous).
