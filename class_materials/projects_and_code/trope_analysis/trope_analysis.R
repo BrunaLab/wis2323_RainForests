@@ -1,7 +1,7 @@
 library(tidyverse)
 library(readxl)
-
-
+library(janitor)
+library(openxlsx)
 
 
 
@@ -14,27 +14,66 @@ library(readxl)
     file_names <- file_path %>%
       list.files() %>%
       .[str_detect(., ".xlsx")]
-    
-    file_names <- paste(file_path,file_names,sep="")
+    # 
+    # file_names <- paste(file_path,file_names,sep="")
     file_names
     
+    file.list <- list.files(path = file_path,    
+                            pattern = "*.xlsx",
+                            full.names = TRUE) 
     
-    l <- list.files(path = file_path,  
-                    pattern = "*.xlsx", full.names = TRUE) %>% 
-      # lapply(read_xlsx, col_types="text",trim_ws=TRUE,col_names = c("event_no","time_stamp","trope","notes","x","x2"),skip=1)
-      lapply(read_xlsx, col_types="text",trim_ws=TRUE)
+    tropes22<-file.list %>%
+      set_names(.) %>%
+      map_df(~mutate_all(read_excel(.x), as.character), .id = 'grp') %>%
+      mutate(grp = str_remove(basename(grp), ".xlsx")) %>%
+      separate(grp, c('student', 'file'), sep = '_', extra = 'merge') %>% 
+      select(-student) %>% 
+      remove_empty(c("rows", "cols")) %>% 
+      mutate(Time_Stamp=gsub("@","",Time_Stamp)) %>% 
+      mutate(Time_Stamp=gsub(";","",Time_Stamp)) %>% 
+      mutate(Time_Stamp=gsub(" ","",Time_Stamp)) %>% 
+      mutate(Time_Stamp=gsub("m",":",Time_Stamp)) %>% 
+      mutate(Time_Stamp=gsub("s",":",Time_Stamp)) %>% 
+      mutate(Time_Stamp=gsub("!","1",Time_Stamp)) %>% 
+      # mutate(Time_Stamp=gsub("1899-12-31","",Time_Stamp)) %>% 
+      drop_na("Movie","Time_Stamp","Trope_ID_No.","Brief_Description") %>% 
+      mutate_all(as.character()) %>% 
+      mutate(Time_Stamp2 = if_else(
+        str_detect(Time_Stamp,":"),Time_Stamp,NA)) %>% 
+      mutate(Time_Stamp = if_else(
+        is.na(Time_Stamp2)==FALSE,NA,Time_Stamp)) %>% 
+      mutate(Time_Stamp=trimws(Time_Stamp)) %>% 
+      mutate(Time_Stamp=convertToDateTime(Time_Stamp)) %>% 
+      mutate(Time_Stamp = if_else(
+        is.na(Time_Stamp)==TRUE,Time_Stamp2,NA)) %>% 
+      mutate(Time_Stamp=gsub("1899-12-31","",Time_Stamp)) %>% 
+      select(-Time_Stamp2)
     
-     df  <-  purrr::map_df(l, dplyr::bind_rows,.id = "id") %>% 
-      drop_na(Movie)
-     
-     names(df)<-tolower(names(df))
-     
+      
+    names(tropes22)<-tolower(names(tropes22))
+    
+    
+    
+    
+    
+    
+    
+    # l <- list.files(path = file_path,  
+    #                 pattern = "*.xlsx", full.names = TRUE) %>% 
+    #   # lapply(read_xlsx, col_types="text",trim_ws=TRUE,col_names = c("event_no","time_stamp","trope","notes","x","x2"),skip=1)
+    #   lapply(read_xlsx, col_types="text",trim_ws=TRUE)
+    # 
+    #  tropes22  <-  purrr::map_df(l, dplyr::bind_rows,.id = "id") %>% 
+    #   drop_na(Movie)
+    # 
+    #  names(tropes22)<-tolower(names(tropes22))
+    #  
      
      
 
 
 
-df<-df %>% 
+tropes22<-tropes22 %>% 
   mutate(movie=tolower(movie)) %>% 
   mutate(movie = case_when(
   movie == "the african queen" ~ "african queen",
@@ -62,7 +101,9 @@ df<-df %>%
   movie == "#1" ~ "anaconda",
   movie == "#2" ~ "anaconda",
   movie == "2.0" ~ "anaconda",
+  movie == "2" ~ "anaconda",
   movie == "3.0" ~ "jumanji",
+  movie == "3" ~ "jumanji",
   movie == "b.m" ~ "blood monkey",
   movie == "34" ~ "anaconda",
   movie == "a" ~ "anaconda",
@@ -72,26 +113,61 @@ df<-df %>%
   movie == "the african queen " ~ "african queen",
   movie == "43" ~ "turistas",
   movie == "ferngully: the last rainforest" ~ "ferngully",
+  movie == "26" ~ "dna",
   TRUE ~ movie
 )) %>% 
-  arrange(movie) 
+  arrange(movie) %>% 
+  remove_empty(c("rows", "cols")) 
   
-  
-df$movie<-gsub("the african queen","african queen",df$movie)
-df$movie<-gsub("\\(1951)","",df$movie) 
-df$movie<-gsub("\\(1997)\\:","",df$movie) 
-df$movie<-gsub("[[:space:]]*$","",df$movie)
-df$movie<-gsub("^ *|(?<= ) | *$", "", df$movie, perl=T)
+tropes22$movie<-gsub("the african queen","african queen",tropes22$movie)
+tropes22$movie<-gsub("\\(1951)","",tropes22$movie) 
+tropes22$movie<-gsub("\\(1997)\\:","",tropes22$movie) 
+tropes22$movie<-gsub("[[:space:]]*$","",tropes22$movie)
+tropes22$movie<-gsub("pirahnaconda","piranhaconda",tropes22$movie)
+tropes22$movie<-gsub("^ *|(?<= ) | *$", "", tropes22$movie, perl=T)
 
-df<-df %>% str_squish(df)
-df<-df %>% mutate(movie = str_replace(movie, " ", ""))
+tropes22$movie=str_trim(tropes22$movie)
+tropes22<-tropes22 %>% mutate(movie = str_replace(movie, " ", "_"))
 
-unique(df$movie)
-df$movie<-trimws(df$movie)
 
-df<-df %>% 
-  filter(movie!="26")
+# tropes22<-tropes22 %>% str_squish(tropes22)
 
+
+tropes22
+
+sort(unique(tropes22$movie))
+
+
+tropes<-readxl::read_excel("./tropes.xlsx") %>%
+  select(-Category) %>% 
+  mutate(ID = row_number(), .before=Trope)
+
+
+code <- strsplit(tropes$Trope, " ")
+code<-sapply(code, function(x){
+  toupper(paste(substring(x, 1, 1), collapse = ""))
+})
+code<-as.data.frame(code)
+code <- code %>% 
+  mutate(ID = row_number())
+str(code)
+str(tropes)
+tropes <- left_join(code,tropes) %>% 
+  select(ID, Trope, Code=code,Description,Link)
+names(tropes)<-tolower(names(tropes))
+
+tropes<-tropes %>% 
+  select(id,code,trope) %>% 
+  mutate_all(tolower) %>% 
+  rename(trope_id=id)
+rm(code)
+
+tropes22<-tropes22 %>% 
+  rename(trope_id=`trope_id_no.`) %>% 
+  mutate_all(tolower) %>% 
+  left_join(tropes) %>% 
+  relocate(file,.after=last_col()) %>% 
+  relocate(c(code,trope),.after=trope_id)
 
 # 2021 --------------------------------------------------------------------
 
@@ -123,7 +199,7 @@ form_binder <- function(movies) {
   for(i in seq_along(movies)) {                       
   # i<-1
     # i<-8
-  file_path <- paste("~/Dropbox (UFL)/Teaching/IDS 2935 - Future of Rain Forests/2021_ids2935-content/assignments/01_movies/submissions/",
+  file_path <- paste("~/Dropbox (UFL)/Teaching/IDS 2935 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/trope_analysis/submissions/",
                      movies[i],"/",sep="")
   # file_path %>% list.files()
   
@@ -195,7 +271,7 @@ df_indig<-form_binder("indigenous")
 
 df_mission<-form_binder("mission")
 
-df_mosquito<-form_binder("mosquito")
+open <-form_binder("mosquito")
 
 df_island<-form_binder("mysterious_island")
 
