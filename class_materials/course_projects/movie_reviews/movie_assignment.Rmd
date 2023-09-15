@@ -2,9 +2,6 @@
 title: "Assignment 1 - Movie Reviews"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-output:
-  html_document:
-    df_print: paged
 github: embruna
 twitter: https://twitter.com/BrunaLab
 phone: "(352) 514-3935"
@@ -36,6 +33,13 @@ header-includes:
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
 always_allow_html: yes
 web: www.BrunaLab.org
+output: pdf_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile,
+  encoding = encoding,
+  output_dir = "./static/uploads")
+  })
+
 ---
 
 ```{r setup_syllabus, include=FALSE}
