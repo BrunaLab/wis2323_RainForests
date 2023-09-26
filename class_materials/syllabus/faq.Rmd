@@ -3,6 +3,7 @@ title: "faq"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 twitter: https://twitter.com/BrunaLab
