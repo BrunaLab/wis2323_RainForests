@@ -2,9 +2,143 @@ library(tidyverse)
 library(readxl)
 library(janitor)
 library(openxlsx)
+library(googledrive)
+library(here)
+
+# 2023 --------------------------------------------------------------------
+x<-drive_find(n_max = 30)
+x$id[1]
+
+x$id
+
+# let's retrieve same file by id (also a great way to force-refresh metadata)
+drive_get(x$id)
+drive_get(as_id(x))
+
+
+data2023 <- drive_download(
+  "TropeData2023",
+  path = here("class_materials","course_projects","movie_reviews","trope_analysis","TropeData2023.csv"),
+  overwrite = TRUE
+)
+
+data2023 <- read_csv(here("class_materials","course_projects","movie_reviews","trope_analysis","TropeData2023.csv")) %>% 
+  rename(last_name="your LAST name",
+         ufid="Your UFID",
+         third="If this is for your 3rd movie or Extra Credit, enter the name of the movie here",
+         movie="For what movie are these data?",
+         plot_tropes="Which of these tropes related to PLOT & ACTION did you observe?",
+         character_tropes="Which of these tropes related to CHARACTERS did you observe?",
+         costume_tropes="Which of these tropes related to COSTUMES did you observe?",
+         biology_tropes="Which of these tropes related to FLORA AND FAUNA did you observe?",
+         other_tropes="Did you see any that were't on the list above? You can enter them below!",
+         location_tropes="Which of these tropes related to LOCATIONS did you observe?",
+         audio_tropes="Which of these tropes related to DIALOGUE AND SOUND did you observe?") %>% 
+  mutate(
+    movie = case_when(
+      movie == "Movie #3 (enter name below)" ~ third,
+      movie == "Extra Credit (enter name below)" ~ third,
+      .default = movie
+      )
+    ) %>% 
+  mutate_all(trimws) %>% 
+  mutate_all(tolower) %>% 
+  select(-third)
+
+
+names<-names(data2023) 
+names<-str_replace(names,"\n","") 
+names<-str_replace(names,"[']","") 
+names<-str_replace(names,"[’]","") 
+names<-str_replace(names,"Everything here wants to kill you","Everything Here Wants To Kill You")
+names<-str_replace(names,". . . ","")
+names<-str_replace(names,"[,]","")
+names<-str_replace(names,"Monkey\n","Monkey")
+names<-str_replace(names,"[-]","")
+names<-str_replace(names," ","")
+names<-str_replace(names,"Templeof Doom","TempleOfDoom")
+names<-str_replace(names," ","")
+names<-str_replace(names,"Tarantulaonyour shoulder","TarantulaOnYourShoulder")
+names<-str_replace(names,"EverythingHereWants To Kill You","EverythingWantsToKillYou" )
+names[50]<-"NeverMakingItOutAlive"
+names<-str_replace(names," ","")
+names
+names(data2023)<-names
+names(data2023)
+
+data2023<-data2023 %>% 
+  relocate(c(plot_tropes,
+           character_tropes,
+           costume_tropes,
+           biology_tropes,
+           other_tropes,
+           location_tropes,
+           audio_tropes),.after="movie")
+
+
+data2023<-data2023 %>% 
+  select(-c(plot_tropes,
+             character_tropes,
+             costume_tropes,
+             biology_tropes,
+             other_tropes,
+             location_tropes,
+             audio_tropes))
+
+data2023_long<-data2023 %>% pivot_longer(!c(Timestamp:movie),names_to = "tropes", values_to = "time") %>% 
+  drop_na(time) %>% 
+  mutate(
+    movie = case_when(
+      movie == "anaconda (1997)" ~ "anaconda",
+      movie == "avatar (2009)" ~ "avatar",
+      movie == "avatar: the way of water" ~ "avatar way of water",
+      movie == "blood monkey (2006)" ~ "blood monkey",
+      movie == "embrace of the serpent" ~ "embrace the serpent",
+      movie == "indigenous" ~ "indigenous-chupacabra",
+      movie == "indigenous - chupacabra" ~ "indigenous-chupacabra",
+      movie == "indigenous - chupacabra (please disregard first submission, thanks)" ~ "indigenous-chupacabra",
+      movie == "jumanji: welcome to the jungle (2017)" ~ "jumanji welcome to the jungle",
+      movie == "jumanji: welcome to the jungle:" ~ "jumanji welcome to the jungle",
+      movie == "jumanji: welcome to the jungle" ~ "jumanji welcome to the jungle",
+      movie == "jumanji" ~ "jumanji welcome to the jungle",
+      movie == "jungle book (2016)" ~ "jungle book",
+      movie == "lord of the elves (unable to watch my chosen movie dora because it was not available for free, so chose a different one)" ~ "lord of the elves",
+      movie == "piranhanaconda" ~ "piranhaconda",
+      movie == "the predator" ~ "predator",
+      .default = movie
+    )
+  ) 
+
+data2023_long
+movies<-data2023_long %>% distinct(movie) %>% arrange(movie)
+
+# number of movies
+nrow(movies)
+
+ 
 
 
 
+reviews<-data2023_long %>% distinct(last_name,movie) %>% group_by(movie) %>% tally() %>% arrange(desc(n))
+avg<-data2023_long %>% group_by(last_name,movie) %>% tally() %>% arrange(movie,desc(n)) %>% group_by(movie) %>% summarize(avg=mean(n)) %>% arrange(desc(avg)) %>% mutate(avg=round(avg,4))
+sd<-data2023_long %>% group_by(last_name,movie) %>% tally() %>% arrange(movie,desc(n)) %>% group_by(movie) %>% summarize(sd=sd(n)) %>% arrange(desc(sd)) %>% mutate(sd=round(sd,4))
+min<-data2023_long %>% group_by(last_name,movie) %>% tally() %>% arrange(movie,desc(n)) %>% group_by(movie) %>% slice_tail(n=1) %>% select(-last_name) %>% rename(min=n)
+max<-data2023_long %>% group_by(last_name,movie) %>% tally() %>% arrange(movie,desc(n)) %>% group_by(movie) %>% slice_head(n=1) %>% select(-last_name) %>% rename(max=n)
+
+summary_table<-reviews %>%
+  left_join(reviews) %>% 
+  left_join(avg) %>% 
+  left_join(sd) %>% 
+  left_join(min) %>% 
+  left_join(max)
+
+summary_table
+
+
+
+# trope summary: number of tropes per movie
+tropes_per_movie<-data2023_long %>% distinct(movie,tropes) %>% group_by(movie) %>%  summarize(n=n_distinct(tropes)) %>% arrange(desc(n))
+<-data2023_long %>% distinct(movie,tropes) %>% group_by(tropes) %>%  summarize(n=n_distinct(movie)) %>% arrange(desc(n))
 
 # 2022 --------------------------------------------------------------------
 
