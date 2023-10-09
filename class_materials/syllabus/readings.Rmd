@@ -263,7 +263,8 @@ library(viridis)
 
 > \*Goal: To learn how forest cover is defined and estimated and how it varies globally
 
-> ***Read:*** Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs). 2018. "Inside the Amazon's Deforestation Crisis". The Globe and Mail. [[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/), 20 min read].
+> ***Read:*** Louis Lucero II. New Interactive Tool Helps Track Earth’s Forests  [[NYTimes](https://www.nytimes.com/2013/11/15/science/earth/new-interactive-tool-helps-track-earths-forests.html), 10 min read].
+
 
 ## WEEK 9
 
@@ -273,9 +274,9 @@ library(viridis)
 
 > *Goal: To use forest cover data to estimate rates of tropical forest loss over time*
 
-> ***Read:*** Searcey, Dionne (reporting) and Gilbertson, Ashley (photographs). 2022 "Raft by Raft, a Rainforest Loses Its Trees" NY Times. [[read online](https://www.nytimes.com/interactive/2022/06/14/climate/congo-rainforest-logging.html), 10 min read].
+> ***Read:*** Manuela Andreoni 2023 "Despite Global Pledges, Tree Loss Is Up Sharply in Tropical Forests" [[read online](https://www.nytimes.com/2023/06/27/climate/trees-tropical-forests-deforestation.html), 10 min read]
 
-> ***Read:*** Devouring the Rain Forest. Washington Post. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/), 20 min read].
+> ***Read:*** Nolen, Stephanie (Reporting) with Elkaim, Aaron Vincent (Photographs). 2018. "Inside the Amazon's Deforestation Crisis". The Globe and Mail. [[read online](https://www.theglobeandmail.com/news/world/amazon-rainforest-deforestation-crisis/article37722932/), 20 min read].
 
 ### Wk 9-2 Drivers & Consequences of Deforestation: Mining, Timber, Fire, Infrastructure
 
@@ -285,7 +286,9 @@ library(viridis)
 
 > ***Read:*** Andreoni, Manuela, Blacki Migliozzi, Pablo Robles and Denise Lu. Photographs by Victor Moriyama. 2022. "The Illegal Airstrips Bringing Toxic Mining to Brazil's Indigenous Land". NY Times. [[read online](https://www.nytimes.com/interactive/2022/08/02/world/americas/brazil-airstrips-illegal-mining.html), 15 min read].
 
-> ***Read:*** Andreoni, Manuela. 2022. "Stopping wildfires before they start". NY Times. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html), 10 min read].
+> ***Read:*** Searcey, Dionne (reporting) and Gilbertson, Ashley (photographs). 2022 "Raft by Raft, a Rainforest Loses Its Trees" NY Times. [[read online](https://www.nytimes.com/interactive/2022/06/14/climate/congo-rainforest-logging.html), 10 min read].
+
+<!-- > ***Read:*** Andreoni, Manuela. 2022. "Stopping wildfires before they start". NY Times. [[read online](https://www.nytimes.com/2022/07/26/climate/wildfires-brazil.html), 5 min read]. -->
 
 ## WEEK 10
 
@@ -294,6 +297,8 @@ library(viridis)
 \vspace{0.3cm}
 
 > *Goal: Continue learning (a) how deforestation and other human activities alter the structure & functioning of rain forests, and (b) compare how these drivers differ between the African, American, and Asian tropics.*
+
+> ***Read:*** Devouring the Rain Forest. Washington Post. [[read online](https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/), 20 min read].
 
 > ***Read:*** Robles, Pablo, Anuradha Raghu, Adam Majendie and Jin Wu 2021. "The World's Addiction to Palm Oil Is Only Getting Worse". Bloomberg News. [[read online](https://www.bloomberg.com/graphics/2021-palm-oil-deforestation-climate-change/), 10 min read].
 
