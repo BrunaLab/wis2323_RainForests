@@ -1,0 +1,131 @@
+---
+title: "IDS 2935: Patterns of Biodiversity"
+author: "Emilio M. Bruna"
+date: "updated: `r Sys.Date()`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot[R]{last update `r Sys.Date()`}
+- \fancyfoot[C]{ }
+- \fancyhead[R]{Patterns of Biodiversity, p. \thepage}
+- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+library(rmdformats)
+
+## Global options
+options(max.print="75")
+opts_chunk$set(echo=FALSE,
+	             cache=TRUE,
+               prompt=FALSE,
+               tidy=TRUE,
+               comment=NA,
+               message=FALSE,
+               warning=FALSE)
+opts_knit$set(width=75)
+```
+
+
+# FLMNH Trip
+
+1) FILL OUT RESERVATION REQUEST THREE WEEKS IN ADVANCE
+
+2) Bus schedule to send to students:
+
+Outbound: https://maps.app.goo.gl/C7YfsnstLzQkaZcP9
+Return: https://maps.app.goo.gl/23EnXVw6gLHxCBEZ6
+
+3) Questions:
+
+1. We've previously learned about the different layers of the rain forest and the types of species found there. Let's start with an easy one....
+
+ 
+Take and upload a photo of a PALM.
+
+2. Shrubs are one of the most important features of the rain forest understory - their fruits are a vital food resource to birds, bats, and other animals, and their flowers are visitied by pollinators raning from hummingbords to butterflies. One of the most important groups of shrubs in rain forests is the plant family Rubiaceae. You know this plant family very well  - not only are members of the Rubiaceae planted around campus as ornamentals, the family also includes the species Coffea arabica and Coffea canephora (the first accounts for 60–80% of the world's coffee production, while the latter, also known as the "Robusta" variety, accounts for the remaining 20–40%). Another important members of the family Rubiacea include the genus Cinchona, which is the source of the antimalarial alkaloid quinine (and the flavor of the tonic water in a Gin & Tonic). The caffeine in coffee and quinine in your G&T are what are known as 'secondary metabolites' - chemical compounds produced by the plant and used in metabolism that also defend the plants against insects and other animals that want to eat them.  That buzz you get from caffeine? Now imagine being a tiny insect that eats a plant full of that stuff - you'll learn quickly not to do that again.
+
+The family Rubiaceae is one of the easiest to identify because it has leaves that are:
+
+(a) Simple (what it sounds like - one single leaf, as opposed to a bunch of tiny leaflets),
+
+(b) Opposite, (the leaves will be found in a pair directly opposite from each other), and with
+
+(c) stipules or stipule scars at the base of the leaf pair (a stipule is a tiny structure at the base of the leaf, if it's missing it will leave a line, or 'scar').
+
+You can see the simple and opposite leaves in the first image, and stipules in the second.
+
+SIMPLE OPPOSITE LEAVES
+
+STIPULES
+
+Take and upload a photo of an UNDERSTORY SHRUB FROM the family RUBIACEAE.
+
+
+3. Bromeliads are among the most important group of plants in the American Tropics. They grow both on the ground (i.e., 'terrestrial') and on the branches and trunks of trees ('epiphytes', or air plants.). They are both ecologically critical as sources of food and shelter for many animal species, like the hummingbirds that pollinate them and the insects that develop in the water accumulating in their leaves. They are also culturally and economically important to humans as sources of fiber, ornamental plants, and food (e.g., pineapples). 
+
+Take and upload a photo of a BROMELIAD.
+
+4.  There are about 28,000 species of orchids, making them one of the most species-rich plant families (somewhere between 6-10% of all flowering plant species are orchids!). Orchid species can be found in almost all ecosystems on Earth, but of course they are especially diverse in the tropics. Orchids have very characteristic flowers and are very important to the ornamental plant industry. 
+
+Many rain forest orchids are 'Epiphytic', meaning they grow on tree branches or trunks instead of rooting into the ground. The aerial roots of some epiphytic orchids are used to absorb humidity from the air and can be several meters long. Nutrients for epiphytic orchids mainly come from aerial dust, decomposing organic material on the branches where they are growing, and the droppings animals leave on branches. The base of the stem of some epiphytes can also have a structure called a 'pseudobulb' that contains nutrients and water for drier periods (see photo below).
+
+Take and upload a photo of an ORCHID.
+
+
+
+5. We've previously learned about the different layers of the rain forest and the types of species found there. Take and upload a photo of an AROID (the plant family Araceae - like the Elephant Ear I brought to class).
+
+6. Although in class we usually refer to species by their common names (e.g., Jaguar, Elephant Ear, Açai Palm), scientists try to always use their scientific names to make sure that they are referring to the same species.  A scientific name is made up of two main parts: the "Genus" and "species". The different species in a genus are supposed to be closely related to each other: for example, the genus Panthera includes the jaguar Panthera onca and the Bengal Tiger Panthera tigris. We always capitalize the name of the genus but never the species name, and both should be either italicized or underlined.
+
+If you can tell me the name of the genus to which the plant you photographed belongs, I'll give you 1 point of extra credit (5 total, one per question/photograph). 
+
+7. Several of the butterflies in the FLMNH's Rain Forest are in the genus Heliconius. Take a picture of at least one of these species. 
+
+8. Different Heliconius species look very similar to each other because of an evolutionary process called 'Müllerian mimicry'. What is 'Müllerian mimicry', and how does it differ from the evolutionary process known as 'Batesian Mimicry'?
+
+9.Butterflies in the genus Morpho are among the most 'famous' of tropical butterflies because of their brilliant blue coloration:
+
+image.png (photo: Didier Descouens, CC BY-SA 4.0Links to an external site.).
+
+The underside of a Morpho's wings are very different. Take a photo of a Morpho in which you can see the underside of the wings.
+
+10.  Why do you think natural selection has resulted in:
+
+(a) the dramatic difference between the top and underside of Morpho wings, and
+
+(b) the very characteristic features you see on the underside of the wings? Put another way, what do you think is the 'purpose' of these features?
+
+11. Now head over to the Hall of Fossils. The Pleistocene (aka the "Ice Age') lasted from 2.58 million to 11,700 years ago. During this time period,  many groups of species that evolved and were found only in South America moved north across the Isthmus of Panama and during what was known as the 'Great American Biotic Interchange' (i.e., the "GABI").  The reverse is also true - many taxa, including some we consider characteristic of South America's Rain Forests actually originated in North American and moved south during the GABI. This includes Jaguars, Peccaries, and and Tapirs. It also means several taxa that we consider characteristic of Rain Forests could be found in North America, including Florida. Some are still around, others have gone extinct.  One of the largest species that moved from South America's rain forests into North America - including Florida - was Eremotherium eomigrans: it was ~15 feet tall and weighed over 3 tons. Upload a photo of it's fossil skeleton from the FLMNH Hall of Fossils.
+
+ 
+
+https://raftingmonkey.com/2019/05/23/making-the-interchange-great-again/
