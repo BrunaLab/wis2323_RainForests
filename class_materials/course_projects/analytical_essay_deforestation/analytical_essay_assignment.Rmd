@@ -2,9 +2,9 @@
 title: "IDS 2935 - \"Analytical Essay"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
-output:
-  html_document:
-    df_print: paged
+# output:
+#   html_document:
+#     df_print: paged
 geometry: margin=1in
 fontsize: 12pt
 linkcolor: darkmidnightblue
@@ -31,9 +31,10 @@ header-includes:
 - \usepackage{pdflscape}
 - \newcommand{\blandscape}{\begin{landscape}}
 - \newcommand{\elandscape}{\end{landscape}}
-editor_options:
-  markdown: null
-  wrap: 72
+output: pdf_document
+  # editor_options:
+  # markdown: null
+  # wrap: 72
 mainfont: SourceSansPro
 knit: (function(inputFile, encoding) { rmarkdown::render(inputFile, encoding = encoding,
   output_dir = "./static/uploads") })
