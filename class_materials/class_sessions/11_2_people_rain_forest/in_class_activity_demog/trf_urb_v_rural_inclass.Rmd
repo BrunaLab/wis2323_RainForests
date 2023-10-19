@@ -85,7 +85,6 @@ If you need help, there is a [tutorial video here](https://youtu.be/7lgdlFHUqW4)
 
 2) In 2-3 sentences, describe the trends ( = pattern) you observe in the graph. What do the different lines have in common, and how do they differ? 
 
-3) In how many countries is the population predicted to still be 'majority rural' in 2050? 
-
+3) Looking back at the entire dataset, how many countries is the population predicted to still be 'majority rural' in 2050? 
 
 
