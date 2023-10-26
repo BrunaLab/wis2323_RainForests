@@ -64,6 +64,7 @@ Brazil and Indonesia are among the world's countries with the most tropical fore
   > b) the *percentage* of 2002 tree cover remaining in 2022,
   > c) the *annual forest loss* from 2002 to 2022, and
   > d) the *annual rate of forest loss* from 2002 to 2022.
+  > ***Convert all values of forest cover and forest loss from hectares to km^2^ for your analyses, figures, and report.*** 
 
 3. **Prepare two graphs:** one with the data from (2c), and one with the data from (2d). These should be line graphs, with each plot including the data for both countries. Make sure each graph has properly labeled axes, a legend, and a title.
 
