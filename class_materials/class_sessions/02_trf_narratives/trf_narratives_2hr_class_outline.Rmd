@@ -58,6 +58,8 @@ opts_knit$set(width=75)
 <!-- UPDATES FOR NEXT YEAR: 
 1. Add text by Antonio de León Pinelo to the "Narratives" to be evaluated  -->
 
+
+
 ## Before Class
 
 1. Email Students  
