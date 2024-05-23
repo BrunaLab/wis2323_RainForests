@@ -1,0 +1,164 @@
+---
+title: 'WIS 2323 - "Consumer Choices'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Consumer Choices, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+labels
+
+https://www.sciencedirect.com/science/article/pii/S2352550922001580
+https://www.sciencedirect.com/science/article/pii/S0959378017304545#:~:text=Highlights&text=Eco%2Dlabels%20and%20certifications%20for,to%20halt%20land%20use%20change.&text=Sparse%20and%20uneven%20market%20uptake%20only%20partially%20explain%20this%20outcome.&text=Loopholes%20in%20certification%20standards%20and%20enforcement%20mechanisms%20also%20play%20a%20role.
+https://onlinelibrary.wiley.com/doi/full/10.1111/agec.12706
+https://conbio.onlinelibrary.wiley.com/doi/full/10.1111/conl.12209
+https://www.sciencedirect.com/science/article/pii/S0306919213001796
+https://www.sciencedirect.com/science/article/pii/S1389934106001870
+https://www.mdpi.com/2071-1050/11/5/1297
+https://www.cell.com/heliyon/pdf/S2405-8440(21)01146-4.pdf
+
+https://knowthechain.org/
+
+
+Link to share:  https://www.bbc.com/news/science-environment-59088498 
+
+
+
+https://www.cgdev.org/blog/corporate-commitments-necessary-not-sufficient-end-tropical-deforestation
+https://www.nytimes.com/2021/08/11/magazine/indonesia-rainforest-coffee.html?searchResultPosition=2
+
+https://www.washingtonpost.com/graphics/2019/national/climate-environment/mars-chocolate-deforestation-climate-change-west-africa/
+
+https://www.rainforest-alliance.org/find-certified/
+https://e360.yale.edu/features/the-real-price-of-a-chocolate-bar-west-africas-rainforests
+
+https://theconversation.com/chocolate-fix-how-the-cocoa-industry-could-end-deforestation-in-west-africa-161953
+
+https://www.nytimes.com/2019/09/05/world/americas/h-m-leather-brazil-amazon-fires.html
+
+https://www.worldcocoafoundation.org/initiative/cocoa-forests-initiative/
+
+https://www.huffpost.com/entry/chocolate-deforestation-ivory-coast-ghana_n_5f69cbb3c5b655acbc6f9949
+
+https://www.edie.net/news/7/Shareholder-demands-driving-commitments-on-deforestation--report-finds/
+
+https://www.businessdestinations.com/move/sustainable-travel/could-ecotourism-help-protect-the-amazon-rainforest/ 
+
+https://rainforests.mongabay.com/kids/elementary/607.html
+
+
+https://sustainablebrands.com/read/marketing-and-comms/shareholders-increasingly-placing-pressure-on-companies-to-address-deforestation
+
+https://www.proxypreview.org/all-contributor-articles/shareholders-play-key-role-in-reducing-deforestation-and-climate-risk
+
+https://news.mongabay.com/2020/04/investing-in-amazon-rainforest-conservation/
+https://www.nytimes.com/2019/12/04/science/bats-durians-indonesia.html
+https://www.gourmesso.com/pages/keurig-compatible-rainforest-alliance-coffee
+https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12712
+https://www.sustainability.nespresso.com/rainforest-alliance-insights
+https://www.rainforest-alliance.org/insights/rainforest-alliance-certified-coffee/
+https://bigcupofcoffee.com/what-is-rainforest-alliance-coffee-and-is-it-worth-it/
+
+https://news.mongabay.com/2021/08/corporate-sustainability-shouldnt-be-an-unknown-entity-commentary/
+
+
+## Consumer Choices
+
+1. Our actions as consumers have an impact on tropical forests and forest communities.  Some of these we know about, we may not even be aware of others. 
+
+a) Direct consumption of products. Can be direct (timber, coffee) or indirect (palm oil used in cleaning products).
+
+b) human livelihoods (workers that harvest and process products)
+
+c) Tourism in tropical countries (employees at larger resorts, ecotourism)
+
+
+Ecotourism: Ecotourism originated in the 1980s, at the dawn of sustainable development, as a way to channel tourism revenues into conservation and development
+
+
+Via [The Rainforest Foundation](https://rainforestfoundation.org/engage/10-things-you-can-do/)
+1. Eliminate Deforestation From Your Diet
+ Reduce your meat intake, and buy your meat from local farms that use sustainable practices. UF Meat Lab!
+ 
+2. Buy Responsibly Sourced Products
+ 
+Jewelry from recycled gold and other recycled metals 
+Avoid products (guitars, furniture) made from tropical hardwoods
+Use paper products made from recycled pulp
+Choose products certified by organizations like the Forest Stewardship Council (FSC). 
+Buy from companies that have eliminated deforestation from their supply chains.
+
+3. Support Indigenous Communities
+
+4. Travel Responsibly
+
+6. Invest Equitably
+
+5. Reduce Your Carbon Footprint
+
+https://www.wren.co/
+https://www.wren.co/projects/tech-enabled-rainforest-protection 
+
+
+
+
+
+6. Email Your Preferred News Outlet
+
+News outlets help determine what issues are top-of-mind for their readers. By focusing on one topic or another, they drive public discourse and inspire the public to take action. You can encourage your preferred media outlet to cover rainforest news by emailing the editor.
+
+
+
+
+
+7. Share Rainforest News on Social Media
+
+The more people know what is happening to rainforests and the indigenous communities who rely on them, the more likely they are to join and support the causw
+
+8. Contact Your Elected Representatives
+
+Elected officials directly influence government priorities and allocation of funds, and they have a duty to represent the interests of their electorate. Call, email, or attend your representatives’ public meetings to remind them that according to the Intergovernmental Panel on Climate Change
+
+9. Volunteer Your Time
+
+The contribution of your personal time and energy can make a big difference. 
+10. Host a Fundraiser
+
+Launching your own campaign can raise awareness on rainforest protection and climate action in your community, while raising essential financial support for the cause.
+
+
+https://onlinelibrary.wiley.com/doi/full/10.1111/btp.12712

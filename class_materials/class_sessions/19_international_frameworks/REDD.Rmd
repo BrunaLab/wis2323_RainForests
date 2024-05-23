@@ -1,0 +1,68 @@
+---
+title: 'REDD+'
+# author: "Emilio M. Bruna"
+# date: "last update: `r format(Sys.time(), '%d %B %Y')`"
+# header-includes:
+#    - \usepackage[default]{sourcesanspro}
+#    - \usepackage[T1]{fontenc}
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: blue
+urlcolor: blue
+output: pdf_document
+# html_document
+  # 
+  # html_document:
+  #   df_print: paged
+  # rmdformats::robobook: default
+header-includes:
+- \AtBeginDocument{\let\maketitle\relax} # this removes default title section
+- \usepackage[default]{sourcesanspro}
+- \usepackage{fancyhdr} # modify header into left, center, right
+- \pagestyle{fancy} # cues the use of fancy headers
+- \fancyfoot{} # cues the use of fancy footer
+# month & year on header left
+- \fancyhead[L]{`r format(Sys.time(), '%B %Y')`} 
+# name and page on header right
+- \fancyhead[R]{LAS 6292 Assignment, p. \thepage} 
+# - \usepackage{setspace}{singlespace} # manipulate line spacing 
+- \usepackage{parskip} # manipulate indents and spacing before/after paragraphs 
+- \usepackage{xcolor} # changes colors of text
+# to center to top level (#) headings (my name) and change color of font
+# more info # https://www.ctan.org/pkg/sectsty
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+# to center to sub-sub-headings (###) and change color of font
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+# http://latexcolor.com/ to choose colors
+# define the colors used above with rgb codes
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+# - \usepackage{ragged2e}
+# - \setlength\RaggedRightParindent{15pt}
+# - \RaggedRight - # make the right margin ragged
+# https://tex.stackexchange.com/questions/258714/prevent-hyphenation-across-lines-enforce-right-margin
+# - \hyphenpenalty=10000 #to suppress ordinary hyphenation
+# - \exhyphenpenalty=10000 #to prohibit line breaks at explicit hyphens.
+# - \setstretch{1.0}
+
+# https://babichmorrowc.github.io/post/changing-fonts-in-rmarkdown-pdfs/
+
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Videos to watch prior to lecture
+1. BMZ: [REDD quite simply explained](https://www.youtube.com/watch?v=A77d-Gsjl34)
+
+2. Coalition for Rainforest Nations: [Reducing Emissions From Deforestation & Degradation (REDD+)](https://www.youtube.com/watch?v=ngtCbjgihXY) 
+
+3. Coalition for Rainforest Nations: [The Importance of REDD+ to Papua New Guinea's Rainforests](https://www.youtube.com/watch?v=MMvsMBfN5to) 
+
+## Articles
+1. Andoh J, Oduro KA, Park J and Lee Y (2022) Towards REDD+ implementation: Deforestation and forest degradation drivers, REDD+ financing, and readiness activities in participant countries. Front. For. Glob. Change 5:957550. doi: [10.3389/ffgc.2022.957550](https://www.frontiersin.org/articles/10.3389/ffgc.2022.957550/full)
+
+Guizar-Coutiño, A., Jones, J. P. G., Balmford, A., Carmenta, R., & Coomes, D. A. (2022). A global evaluation of the effectiveness of voluntary REDD+ projects at reducing deforestation and degradation in the moist tropics. Conservation Biology, 00, e13970. [https://doi.org/10.1111/cobi.13970](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.13970)
+
+Roopsind, Anand, Brent Sohngen, and Jodi Brandt. "Evidence that a national REDD+ program reduces tree cover loss and carbon emissions in a high forest cover, low deforestation country." Proceedings of the National Academy of Sciences 116.49 (2019): 24492-24499.[link to article](https://www.pnas.org/doi/10.1073/pnas.1904027116)

@@ -30,7 +30,7 @@ library(stopwords)
 
 
 
-words_2021<-read.table("./class_materials/projects_and_code/free-list-word-cloud/words_2021.txt",sep=' ') %>% 
+words_2021<-read.table("./class_materials/class_sessions/01_course_intro/survey_word_cloud/words_2021.txt",sep=' ') %>% 
   pivot_longer(where(is.character),
                names_to = "word",) %>% 
   mutate(year=2021) %>% 
@@ -41,7 +41,7 @@ words_2021<-read.table("./class_materials/projects_and_code/free-list-word-cloud
   mutate(words=tolower(words)) 
   
 
-words_2022<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2022.csv") %>% 
+words_2022<-read_csv("./class_materials/class_sessions/01_course_intro/survey_word_cloud/words_2022.csv") %>% 
   mutate(year=2022) %>% 
   relocate(year,.before=1) %>% 
   mutate(words=tolower(words)) %>% 
@@ -50,29 +50,45 @@ words_2022<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/w
   mutate(word=trimws(word)) %>% 
   mutate(words=tolower(words)) 
 
-words_2023<-read_csv("./class_materials/projects_and_code/free-list-word-cloud/words_2023.csv") %>% 
+words_2023_1<-read_csv("./class_materials/class_sessions/01_course_intro/survey_word_cloud/words_2023_wk1.csv") %>% 
   mutate(year=2023) %>% 
   relocate(year,.before=1) %>% 
   mutate(words=tolower(words)) %>% 
-  select(-word) %>% 
-  rename(word=value) %>% 
+  rename(word=words) %>% 
   mutate(word=trimws(word)) %>% 
-  mutate(words=tolower(words)) 
+  # mutate(word=tolower(word)) %>% 
+  mutate(week="week 1") %>% 
+  relocate(week,.after=1)
+
+words_2023_16<-read_csv("./class_materials/class_sessions/01_course_intro/survey_word_cloud/words_2023_wk16.csv") %>% 
+  mutate(year=2023) %>% 
+  relocate(year,.before=1) %>% 
+  mutate(words=tolower(words)) %>% 
+  # select(-word) %>% 
+  rename(word=words) %>% 
+  mutate(word=trimws(word)) %>% 
+  # mutate(words=tolower(word)) %>% 
+  mutate(week="week 16") %>% 
+  relocate(week,.after=1)
 
 
-words <- bind_rows(words_2021,words_2022,words_2023) %>% 
-  mutate(words=gsub(".", "", words, fixed = TRUE)) %>% 
-  mutate(words=gsub("south/central america", "central america, south america", words, fixed = TRUE)) %>% 
-  mutate(words=gsub("rain/humidity", "rain, humidity", words, fixed = TRUE)) %>% 
-  mutate(words=gsub("unique animals/plants", "unique animals, unique plants", words, fixed = TRUE)) %>% 
-  mutate(words=gsub("green/fresh", "green, fresh", words, fixed = TRUE)) %>% 
-  separate(words,c(letters[seq(1:8)]),sep=",") %>% 
-  pivot_longer(where(is.character),
-               names_to = "word",) %>% 
+# words <- bind_rows(words_2021,words_2022,words_2023) %>% 
+words <- bind_rows(words_2023_1,words_2023_16) %>% 
+  mutate(word=gsub(".", "", word, fixed = TRUE)) %>% 
+  # mutate(word=gsub("\\,", "", word, fixed = TRUE)) %>% 
+  mutate(word=gsub("south/central america", "central america, south america", word, fixed = TRUE)) %>% 
+  mutate(word=gsub("rain/humidity", "rain, humidity", word, fixed = TRUE)) %>% 
+  mutate(word=gsub("unique animals/plants", "unique animals, unique plants", word, fixed = TRUE)) %>% 
+  mutate(word=gsub("green/fresh", "green, fresh", word, fixed = TRUE)) %>% 
+  separate(word,c(letters[seq(1:8)]),sep=",") %>% 
+  pivot_longer(cols = "a":"h",
+               names_to = "index",) %>% 
   # mutate(word=gsub('\\', "", word, fixed = TRUE)) %>% 
+  rename(word=value) %>% 
   arrange(word) %>% 
   drop_na() %>% 
   mutate(word=as.factor(word)) %>% 
+  mutate_all(trimws) %>% 
   mutate(word = case_when(
     word == "amazone" ~ "amazon",
     word == "amazone" ~ "amazon",
@@ -109,6 +125,7 @@ words <- bind_rows(words_2021,words_2022,words_2023) %>%
     word == "places of high diversity" ~ "(bio)diversity",
     word == "rio- the movie" ~ "the movie 'rio'",
     word == "tall trees and plants" ~ "tall trees",
+    word == "bird of paradise" ~ "birds of paradise",
     word == "tree" ~ "trees",
     word == "treefrogs" ~ "tree frogs",
     word == "vital to ecosystems" ~ "vital",
@@ -116,6 +133,18 @@ words <- bind_rows(words_2021,words_2022,words_2023) %>%
     word == "toucan" ~ "toucans",
     TRUE ~ word)) 
   
+
+wordcloud_1 <- words %>% 
+  filter(week=="week 1") %>% 
+  mutate(word=str_to_title(word)) %>% 
+  mutate(word=gsub(" ", "", word, fixed = TRUE)) 
+
+wordcloud_16 <- words %>% 
+  filter(week=="week 16") %>% 
+  mutate(word=str_to_title(word)) %>% 
+  mutate(word=gsub(" ", "", word, fixed = TRUE)) 
+
+
 wordcloud <- words %>% 
   mutate(word=str_to_title(word)) %>% 
   mutate(word=gsub(" ", "", word, fixed = TRUE)) 
@@ -123,6 +152,18 @@ wordcloud <- words %>%
 
 # count of unique words
 wordcloud %>% summarize(n_distinct(word))
+
+wordcloud_1 %>% summarize(n_distinct(word))
+wordcloud_16 %>% summarize(n_distinct(word))
+
+# text<-tolower(wordcloud$word)
+text1<-wordcloud_1$word
+text16<-wordcloud_16$word
+docs1 = Corpus(VectorSource(text1))   
+docs16 = Corpus(VectorSource(text16))   
+
+
+
 
 # tibble of unique words
 as_tibble(unique(wordcloud$word))
@@ -139,41 +180,60 @@ docs = Corpus(VectorSource(text))
 # Remove numbers
 # docs = tm_map(docs, removeNumbers)
 
-# Remove white spaces
-docs = tm_map(docs, stripWhitespace)
+
+wordcloud_generator <- function(docs, title) {
+  # docs<-docs1
+  # Remove white spaces
+    docs = tm_map(docs, stripWhitespace)
+  
+  
+  
+  dtm = TermDocumentMatrix(docs, control=list(removePunctuation=T, tolower=F, stopwords=T))
+  
+  m = as.matrix(dtm)
+  v = sort(rowSums(m), decreasing = TRUE)
+  d = data.frame(word = names(v), freq = v)
+  head(d, 10)
+  
+  
+  document_tm_clean <- removeSparseTerms(dtm, 0.8)
+  document_tm_clean_mat <- as.matrix(document_tm_clean)
+  
+  
+  
+  # dev.new(width = 1000, height = 1000, unit = "px")
+  
+  set.seed(1234)
+  
+  
+  layout(matrix(c(1, 2), nrow=2), heights=c(1, 4))
+  par(mar=rep(0, 4))
+  plot.new()
+  text(x=0.5, y=0.5, title)
+  
+  
+  wc_fig<-wordcloud(words = d$word,
+                    freq = d$freq,
+                    min.freq = 1,
+                    max.words = 190, # Set top n words
+                    random.order = FALSE, # Words in decreasing freq
+                    random.color=FALSE,
+                    # rot.per = 0.35,
+                    # scale=c(3,1),  # Set min and max scale
+                    rot.per = 0, # % of vertical words
+                    fixed.asp = T,
+                    # use.r.layout=TRUE, # Use C++ collision detection
+                    colors = brewer.pal(8, "BrBG"))
+  
+  
+  
+  return(wc_fig)
+  
+  
+}
 
 
-
-dtm = TermDocumentMatrix(docs, control=list(removePunctuation=T, tolower=F, stopwords=T))
-
-m = as.matrix(dtm)
-v = sort(rowSums(m), decreasing = TRUE)
-d = data.frame(word = names(v), freq = v)
-head(d, 10)
-
-
-document_tm_clean <- removeSparseTerms(dtm, 0.8)
-document_tm_clean_mat <- as.matrix(document_tm_clean)
-
-
-
-# dev.new(width = 1000, height = 1000, unit = "px")
-
-
-set.seed(1234)
-
-wc_fig<-wordcloud(words = d$word,
-                  freq = d$freq,
-                  min.freq = 1,
-                  max.words = 290, # Set top n words
-                  random.order = FALSE, # Words in decreasing freq
-                  random.color=FALSE,
-                  # rot.per = 0.35,
-                  # scale=c(3,1),  # Set min and max scale
-                  rot.per = 0, # % of vertical words
-                  fixed.asp = T,
-                  # use.r.layout=TRUE, # Use C++ collision detection
-                  colors = brewer.pal(8, "BrBG"))
-
-
-dev.off()
+fig1<-wordcloud_generator(docs1, "week 1")
+fig16<-wordcloud_generator(docs16, "week 16")
+fig
+# dev.off()

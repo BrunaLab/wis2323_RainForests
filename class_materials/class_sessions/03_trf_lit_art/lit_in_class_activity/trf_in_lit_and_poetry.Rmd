@@ -1,5 +1,5 @@
 ---
-title: 'IDS 2935 - Literature and Petry'
+title: 'WIS 2323 - Literature and Petry'
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 mainfont: SourceSansPro
@@ -12,7 +12,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Literature and Poetry, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}

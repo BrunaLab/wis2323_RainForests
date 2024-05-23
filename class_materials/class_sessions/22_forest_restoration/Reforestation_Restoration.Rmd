@@ -1,0 +1,147 @@
+---
+title: 'WIS 2323 - Forest Restoration & Regeneration'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Forest Restoration & Regeneration, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+*Applied nucleation* – planting clusters of trees dispersed throughout an area to enhance the rate of forest recovery.
+Natural regeneration (also referred to as passive restoration or natural forest regrowth) – An approach to restoration that relies on spontaneous increases in biota without direct reintroduction after the removal of degrading factors alone (Gann et al. 2019). 
+
+*Plantation* – An area planted with trees, typically in rows and often for commercial purposes. The trees may be of one or multiple species.
+
+*Reference forest* – Reference forests are forests in the region that have never been fully logged but may have had selective logging or some human disturbance. They served as a reference model for how well the restoration treatments were recovering.
+
+*Restoration* – The process of assisting the recovery of an ecosystem that has been degraded, damaged, or destroyed (Gann et al. 2019). The target is usually a reference model informed by the historic ecosystem.
+
+*Secondary forest* –  A forest that has regrown after logging, agriculture, or another major human disturbance.  
+
+
+Give to organizations reutable organizations
+https://www.rainforesttrust.org/get-involved/ways-to-give/
+https://www.rainforest-rescue.org/
+https://give.rainforest-alliance.org/give/291977/#!/donation/checkout
+https://onetreeplanted.org/collections/latin-america
+
+https://www.nature.com/articles/s41559-020-01282-2
+
+## Forest restoration & regeneration
+watch:
+
+* https://www.youtube.com/watch?v=Pkb4N2Tl7B0 (more tailed: https://www.youtube.com/watch?v=b-U77ZgVOsg&t=299s)
+* https://www.youtube.com/watch?v=QPZIIMZrIqQ
+* https://www.ted.com/talks/patricia_medici_the_coolest_animal_you_know_nothing_about_and_how_we_can_save_it#t-694653
+* https://www.youtube.com/watch?v=AngaeIf78AQ 
+
+Fun Bonus; https://www.youtube.com/watch?v=D9635AJSvZk
+Reading
+* Fagan et al. Restoring tropical forests isn't meaningful if those forests only stand for 10 or 20 years. The Conversation. [link](https://theconversation.com/restoring-tropical-forests-isnt-meaningful-if-those-forests-only-stand-for-10-or-20-years-107880)
+https://onlinelibrary.wiley.com/doi/10.1111/btp.12381
+
+Chazdon: High-value opportunities exist to restore tropical rainforests around the world – here’s how we mapped them. [The Conversation ](https://theconversation.com/high-value-opportunities-exist-to-restore-tropical-rainforests-around-the-world-heres-how-we-mapped-them-119508)
+https://royalsocietypublishing.org/doi/10.1098/rsos.200939
+
+* Burselm: Regrowing a tropical forest – is it better to plant trees or leave it to nature? [The Conversation](https://theconversation.com/regrowing-a-tropical-forest-is-it-better-to-plant-trees-or-leave-it-to-nature-156777)
+
+* https://www.conservation.org/docs/default-source/publication-pdfs/policy_brief_natural_regeneration.pdf
+
+Resources
+* https://news.mongabay.com/2021/05/how-settlers-scientists-and-a-women-led-industry-saved-brazils-rarest-primate/
+
+https://veja.abril.com.br/ciencia/the-visionary-emperor/
+
+* https://drawdown.org/solutions/tropical-forest-restoration
+
+* https://science.howstuffworks.com/environmental/conservation/issues/replant-rainforest.htm
+
+https://climate.mit.edu/ask-mit/why-dont-we-just-plant-lot-trees
+
+https://www.sciencenews.org/article/planting-trees-climate-change-carbon-capture-deforestation
+
+https://www.vox.com/down-to-earth/22679378/tree-planting-forest-restoration-climate-solutions
+
+* https://www.patch.io/blog/does-planting-trees-really-offset-carbon
+
+https://www.science.org/doi/10.1126/science.aay7976
+
+
+https://www.scientificamerican.com/podcast/episode/tapirs-help-reforestation-via-defecation/
+https://www.woodwellclimate.org/tapirs-can-play-surprising-role-in-amazon-forest-restoration/
+https://news.mongabay.com/2019/03/tapirs-could-be-key-in-helping-amazon-forest-come-back/
+
+* https://link.springer.com/article/10.1007%2Fs10531-017-1356-2
+
+https://www.tandfonline.com/doi/full/10.1080/10549811.2013.817341
+
+https://www.newscientist.com/article/dn14112-how-long-does-it-take-a-rainforest-to-regenerate/
+
+https://www.sciencedirect.com/science/article/pii/S0006320708001456?via%3Dihub
+
+https://onlinelibrary.wiley.com/doi/full/10.1002/ldr.3534
+
+* https://onlinelibrary.wiley.com/doi/full/10.1111/rec.13406
+
+* https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/1365-2664.13684
+
+Guest Speakers
+* [Laury](https://www.rolex.org/rolex-awards/environment/laury-cullen-jr)
+
+* [Shubhendu Sharma is reforesting the world, one small patch at a time | TED Blog](https://blog.ted.com/shubhendusharma/)
+
+* [Sebastião Salgado at TED2013: Why we must rebuild our forests | TED Blog](https://www.ted.com/talks/sebastiao_salgado_the_silent_drama_of_photography)
+
+
+
+
+Tree Planting
+
+* https://twitter.com/forrestfleisch1/status/1444008823350603780?s=11  
+
+  * https://www.nature.com/articles/s41893-021-00761-z
+  * https://cedarhimalaya.org/images/Fleischman%20etal%202020%20PitfallsofTreePlantingShowWhyWeNeedPeople-CenteredNaturalClimateSolutions.pdf
+
+
+
+https://climate.mit.edu/ask-mit/why-dont-we-just-plant-lot-trees
+
+Activities 
+
+* PES Game: https://economics-games.com/games and https://www.tandfonline.com/doi/full/10.1080/00220485.2016.1146098
+
+* https://ncep.amnh.org/index.php/Detail/objects/1026 

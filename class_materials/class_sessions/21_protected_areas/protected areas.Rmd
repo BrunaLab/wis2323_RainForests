@@ -1,0 +1,105 @@
+---
+title: "protected_areas"
+author: "Emilio M. Bruna"
+date: "11/15/2021"
+output: html_document
+---
+
+
+<!-- WE REALLY NEED A CLASS EXERCISE ON CREATIBNG PROTECTED AREAS -->
+<!-- https://glad.earthengine.app -->
+
+
+---
+Please select a protected area for the exercise we will do in class when we return from Thanksgiving:  
+
+1. Navigato to:  https://www.protectedplanet.net/en
+1. Click the purple button labelled "Explore Protected areas and OECMs"
+1. Click the button for "Filters", then select "Terrestrial and Inland waters' under "Type"
+1. Under "view sites within", select a country in the tropics. (eg, "Gabon")
+1. Select one of the protected areas.
+1. Enter the data about the protected area in the Quiz
+
+
+
+
+Explain biodiversity in terms of species and the landscapes they inhabit.
+• Use maps to show species ranges and to illustrate conservation biology decisions.
+• Demonstrate an understanding of how diverse kinds of information can be layered onto
+a map for comparison and analysis.
+• Contribute to authentic group work, participate in discussions, and draw conclusions
+from evidence concerning how biodiversity data is: collected, analyzed, and communicated (graphics, charts, text) to support informed decision-making.
+• Articulate the complexity of making conservation decisions and the need to incorporate
+diverse disciplines and perspectives that inform conservation biology, including: ecology,
+geography, agriculture, forestry, and urban planning.
+• Construct an explanation of the multiple impacts that humans have on biodiversity arising
+from our need to derive essential goods and services from the environment.
+• Ability to use an interactive research tool that is dynamically updated to account for the
+ranges and populations of organisms as well as changes in human land use
+
+
+
+
+### Federal protected area designations
+#### National Park System
+National Parks
+National Preserves
+National Seashores
+National Lakeshores
+#### National Forest
+National Forests
+National Grasslands
+#### National Conservation Lands
+National Monuments
+National Conservation Areas
+Wilderness Areas
+Wilderness Study Areas
+National Wild and Scenic Rivers
+National Scenic Trails
+National Historic Trails
+Cooperative Management and Protection Areas
+Forest Reserves
+Outstanding Natural Areas
+#### National Marine Sanctuaries
+#### National Recreation Areas
+#### National Estuarine Research Reserves
+#### National Trails System
+#### National Wild and Scenic Rivers System 
+#### National Wilderness Preservation System
+#### National Wildlife Refuge System 
+
+### International protected area designations
+UNESCO Biosphere Reserves in the United States
+
+State Parks, forests, reserves, refuges, recreation areas, etc.
+U.S. state and tribal wilderness areas
+Wildlife Management Areas in the U.S.
+
+Regional, County, and City park systems, recreation districts, etc.
+
+
+
+### Brazil proteção integral classes
+Ecological stations (Portuguese: Estações Ecológicas)  
+Biological reserves (Portuguese: Reservas Biológicas)  
+National parks (Portuguese: Parques nacionais)  
+State parks (Portuguese: Parques estaduais)  
+Municipal nature parks (Portuguese: Parques naturais municipais)
+Natural monuments (Portuguese: Monumentos Naturais)
+Wildlife refuges (Portuguese: Refúgios de Vida Silvestre)
+
+Fossilised tracks in the Valley of the Dinosaurs, Paraíba
+The sustainable use units are:[2]
+
+Environmental protection areas (Portuguese: Áreas de Proteção Ambiental)
+Areas of relevant ecological interest (Portuguese: Áreas de Relevante Interesse Ecológico)
+National forests (Portuguese: Florestas Nacionais) and State forests (Portuguese: Florestas Estaduais)
+Extractive reserves (Portuguese: Reservas Extrativistas)
+Wildlife reserves (Portuguese: Reservas de Fauna)
+Sustainable development reserves (Portuguese: Reservas de Desenvolvimento Sustentável)
+Private natural heritage reserves (Portuguese: Reservas Particular do Patrimônio Natural)
+In addition, some states designate areas as ecological reserve (Portuguese: Reserva Ecológica).
+
+Although not technically protected areas, indigenous territories (Portuguese: Terras Indígenas) give the indigenous people full rights over the area, and serve as an obstacle to deforestation, mining and large-scale agriculture. As of 2016 there were 700 Indigenous Territories in Brazil, covering about 13.8%% of the country's land area. Most of them were in the Amazon Legal.[3]
+
+

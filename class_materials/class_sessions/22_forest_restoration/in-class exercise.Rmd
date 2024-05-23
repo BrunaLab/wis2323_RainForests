@@ -1,0 +1,131 @@
+---
+title: 'WIS 2323 - "In-class Activity - Restoration'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{In-class activity - Restoration, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  pdf_document
+  # html_document:
+  # df_print: paged
+# pdf_document: default
+rmdformats::robobook: default
+editor_options: 
+  markdown: 
+  wrap: 72
+---
+
+
+```{r setup_final_project, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(kableExtra)
+library(tidyverse)
+```
+
+FOR NEXT YEAR
+
+Provide info with financial costs, the features, proximity to people, alternative follow-up scenarios ("ok, what if there is a protected area off to the right?" ie three more attractive because it is a stepping stone). 
+
+Provide more structure and guidance
+
+add: https://www.science.org/doi/10.1126/science.ade3535
+https://www.science.org/doi/full/10.1126/science.adj6951
+
+
+### The Set-Up  
+
+1. We know that forests can recover: mayas, floresta tijuca, puerto rico
+2. ecological restoration improves soil conditions by retaining and delivering nutrients to plants, affecting nutrient and biogeochemical cycles
+3. Aboveground biomass recovery after 20 years was on average 122 megagrams per hectare (Mg ha-1), corresponding to a net carbon uptake of 3.05 Mg Cha-1 yr-1, 11 times the uptake rate of old-growth forests). Aboveground biomass stocks took a median time of 66 years to recover to 90% of old-growth values
+4. we know it can be relatively quick in some cases
+
+
+### The question is: what is the best way to go from deforested -> forested?
+
+1. You have been approached by someone who asks you to restore this piece of property to primary forest. They can only go one parcel at a time. What is an important question you need to ask them before responding? 
+
+    *Trying to generate discussion about issues that can influence success or failure of restoration strategies (Table 14.2, p 286 in Chazdon) before exploring differences between natural and assisted rengeneration (https://onlinelibrary.wiley.com/doi/10.1111/btp.12381) and ultimately landing on assisted regeneration as the most effective means.*
+
+    * budget
+    * prior land-use
+    * goal (biodiversity, carbon)
+    * proximity to forest patches
+    * Are there socioeconomic incentives
+    * What do local people currently use the land for? Would local people use the forest in some way?
+
+    After the list has been generated, ask people to upvote the most important ones, as well as reflect on any that are missing.
+
+2. Now zoom out on the picture. There are mutliple sites to where you can start - which one is best, why? What could lead you to change your mind? 
+
+    * proximity to forest
+    * Presence of trees in the area.
+    * Might lead to change mind is things like prior land use.  
+    
+3. Now that we've identified a site, what do you do? "How do you actually take a pasture and turn it into a rain forest?"
+    
+  * **Natural Regeneration** (Leave it alone): Natural forest regeneration is the spontaneous recovery of native tree species that colonize and establish in abandoned fields or natural disturbances; this process can also be assisted through human interventions such as fencing to control livestock grazing, weed control, and fire protection  
+      
+  * **Assisted Natural Regeneration**: remove weeds, prevent fire, minimize ag impacts  
+  
+  * **Active Restoration**: active restoration requires planting of nursery-grown seedlings, direct seeding, and/or the manipulation of disturbance regimes (for example, thinning and burning) to speed up the recovery process, often at a high cost to establish structural features of the vegetation (hereafter termed vegetation structure), reassemble local species composition, and/or catalyze ecological succession  
+  
+*Recent analysis combining the data from hundreds of studies found thgat ecological restoration success is higher for natural regeneration than for active restoration in tropical forests*
+
+
+4. Factors influencing success or direction of natural regeneration  
+
+    * Type:	Pasture, shifting cultivation, conventional agriculture, agroforestry, etc.
+      * Crop(s): species/pasture grass species/livestock species
+* Intensity: 
+
+  * Number of slash and/or burning events
+  * Livestock density
+  * Use of machinery, pesticides or herbicides
+* Length of the fallow period
+* Weeding practice (clear or selective weeding), Weeding frequency
+* Presence of remnant trees (% cover or density)
+* Frequency:	
+    * Burning events frequency
+    * Slash-and-burn frequency
+    * Land cleaning/ploughing frequency
+    * Cropping frequency
+* Duration	
+    * Amount of time since old-growth forest clear cut
+    * Amount of time in continuous use (e.g. as agriculture or pasture)
+    * Average length of the cropping period over the period of land use
+    * Length of the last cropping phase previous to abandonment
+* Spatial extent	
+    * Size of the agricultural field or pastureland
+    * Size of the agricultural mosaic
+
+
+
+  
+  
+
+
+
+
