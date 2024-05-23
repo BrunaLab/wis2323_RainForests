@@ -1,7 +1,7 @@
 baseURL: "https://focused-torvalds-7cfd03.netlify.app/" 
 disablePathToLower: yes
 languageCode: en-us
-title: "IDS 2935: The Future of Rain Forests"
+title: "WIS 2323: The Future of Rain Forests"
 params:
   author: Emilio Bruna
   author_url: http://Brunalab.org 
@@ -18,7 +18,7 @@ params:
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# title: 'IDS 2935: The Future of Rain Forests' # Website name
+# title: 'WIS 2323: The Future of Rain Forests' # Website name
 # baseurl: 'https://BrunaLab.github.io/' # Website URL
 # url: 'https://brunalab.github.io/IDS2935_RainForests'
 copyright: '© {year} Emilio M. Bruna' # Footer text, e.g. '© {year} Me'

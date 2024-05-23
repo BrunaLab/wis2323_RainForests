@@ -17,7 +17,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Assignment 1 - Movie Reviews, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}
@@ -57,7 +57,7 @@ library(here)
 \begin{landscape}
 ```{r movie_table, echo=FALSE,message = FALSE,warning=FALSE}
 # 
-# movies <- readxl::read_excel("~/Dropbox (UFL)/Teaching/IDS 2935 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/movies/movies.xlsx") %>% 
+# movies <- readxl::read_excel("~/Dropbox (UFL)/Teaching/WIS 2323 - Future of Rain Forests/IDS2935_RainForests/class_materials/projects_and_code/movies/movies.xlsx") %>% 
 
 movies <- readxl::read_excel("movies.xlsx") %>%
   unite("subscription", paramount:apple, remove = TRUE, sep = ",") %>%

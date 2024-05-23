@@ -1,5 +1,5 @@
 ---
-title: "IDS 2935: Movie Survey"
+title: "WIS 2323: Movie Survey"
 author: "Emilio M. Bruna"
 date: "updated: `r Sys.Date()`"
 mainfont: SourceSansPro
@@ -13,7 +13,7 @@ header-includes:
 - \fancyfoot[R]{last update `r Sys.Date()`}
 - \fancyfoot[C]{ }
 - \fancyhead[R]{Patterns of Biodiversity, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}

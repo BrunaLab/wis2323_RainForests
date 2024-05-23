@@ -77,7 +77,7 @@ knitr::include_graphics("./icons/banner.png")
 
 <!-- # The Future of Rain Forests -->
 
-<!-- ## IDS 2935 - Fall 2023 -->
+<!-- ## WIS 2323 - Fall 2023 -->
 
 <!-- \vspace{0.3cm} -->
 

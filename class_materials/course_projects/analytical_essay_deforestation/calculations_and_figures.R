@@ -6,8 +6,8 @@ library(here)
 # brazil ------------------------------------------------------------------
 
 here()
-brazil_2000<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_extent_2000__ha.csv")) 
-brazil_loss<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_loss__ha.csv")) %>% 
+brazil_2000<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_extent_2000_in_primary_forests_2001_tropics_only__ha.csv")) 
+brazil_loss<- read.csv(here("class_materials","course_projects","analytical_essay_deforestation","brazil","treecover_loss_in_primary_forests_2001_tropics_only__ha.csv")) %>% 
   rename(year=umd_tree_cover_loss__year,
          loss=umd_tree_cover_loss__ha) %>% 
   mutate('tree_cover_start' = ifelse(year=="2001",brazil_2000[1,2] ,NA)) %>% 
@@ -53,7 +53,8 @@ indonesia_loss
 # bind the two datasets ---------------------------------------------------
 
 
-forest_data<-bind_rows(brazil_loss,indonesia_loss)
+forest_data<-bind_rows(brazil_loss,indonesia_loss) %>% 
+  filter(year>2001)
 
 
 
@@ -73,7 +74,7 @@ annual_rate_plot<-ggplot(forest_data,
     x = "Year",
     y = "rate (%)")+
   ggtitle("Annual rate of forest loss")+
-  scale_x_continuous(breaks = seq(from = 2001, to = 2021, by = 1))+
+  scale_x_continuous(breaks = seq(from = 2002, to = 2022, by = 1))+
   scale_y_continuous(breaks = seq(from = 0, to = 2.1, by = 0.1), expand = c(0, 0))+
   scale_color_manual(values=cols,
                      name="Country",
@@ -90,6 +91,40 @@ annual_rate_plot
 
 
 # annual forest loss ------------------------------------------------------
+
+
+
+
+
+cols <- c("IDN" = "darkred", "BRA" = "darkblue")
+annual_loss_plot<-ggplot(forest_data, 
+                         aes(x=year, 
+                             y=loss, 
+                             # group=iso, 
+                             color=iso
+                         )) +
+  # geom_line(color="navyblue")+
+  geom_line()+
+  # geom_bar(stat="identity", fill="navyblue")+
+  labs(
+    x = "Year",
+    y = "loss (ha)")+
+  ggtitle("Annual forest loss")+
+  scale_x_continuous(breaks = seq(from = 2002, to = 2022, by = 1))+
+  scale_y_continuous(breaks = seq(from = 0, to = 3000000, by = 500000), expand = c(0, 0))+
+  scale_color_manual(values=cols,
+                     name="Country",
+                     labels = c("IDN" = "Indonesia", 
+                                "BRA" = "Brazil"))
+annual_loss_plot<-annual_loss_plot + 
+  theme_classic()+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))+
+  theme(legend.title = element_text(face="bold"))+
+  theme(plot.title = element_text(face="bold"))
+# +
+#   theme(legend.position="top")
+annual_loss_plot
+
 
 
 

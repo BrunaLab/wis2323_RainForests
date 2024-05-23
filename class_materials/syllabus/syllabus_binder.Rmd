@@ -20,7 +20,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Syllabus, p. \thepage}
-- \fancyhead[L]{IDS 2935 - Future of Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{WIS 2323 - Future of Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{geometry}

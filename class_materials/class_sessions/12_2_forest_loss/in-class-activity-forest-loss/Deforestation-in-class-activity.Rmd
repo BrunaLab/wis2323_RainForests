@@ -1,5 +1,5 @@
 ---
-title: 'IDS 2935 - "Deforestation Data Analysis Activity'
+title: 'WIS 2323 - "Deforestation Data Analysis Activity'
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 mainfont: SourceSansPro
@@ -12,7 +12,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Deforestation Data (In-class), p. \thepage}
-- \fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}

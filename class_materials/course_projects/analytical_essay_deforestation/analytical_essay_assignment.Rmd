@@ -1,5 +1,5 @@
 ---
-title: "IDS 2935 - \"Analytical Essay"
+title: "WIS 2323 - \"Analytical Essay"
 author: "Emilio M. Bruna"
 date: "`r format(Sys.time(), '%Y')`"
 # output:
@@ -14,7 +14,7 @@ header-includes:
 - \pagestyle{fancy}
 - \fancyfoot{}
 - \fancyhead[R]{Analytic Essay Assignment, p. \thepage}
-- "\\fancyhead[L]{IDS 2935 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
+- "\\fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}"
 - \usepackage[default]{sourcesanspro}
 - \usepackage{parskip}
 - \usepackage{xcolor}
@@ -46,7 +46,13 @@ library(tidyverse)
 library(kableExtra)
 ```
 
-# IDS 2935: Analytical Essay
+
+<!-- TODO UPDATES:  -->
+
+<!-- https://news.mongabay.com/2022/03/study-indonesias-forest-clearing-moratorium-underdelivered-but-so-did-donors/ -->
+<!-- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266178 -->
+
+# WIS 2323: Analytical Essay
 <!-- \vspace{0.3cm} -->
 ### Due: 2 November 2023 | Value: 125 Points | Submission: Canvas
 

@@ -43,9 +43,9 @@ data2023 <- read_csv(here("class_materials","course_projects","movie_reviews","t
     ) %>% 
   mutate_all(trimws) %>% 
   mutate_all(tolower) %>% 
-  select(-third)
+  select(-third) 
 
-
+unique(data2023$movie)
 names<-names(data2023) 
 names<-str_replace(names,"\n","") 
 names<-str_replace(names,"[']","") 
@@ -90,6 +90,7 @@ data2023_long<-data2023 %>% pivot_longer(!c(Timestamp:movie),names_to = "tropes"
   mutate(
     movie = case_when(
       movie == "anaconda (1997)" ~ "anaconda",
+      Timestamp=="10/4/2023 17:26:00" ~ "rio 2",
       movie == "avatar (2009)" ~ "avatar",
       movie == "avatar: the way of water" ~ "avatar way of water",
       movie == "blood monkey (2006)" ~ "blood monkey",
@@ -110,6 +111,8 @@ data2023_long<-data2023 %>% pivot_longer(!c(Timestamp:movie),names_to = "tropes"
   ) 
 
 data2023_long
+
+sort(unique(data2023_long$movie))
 movies<-data2023_long %>% distinct(movie) %>% arrange(movie)
 
 # number of movies
@@ -138,7 +141,7 @@ summary_table
 
 # trope summary: number of tropes per movie
 tropes_per_movie<-data2023_long %>% distinct(movie,tropes) %>% group_by(movie) %>%  summarize(n=n_distinct(tropes)) %>% arrange(desc(n))
-<-data2023_long %>% distinct(movie,tropes) %>% group_by(tropes) %>%  summarize(n=n_distinct(movie)) %>% arrange(desc(n))
+tropeList<-data2023_long %>% distinct(movie,tropes) %>% group_by(tropes) %>%  summarize(n=n_distinct(movie)) %>% arrange(desc(n))
 
 # 2022 --------------------------------------------------------------------
 
