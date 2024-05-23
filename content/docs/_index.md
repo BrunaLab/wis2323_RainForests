@@ -4,7 +4,7 @@ title: Welcome!
 toc: false
 type: book
 ---
-#### **Welcome to "IDS 2935: The Future of Rain Forests".**
+#### **Welcome to "WIS 2323: The Future of Rain Forests".**
 
 Tropical Rain Forests cover approximately 15% of the Earth’s land surface but contain over 50% of the world’s biodiversity. They are also the home to millions of people, the source of products central to our lives, shape global climate, and are being cleared at unprecedented rates. **In this Quest 2 class we will investigate the same fundamental questions asked by scientists that study rain forests:**
 

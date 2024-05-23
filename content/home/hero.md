@@ -24,4 +24,4 @@ cta:
 #       Show your product version here:<!-- Automatically filled based on data-repo value -->
 #     </span>
 ---
- IDS 2935 | Prof. Emilio Bruna
+ WIS 2323 | Prof. Emilio Bruna

@@ -1,4 +1,4 @@
-# IDS2395: The Future of Rain Forests
+# WIS 2323: The Future of Rain Forests
 
 ## A UF Quest 2 Course
 
