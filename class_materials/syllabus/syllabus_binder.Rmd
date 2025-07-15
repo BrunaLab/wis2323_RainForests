@@ -52,7 +52,7 @@ header-includes:
 output: pdf_document
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile,
-  output_file = "syllabus_FutureOfRainForests_IDS2935.pdf",
+  output_file = "syllabus_FutureOfRainForests_WIS2323.pdf",
   encoding = encoding,
   output_dir = "./static/uploads")
   })

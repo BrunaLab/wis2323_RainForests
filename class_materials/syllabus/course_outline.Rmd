@@ -84,11 +84,11 @@ knitr::include_graphics("./icons/banner.png")
 <!-- --- -->
 ```{r course_info, echo=FALSE,message = FALSE,warning=FALSE}
 
-title<-c("The Future of Rain Forests (IDS2935")
-year<-c("Fall Semester 2023")
+title<-c("The Future of Rain Forests (WIS 2323")
+year<-c("Fall Semester 2025")
 
-class_time<-c("Tuesdays 11:45-1:40 and","Thursdays 12:50-1:40")
-class_loc<-c("CSE E231","(both days)")
+class_time<-c("Tuesdays 3:00-3:50 and","Thursdays 3:00-4:55")
+class_loc<-c("LIT 0231","(both days)")
 
 prof_name<-c("Dr. Emilio M. Bruna")
 prof_email<-c("embruna@ufl.edu")
@@ -200,16 +200,18 @@ knitr::include_graphics("./icons/hummingbird.png")
 
 <!-- \vspace{0.3cm} -->
 
-A minimum grade of C is required for Quest and General Education credit. Courses intended to satisfy Quest and General Education requirements cannot be taken S-U.**This course fulfills the following Quest and GenEd requirements:**
+**A minimum grade of C is required for Quest and General Education credit.** Courses intended to satisfy Quest and General Education requirements cannot be taken S-U. _This course fulfills the following Quest and GenEd requirements:_
 
 -   Quest 2
--   GenEd Biological Sciences
+<!-- -   GenEd Biological Sciences -->
 -   GenEd International 
 -   *Credits:* 3
 -   *Prerequisites:* None
 
 \vspace{0.2cm}
 
+**This also counts towards a minor or certificate in Latin American Studies.**  
+See [www.latam.ufl.edu/academics/undergraduate-programs](https://www.latam.ufl.edu/academics/undergraduate-programs/) for more information. 
 <!-- , fig.margin=TRUE-->
 
 ```{r materials, echo=FALSE, include=TRUE,fig.cap="Required Course Materials   ", out.width = '3%' , fig.align="left"}
@@ -235,9 +237,9 @@ knitr::include_graphics("./icons/beetle.png")
 <!-- ## Instructor and TA Office Hours -->
 <!-- \vspace{-0.3cm} -->
 
-**Instructor:** Wednesday & Friday 10:30-11:45 am (in-person & online). Drop by anytime or sign up for a specific time here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).
+**Instructor:** Wednesday & Friday 1:30-3:00 pm (in-person & online). Drop by anytime or sign up for a specific time here: [https://embruna.youcanbook.me](https://embruna.youcanbook.me).
 
-**Teaching Assistant:** Friday 1:30-3 pm (in-person & online).
+**Teaching Assistant:** Tuesday 1:00-2:30 pm (in-person & online).
 
 - ***Location - in-person:*** The Tropical Ecology & Conservation Lab is located next to the Rawlings Hall bus stop (711 Newell Drive; to find a map click the "Contact" link at [BrunaLab.org](http://brunalab.org)).
 
@@ -356,7 +358,7 @@ knitr::include_graphics("./icons/ridges.png")
 
 
 
-# Semester Overview & Key Dates _(revised following Hurricane Idalia)_
+# Semester Overview & Key Dates  
 \vspace{0.0cm}
 <!-- \captionsetup[table]{labelformat=empty} -->
 
@@ -366,7 +368,7 @@ knitr::include_graphics("./icons/ridges.png")
 <!-- ``` -->
 
 ```{r course_calendar, echo=FALSE,message = FALSE,warning=FALSE}
-calendar <- read_csv("./schedule_hurricane.csv") %>% 
+calendar <- read_csv("./schedule_original.csv") %>% 
     mutate(WEEK=paste(Week1,WEEK,sep=" ")) %>% 
   select(-X1,-Week1) %>% 
   mutate(DATE=paste(Day,Month,sep="-")) %>% 
