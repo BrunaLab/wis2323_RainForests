@@ -1,0 +1,92 @@
+baseURL: "https://focused-torvalds-7cfd03.netlify.app/" 
+disablePathToLower: yes
+languageCode: en-us
+title: "WIS 2323: The Future of Rain Forests"
+params:
+  author: Emilio Bruna
+  author_url: http://Brunalab.org 
+  home: https://github.com/embruna
+  hosted_on: Netlify
+  hosted_on_url: https://focused-torvalds-7cfd03.netlify.app/
+  mainSections: page
+  repo: https://github.com/BrunaLab/IDS2935_RainForests
+  repo_host: Github
+
+
+# Configuration of Hugo
+# Guide: https://wowchemy.com/docs/getting-started/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
+# title: 'WIS 2323: The Future of Rain Forests' # Website name
+# baseurl: 'https://BrunaLab.github.io/' # Website URL
+# url: 'https://brunalab.github.io/IDS2935_RainForests'
+copyright: '© {year} Emilio M. Bruna' # Footer text, e.g. '© {year} Me'
+logo: 'logo.png'
+
+############################
+## LANGUAGE
+############################
+
+defaultContentLanguage: en
+hasCJKLanguage: false
+defaultContentLanguageInSubdir: false
+removePathAccents: true
+
+############################
+## MODULES
+############################
+
+module:
+  imports:
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms
+    - path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy
+
+############################
+## ADVANCED
+############################
+
+enableGitInfo: false
+summaryLength: 30
+paginate: 10
+enableEmoji: true
+enableRobotsTXT: true
+footnotereturnlinkcontents: <sup>^</sup>
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+disableAliases: true
+outputs:
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  section: [HTML, RSS]
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart
+timeout: 600000
+taxonomies:
+  tag: tags
+  category: categories
+  author: authors
+related:
+  threshold: 80
+  includeNewer: true
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+

@@ -1,0 +1,11 @@
+---
+title: "health"
+author: "Emilio M. Bruna"
+date: "2023-11-28"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266178

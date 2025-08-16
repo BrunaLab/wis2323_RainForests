@@ -1,0 +1,64 @@
+---
+title: 'WIS 2323 - "What will you do?'
+author: "Emilio M. Bruna"
+date: "`r format(Sys.time(), '%Y')`"
+mainfont: SourceSansPro
+geometry: margin=1in
+fontsize: 12pt
+linkcolor: darkmidnightblue
+urlcolor: darkmidnightblue
+header-includes:
+- \usepackage{fancyhdr}
+- \pagestyle{fancy}
+- \fancyfoot{}
+- \fancyhead[R]{Consumer Choices - What will you do?, p. \thepage}
+- \fancyhead[L]{WIS 2323 - Rain Forests (`r format(Sys.time(), '%Y')`)}
+- \usepackage[default]{sourcesanspro}
+- \usepackage{parskip}
+- \usepackage{xcolor}
+- \AtBeginDocument{\let\maketitle\relax}
+- \usepackage{sectsty} \sectionfont{\centering}
+- \usepackage{titlesec}
+- \usepackage{sectsty} \sectionfont{\centering\color{darkmidnightblue}}
+- \usepackage{sectsty} \subsectionfont{\color{darkmidnightblue}}
+- \titlespacing{\section}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
+- \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
+- \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
+output:
+  html_document:
+  df_print: paged
+  pdf_document: default
+  rmdformats::robobook: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Introduction
+
+Last week in class we discussed consumer choices and the actions that we can take as individuals to advance rain forest conservation, which has the added benefit of reducing C0~2~ emissions. The broad 'action categories' we put forward in class were: 
+
+1. Eat in ways that reduce deforestation.
+2. Buy responsibly sourced products.
+3. Support indigenous and traditional communities.
+4. Consider how you travel. 
+5. Choose forest-friendly investments.
+6. Pressure companies to eliminating deforestation from supply chains.
+
+At the end of class I asked everyone to identify one specific action to advance rain forest conservation that they would try to take through the end of the semester. This can be something like finding and using cleaning products that don't contain palm oil or palm oil derivatives, buying shade-grown / Rain Forest Alliance (RFA) certified coffee, offsetting the CO~2~ emissions from Thanksgiving travel, etc. And by the way, I'll be joining you in this exercise.
+
+### Assignment: 
+
+What action will you be taking? Upload the answer to canvas now and then try to I'll be asking you later to reflect on how it went. And remember: 
+
+> Starting out small is ok.  
+> Commit to doing something.  
+> Work your way up to doing more.  
+
+(PS: We drink a *lot* of coffee in my lab, so my action is to make sure that the coffee we bring in to share is certified as RFA, fair-trade, or bird-friendly. The challenge will be figuring out how to do this while keeping the additional expense for students to a minimum.)

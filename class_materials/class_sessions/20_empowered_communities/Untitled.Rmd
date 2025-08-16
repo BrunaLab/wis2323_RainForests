@@ -1,0 +1,11 @@
+---
+title: "empowered communities"
+author: "Emilio M. Bruna"
+date: "11/29/2021"
+output: html_document
+---
+https://www.futureconservation.org/about-the-debate
+
+The rainforest rap video
+
+awareness campaigns information deficit, emotion
