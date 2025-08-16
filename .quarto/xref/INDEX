@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "118ce891"
+  },
+  "03-materials.qmd": {
+    "03-materials.html": "12034d2a"
+  },
+  "04-office_hours.qmd": {
+    "04-office_hours.html": "e9200233"
+  },
+  "05-grades.qmd": {
+    "05-grades.html": "5cceaca7"
+  },
+  "06-calendar.qmd": {
+    "06-calendar.html": "76c4ae67"
+  },
+  "07-faq.qmd": {
+    "07-faq.html": "1249a699"
+  },
+  "08-policies.qmd": {
+    "08-policies.html": "2dd66e6e"
+  },
+  "09-resources.qmd": {
+    "09-resources.html": "8ff0e810"
+  },
+  "10-readings.qmd": {
+    "10-readings.html": "4cafe6da"
+  },
+  "11-slos.qmd": {
+    "11-slos.html": "f078bb12"
+  }
+}
