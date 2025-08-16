@@ -53,14 +53,6 @@ opts_chunk$set(echo=FALSE,
 opts_knit$set(width=75)
 ```
 
-## Pre-Class Preparation (Instructor):  
-
-1. Email Reminder to read news paper article by S Nolen
-2. **Bring to Class:**  
-*
-*
-*
-
 ## Objectives and Competencies:   
 
 1.To learn how different organizations define 'forest'
@@ -70,20 +62,16 @@ opts_knit$set(width=75)
 5. Learn the importance of roads and learn to recognize the fishbone deforestation pattern
 
 
-## Pre-class Preparation (Students):
+## Pre-Class Preparation - Instructor:  
+
+- [ ] Email Reminder to read news paper article by S Nolen
+- [ ] **Bring to Class:**  
 
 
-### **Readings**
-1.
-2.
-3.
+## Pre-class Preparation - Students:
 
-### **Online Lectures:**  
 
-1.
-2.
-3.
-        
+### **Reading or Watch**
 
 ## Class Outline
 
@@ -133,7 +121,6 @@ time_remain <- 50 - total_time
 <!-- There are `r time_remain` min remaining that can be used to ----- -->
 
 # Additional Resources and Reading Mateirals
-
 
 2.
 3.

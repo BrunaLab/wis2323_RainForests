@@ -55,25 +55,26 @@ opts_knit$set(width=75)
 ```
 # WIS 2323: WHAT are Tropical Rain Forests
 
-## Before Class
 
-1. Email Students 
-> * class location
+## Objectives and Competencies:   
 
-## Bring to Class
+Learn some of the geographic and climatological factors defining the tropics
 
-1. Roster
-2. Syllabi
-3. Masks, Hand Sanitizer
-4. Name cards & markers
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students 
+- [ ] Bring to Class
+> - [ ] Roster
+> - [ ] Syllabi
+> - [ ] Name cards & markers
 
 ## Pre-class Preparation (Students):
 
-### Assignments
+
+
 
 ### Readings/Videos: 
 
-## Objectives and Competencies:   
 
 weather vs. climate
 [climate in GNV](https://weatherspark.com/y/16986/Average-Weather-in-Gainesville-Florida-United-States-Year-Round)
@@ -108,22 +109,12 @@ time_remain <- 150 - total_time
 * Note: There is seasonality...but not in temperature. It's seasonality of rain fall.
 Offically there are actually rain forests, moist forests, et5c. The ammount of rain, seasonality of rain all determine this, and as a result also have some trees that are [deciduous](https://www.flickr.com/photos/cifor/50480154283/). Here is a better [close-up](here (https://www.flickr.com/photos/cifor/49666688962/)
 
-
 4. Tall canopy of 45-55 m with occasional "emergent" trees of 75-80 m
 * Century Tower: is 48 m (157 ft)
 * Tallest tree: detected with Light Detection and Ranging (LiDAR) survey in the Danum Valley Conservation Area (DVCA) in Sabah.  It was measured by climber Unding Jami with a tape measure as being 100.8 meters tall. 
 
-**LIDAR SCAN**
-<div class="sketchfab-embed-wrapper"> <iframe title="TLS scan of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/03a6159372294c5288f832f7fe1d2fda/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tls-scan-of-menara-03a6159372294c5288f832f7fe1d2fda?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TLS scan of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
 
-
-**LIDAR+UAV SCAN**
-<div class="sketchfab-embed-wrapper"> <iframe title="LiDAR + UAV model of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b828f4569ab14188b07c9609511330b7/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/lidar-uav-model-of-menara-b828f4569ab14188b07c9609511330b7?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> LiDAR + UAV model of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-[The canopy at the Forest Research Institute Malaysia with Crown Shyness](https://commons.wikimedia.org/w/index.php?curid=5188293)(Photo by Mikenorton; Own work, CC BY-SA 3.0).
-
-
-useful resources
+# Useful Reading & Resources
 https://www.mapcustomizer.com/
 
 Cities: 
@@ -153,6 +144,16 @@ Ecuador A: 475 B: 1526, M: 299 (109,483 mi²)
 rondonia, Brl B: 639 A: 132 M 130 (91,729 mi²)
 Rio de Janeiro A: 125, B: 589, M: 126 (16,871.2 sq mi)
 Uruguay A: 37, B: 442, M: 82 (68,037 mi²)
+
+
+**LIDAR SCAN**
+<div class="sketchfab-embed-wrapper"> <iframe title="TLS scan of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/03a6159372294c5288f832f7fe1d2fda/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tls-scan-of-menara-03a6159372294c5288f832f7fe1d2fda?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TLS scan of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+
+**LIDAR+UAV SCAN**
+<div class="sketchfab-embed-wrapper"> <iframe title="LiDAR + UAV model of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b828f4569ab14188b07c9609511330b7/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/lidar-uav-model-of-menara-b828f4569ab14188b07c9609511330b7?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> LiDAR + UAV model of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+[The canopy at the Forest Research Institute Malaysia with Crown Shyness](https://commons.wikimedia.org/w/index.php?curid=5188293)(Photo by Mikenorton; Own work, CC BY-SA 3.0).
 
 
 

@@ -10,10 +10,37 @@ output: html_document
 <!-- https://glad.earthengine.app -->
 
 
----
-Please select a protected area for the exercise we will do in class when we return from Thanksgiving:  
 
-1. Navigato to:  https://www.protectedplanet.net/en
+
+
+
+## Objectives and Competencies:   
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
+
+
+---
+Please select a protected area for the exercise we will do in class when we return from Thanksgiving:
+
+1. Navigato to: https://www.protectedplanet.net/en
 1. Click the purple button labelled "Explore Protected areas and OECMs"
 1. Click the button for "Filters", then select "Terrestrial and Inland waters' under "Type"
 1. Under "view sites within", select a country in the tropics. (eg, "Gabon")

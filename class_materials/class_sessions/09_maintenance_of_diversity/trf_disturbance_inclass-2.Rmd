@@ -41,6 +41,37 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+
+## Objectives and Competencies:   
+
+1. Learn the difference between species richness and species diversity 
+2. Learn and be able to describe two major patterns of species richness related to the tropics
+
+> (A) Latitudinal Diversity Gradient
+> (B) High diversity in a site, but few common species (but most are very rare)
+
+3. Learn to use iNaturalist to find or record biodiversity data
+4. Download data, import into google docs, plot, and analyze
+
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
 ## Mechanisms of Species Coexistance in Tropical Forests.
 \vspace{0.3cm}
 The Principle of Competitive Exclusion (Gause 1934 aka Gause's Law) states that two species cannot inhabit the same niche; one will eventually and consistently out-compete the other. How then do so many species manage to coexist in tropical forests? Today we will brainstorm potential mechanisms that make it possible to 'circumvent' Gause's principle of competitive exclusion. We will do so by looking at the conditions required for the PCE, and then coming up with ways that one or more of them can be violated in tropical rain forests such that they allow for species to coexist. (*Spoiler alert: *these will become important later when learn about species extinctions in tropical forests).

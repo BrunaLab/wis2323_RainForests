@@ -39,7 +39,26 @@ editor_options:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-## DURIAN-FEST & THE ECONIOMIC IMPACTS OF TROPICAL FRUITS
+## DURIAN-FEST & GLOBAL MARKET FOR TROPICAL FRUIT
+
+## Objectives and Competencies:   
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
 
 ### Readings
 

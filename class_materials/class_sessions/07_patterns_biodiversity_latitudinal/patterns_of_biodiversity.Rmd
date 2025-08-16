@@ -55,35 +55,38 @@ opts_knit$set(width=75)
 ```
 # IDS 2935: Patterns of Biodiversity
 
-## Before Class
-
-1. Email Students 
-> * class location
-
-## Bring to Class
-
-1. Roster
-2. Syllabi
-3. Masks, Hand Sanitizer
-4. Name cards & markers
-
-## Pre-class Preparation (Students):
-
-### Assignments
-
-### Readings/Videos: 
 
 ## Objectives and Competencies:   
 
-1. near-universality of the Latitudinal Diversity Gradient
-2. Locally, there are two very important patterns
+1. Learn the difference between species richness and species diversity 
+2. Learn and be able to describe two major patterns of species richness related to the tropics
 
-* High diversity in a site, but
-* A few common species but most are very rare
+> (A) Latitudinal Diversity Gradient
+> (B) High diversity in a site, but few common species (but most are very rare)
 
-3. Using iNaturalist to find biodiversity data
+3. Learn to use iNaturalist to find or record biodiversity data
+4. Download data, import into google docs, plot, and analyze
 
-4. Download data, import into google docs, plat, and analyze
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
 
 ```{r timer, echo=FALSE}
 
@@ -109,13 +112,6 @@ time_remain <- 150 - total_time
 1. Reminder: seasonality...but not in temperature, it's seasonality of rain fall.
 
 2. Tallest tree: detected with Light Detection and Ranging (LiDAR) survey in the Danum Valley Conservation Area (DVCA) in Sabah.  It was measured by climber Unding Jami with a tape measure as being 100.8 meters tall. 
-
-**LIDAR SCAN**
-<div class="sketchfab-embed-wrapper"> <iframe title="TLS scan of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/03a6159372294c5288f832f7fe1d2fda/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tls-scan-of-menara-03a6159372294c5288f832f7fe1d2fda?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> TLS scan of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=03a6159372294c5288f832f7fe1d2fda" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-
-
-**LIDAR+UAV SCAN**
-<div class="sketchfab-embed-wrapper"> <iframe title="LiDAR + UAV model of Menara" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="fullscreen; autoplay; vr" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/b828f4569ab14188b07c9609511330b7/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/lidar-uav-model-of-menara-b828f4569ab14188b07c9609511330b7?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> LiDAR + UAV model of Menara </a> by <a href="https://sketchfab.com/ashenkin?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Alexander Shenkin </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=b828f4569ab14188b07c9609511330b7" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
 
 ### Global Biodiversity
 
@@ -202,7 +198,8 @@ Uruguay A: 37, B: 442, M: 82 (68,037 mi²)
 
 
 \vspace{1.5cm}
-# Additional Resources and Reading Materials
+# Additional Resources & Reading
 \vspace{0.5cm}
-Make maps with locations on them: https://www.mapcustomizer.com/
+
+1. Make maps with locations on them: https://www.mapcustomizer.com/
 

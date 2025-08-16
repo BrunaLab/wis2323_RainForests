@@ -58,25 +58,25 @@ opts_knit$set(width=75)
 <!-- UPDATES FOR NEXT YEAR: 
 1. Add text by Antonio de León Pinelo to the "Narratives" to be evaluated  -->
 
+## Objectives and Competencies:   
 
+1. To explore the cultural and historical roots of contemporary conceptualizations of rain forests and the people that live in them.
+1. To conduct basic text and sentiment analysis of the texts written by early European visitors to rain forests.
+1. To use the results of these analyses to infer the major themes or narratives about rain forests and their people established by these historical texts
 
-## Before Class
+## Pre-class Preparation - Instructors
 
-1. Email Students  
+- [ ] Email Students  
 
-> * class location
-> * reminder to bring printed version of the historical narratives
+> - [ ] class location
+> - [ ] reminder to bring printed version of the historical narratives
 
 ## Bring to Class
 
-1. Roster
-1. Syllabi
-1. Name cards & markers
-
-## Pre-class Preparation (Students):
-
-1. Bring printout of the Historical Narratives
-1. Props  
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+- [ ] Props  
 
 > * Ginger Plant or rhizomes
 > * Tumeric powder or Tea
@@ -84,17 +84,15 @@ opts_knit$set(width=75)
 > * Cinnamon
 > * pumkin spice product (PSL Latte, or similar)
 
+## Pre-class Preparation (Students):
+
+1. Bring printout of the Historical Narratives
+
 ### Assignments
 
 ### Readings/Videos: 
 
 1. Historical Narratives 
-
-## Objectives and Competencies:   
-
-1. To explore the cultural and historical roots of contemporary conceptualizations of rain forests and the people that live in them.
-1. To conduct basic text and sentiment analysis of the texts written by early European visitors to rain forests.
-1. To use the results of these analyses to infer the major themes or narratives about rain forests and their people established by these historical texts
 
 \newpage
 ```{r timer, echo=FALSE}
@@ -119,8 +117,7 @@ time_remain <- 130 - total_time
 
 ### **Intro: ** (`r Block1_intro` min)   
 
-
-1. Review the Word CLoud based on student responses to survey
+1. Review the Word CLoud based on student responses to survey _(leave for next session if today's session is 1 hr)_
 
 #### Historical Narratives
 
@@ -138,12 +135,14 @@ time_remain <- 130 - total_time
 
 1. Review results of in-class text analysis
 
+**Note:** 
 
 1. Active debates among the religious and exploring elite about the location of paradise and whether it was under the equinoctal line.
 1. Antonio de León Pinelo: Spanish Jurist wrote "Paraíso en el Nuevo Mundo" in about 1650. Placed Eden just south of the equator in the Amazon (just south because a little bit milder, he reasoned.)
 
 <!-- 1. Maize (Zea mays) 2. Tomato (Solanum lycopersicum) 3. Potato (Solanum tuberosum) 4. Vanilla (genus Vanilla, esp. Vanilla planifolia) 5. Pará rubber tree (Hevea brasiliensis) 6. Cacao (Theobroma cacao) 7. Tobacco (Nicotiana rustica) -->
 <!-- 1/ Introduced Eurasian diseases wiped out 50–90% of the Indigenous population  -->
+
 ### **Preview Next Session**  (`r intro_next_session` min)      
 
 

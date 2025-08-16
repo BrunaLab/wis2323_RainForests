@@ -26,7 +26,8 @@ header-includes:
 - \titlespacing{\subsubsection}{0pt}{12pt plus 2pt minus 1pt}{0pt plus 1pt minus 1pt}
 - \definecolor{darkcerulean}{rgb}{0.03, 0.27, 0.49}
 - \definecolor{darkmidnightblue}{rgb}{0.0, 0.2, 0.4}
-output: html_document
+# output: html_document
+output: pdf_document
 #   output:
 #   pdf_document: default
 #   html_document:
@@ -86,5 +87,5 @@ With your group, discuss the following questions and submit your conclusions via
 
 1. Fill in the blanks: "Plants need three basic things to survive: _____, ______ , and ______". 
 
-1. (A) What is happening in this picture, and (B) Based on your observations from the videos, why is it unlikely to work in the TEMPERATE forest?
+1. **(A)** What is happening in this picture, and **(B)** Based on your observations from the videos, why is it unlikely to work in the TEMPERATE forest?
 

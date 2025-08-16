@@ -41,6 +41,30 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
+
+## Objectives and Competencies:   
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
+
+
 *Applied nucleation* – planting clusters of trees dispersed throughout an area to enhance the rate of forest recovery.
 Natural regeneration (also referred to as passive restoration or natural forest regrowth) – An approach to restoration that relies on spontaneous increases in biota without direct reintroduction after the removal of degrading factors alone (Gann et al. 2019). 
 

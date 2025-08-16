@@ -43,6 +43,7 @@ library(kableExtra)
 ```
 
 ## Public Goods and Externalities in a Land Conservation Context
+
 ### Sahan Dissanayake and Sarah Jacobson
 \vspace{0.3cm} 
 Economists often say that individuals following their self-interest will unwittingly make the choices that make society overall best off (as efficient as possible). This idea goes back to Adam Smith’s description (in The Wealth of Nations) of an “invisible hand” that moves goods and services efficiently from sellers to buyers. This implies that a free market, without regulation from the government, is efficient. However, economists acknowledge that this is only true under special circumstances, and those circumstances often do not hold in situations involving the environment because of externalities and public goods issues.

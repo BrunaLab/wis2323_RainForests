@@ -54,10 +54,16 @@ opts_knit$set(width=75)
 
 # WIS 2323: Course Introduction
 
-## Before Class
-1.  Prepare survey and post as Assignment 1
+## Session Objectives & Competencies:   
 
-1. Email students: 
+1. Introduce the class and challenges of tropical rain forest conservation 
+2. Review the Syllabus
+3. Become familiar with students, their concerns, and their interests
+
+## Pre-class Preparation - Instructor
+- [ ] Prepare survey and post as Assignment 1
+
+- [ ] Email students: 
 
 >Hi Everyone, I’m your instructor for "WIS 2323: The Future of Rain Forests".
 >
@@ -78,27 +84,20 @@ opts_knit$set(width=75)
 >I look forward to seeing you all tomorrow,
 >EB
 
-## Bring to Class
+- [ ] Prepare for Class 
 
-1. Roster
-1. Name cards & Markers
-1. Syllabi
-1. Chocolates
-1. Masks, Hand Sanitizer
-1. PDF of class outline
+> - [ ] Roster
+> - [ ] Name cards & Markers
+> - [ ] Syllabi
+> - [ ] Chocolates
+> - [ ] PDF of class outline
 
 <!-- **<<Revision for v 2.0: have 1/2 the class do the survey for "tropical rain forest" and the other half do the words that come to mind with "jungle" - would be really interesteing to compare the differences that come to mind, and is a good lead-in to Jungle being defined by the British officers.">>**  -->
 
-## Pre-class Preparation (Students)
+## Pre-class Preparation - Students
 
 1. **Assignments:** Complete the survey if they have an opportunity to do so
 2. **Readings & Videos:** None
-
-## Session Objectives & Competencies:   
-
-1. Introduce the class and challenges of tropical rain forest conservation 
-2. Review the Syllabus
-3. Become familiar with students, their concerns, and their interests
 
 
 \newpage
@@ -120,49 +119,46 @@ total_time <-
 
 time_remain <- 50 - total_time
 ```
+
 # Class Outline (Total Time: `r total_time` min)
 \vspace{0.5cm}
 
 ### **Breakout** (`r Block1_breakout` min)
 
-* Introduce yourselves to each other (name, major, where from), and without looking at your cell phones or computers see if you can answer this question:  
+1. Introduce yourselves to each other (name, major, where from), and without looking at your cell phones or computers see if you can answer these questions:  
 
-> 1. What is the primary ingredient in Chocolate?
-> 1. What THREE countries are the primary producers of this ingredient?   
+> - What is the primary ingredient in Chocolate?
+> - What THREE countries are the primary producers of this ingredient?   
 
 ### Return and discuss breakout results (`r return_results` min)
 
-* **Review the answers**  
+1. **Review the answers**  (*NB: Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*)
 
-> 1. Main Ingredient: Cacao
-> 1. Primary producers 3 countries produce ~77% of world's Cacao.
-> 1. World's leading consumer of cacao products: USA (797,000 tons in 2021).
-> 1. *Update numbers [here.](https://www.statista.com/statistics/263855/cocoa-bean-production-worldwide-by-region/#:~:text=About%2070%20percent%20of%20the,the%20world%C2%B4s%20cocoa.)*
+> - Main Ingredient: Cacao
+> - Primary producers 3 countries produce ~77% of world's Cacao.
+> - World's leading consumer of cacao products: USA (797,000 tons in 2021).
 
-* **Why Cacao?** Cacao is a perfect example of the challenges faced when considering the Future of Rain Forests  
+2. **Why Cacao?** 
 
+> 1. Cacao is a perfect example of the challenges faced when considering the Future of Rain Forests
 > 1. Hugely important crop at the macroeconomic (major national export for many countries, multibillion dollar industry) and microeconomic level (major source of family income). 
 > 1. Threatened by climate change.
 > 1. Increasing global demand has major consequences for rain forests, especially the US.
 > 1. US eats about three billion kilograms (6.6 bi lbs) of chocolate confectionery annually. Avg us consumer  eats about 9 kg of chocolate per year.
-> 1. *Update numbers [here.](https://www.statista.com/topics/1638/chocolate-industry/#topicOverview)*
+> 1. **We're going to study these challenges and consider - and maybe even come up with - the potential soluctions to them.**
 
+### Syllabus & Course Overview  (`r intro_next_session` min)      
 
-* We're going to study these challenges and consider - and maybe even come up with - the potential soluctions to them.
-
-### Course Overview  (`r intro_next_session` min)      
-
-> **Syllabus / Course overview**
-
-> 1. Most of the course work is in-class. Remind people this course is still a bit of an experiment, and also that...  
-> 1. Current events (e.g., deforestation, fires, national or international election results) so there will be some changes on the fly. Check the syllabus frequently.  
-> 1. "Some of you may be new to UF and so may not know what Office Hours are. They're an opportunity to..."  
-> 1. "This class has a very reasonable amount of homework and reading and _no tests_. In return I ask that you come to class committed to engage and enjoy yourself. This class will (I hope) be the least stressful one you have all semester. That doesn't necessarily mean it will be the easiest - in fact it may be quite challenging sometimes - but I hope that won't be too stressful. That's my commitment to you."
+1. Most of the course work is in-class. Remind people this course is still a bit of an experiment, and also that...  
+1. Current events (e.g., deforestation, fires, national or international election results) so there will be some changes on the fly. Check the syllabus frequently.  
+1. "Some of you may be new to UF and so may not know what Office Hours are. They're an opportunity to..."  
+1. "This class has a very reasonable amount of homework and reading and _no tests_. In return I ask that you come to class committed to engage and enjoy yourself. This class will (I hope) be the least stressful one you have all semester. That doesn't necessarily mean it will be the easiest - in fact it may be quite challenging sometimes - but I hope that won't be too stressful. That's my commitment to you."
 
 
 ### Closing Remarks/Questions (`r questions` min)
 
-> 1. Don't forget Fill out the Survey in Canvas as Assignment 1!
+1. Any questions? 
+1. Don't forget Fill out the Survey in Canvas as Assignment 1!
 
 \vspace{1.5cm}
 # Additional Resources and Reading

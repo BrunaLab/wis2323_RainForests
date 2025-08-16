@@ -53,14 +53,40 @@ header-includes:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Videos to watch prior to lecture
+## Objectives and Competencies:   
+
+
+
+## Pre-class Preparation - Instructor
+
+- [ ] Email Students  
+> - [ ] class location
+> - [ ] reminders
+
+## Bring to Class
+
+- [ ] Roster
+- [ ] Syllabus
+- [ ] Name cards & markers
+
+
+## Pre-class Preparation - Students
+
+
+### Readings/Videos: 
+
+
+
+#### Videos
+
 1. BMZ: [REDD quite simply explained](https://www.youtube.com/watch?v=A77d-Gsjl34)
 
 2. Coalition for Rainforest Nations: [Reducing Emissions From Deforestation & Degradation (REDD+)](https://www.youtube.com/watch?v=ngtCbjgihXY) 
 
 3. Coalition for Rainforest Nations: [The Importance of REDD+ to Papua New Guinea's Rainforests](https://www.youtube.com/watch?v=MMvsMBfN5to) 
 
-## Articles
+#### Articles
+
 1. Andoh J, Oduro KA, Park J and Lee Y (2022) Towards REDD+ implementation: Deforestation and forest degradation drivers, REDD+ financing, and readiness activities in participant countries. Front. For. Glob. Change 5:957550. doi: [10.3389/ffgc.2022.957550](https://www.frontiersin.org/articles/10.3389/ffgc.2022.957550/full)
 
 Guizar-Coutiño, A., Jones, J. P. G., Balmford, A., Carmenta, R., & Coomes, D. A. (2022). A global evaluation of the effectiveness of voluntary REDD+ projects at reducing deforestation and degradation in the moist tropics. Conservation Biology, 00, e13970. [https://doi.org/10.1111/cobi.13970](https://conbio.onlinelibrary.wiley.com/doi/10.1111/cobi.13970)

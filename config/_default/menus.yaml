@@ -7,21 +7,21 @@ main:
   # - name: Home Page
   #   url: /
   #   weight: 10
-  - name: Instructor & Office Hours
-    url: docs/instructor-info
-    weight: 10
+  # - name: Instructor & Office Hours
+  #   url: docs/instructor-info
+  #   weight: 10
   - name: Syllabus
     url: "uploads/syllabus_FutureOfRainForests_IDS2935.pdf"
     # url: docs/syllabus
-    identifier: syllabus
+    identifier: Schedule, Readings, and Syllabus
     weight: 20
-  - name: Schedule & Readings
-    url: docs/schedule
-    weight: 30
-  - name: Assignments
-    url: docs/assignments
-    weight: 40
-  - name: Quest Info & SLOs
-    url: docs/quest_slo_info
-    weight: 50
+  # - name: Schedule & Readings
+  #   url: docs/schedule
+  #   weight: 30
+  # - name: Assignments
+  #   url: docs/assignments
+  #   weight: 40
+  # - name: Quest Info & SLOs
+  #   url: docs/quest_slo_info
+  #   weight: 50
   

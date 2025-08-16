@@ -66,8 +66,8 @@ opts_knit$set(width=75)
 1. To learn the leading causes of deforestation in different tropical forests
 2. investigate supply chains for beef and leather
 3. learn about where in supply chains illegal cattle can get in
-4. 
-5. 
+
+ 
 Suggest reading: 
 
 1. https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/?leadSource=uverify%20wall
@@ -105,33 +105,22 @@ https://www.vogue.com/article/deforestation-fashion-industry-arizona-muse-op-ed
 
 ## Pre-class Preparation (Students):
 
-https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/?leadSource=uverify%20wall
+1. https://www.bloomberg.com/graphics/2022-beef-industry-fueling-amazon-rainforest-destruction-deforestation/?leadSource=uverify%20wall
 Rainforest beef is typically found in fast food hamburgers or processed beef products. In both 1993 and 1994, the U. S. imported over 200 million pounds of fresh and frozen beef from Central American countries. Two-thirds of these countries' rainforests have been cleared, in part to raise cattle whose meat is exported to profit the U. S. food industry. When it enters the U. S. the beef is not labeled with its country of origin, so there is no way to trace it to its source. 
 
-https://www.youtube.com/watch?v=9o2M_KL8X6g
+1. https://www.youtube.com/watch?v=9o2M_KL8X6g
 
-https://www.theguardian.com/environment/2021/feb/13/walmart-selling-beef-from-firm-linked-to-amazon-deforestation?s=09
+1. https://www.theguardian.com/environment/2021/feb/13/walmart-selling-beef-from-firm-linked-to-amazon-deforestation?s=09
 
-https://www.beefontrack.org/
+1. https://www.beefontrack.org/
 
-https://www.nytimes.com/2021/11/17/climate/leather-seats-cars-rainforest.html
+1. https://www.nytimes.com/2021/11/17/climate/leather-seats-cars-rainforest.html
 
-https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/
+1. https://www.washingtonpost.com/world/interactive/2022/amazon-beef-deforestation-brazil/
 
-https://news.mongabay.com/2020/11/satellites-maps-and-the-flow-of-cattle-brazilian-solutions-for-reducing-deforestation-are-already-in-use/
-https://www.npr.org/sections/thesalt/2015/07/10/421532548/inside-the-world-s-largest-food-company-you-ve-probably-never-heard-of
+1. https://news.mongabay.com/2020/11/satellites-maps-and-the-flow-of-cattle-brazilian-solutions-for-reducing-deforestation-are-already-in-use/
+1. https://www.npr.org/sections/thesalt/2015/07/10/421532548/inside-the-world-s-largest-food-company-you-ve-probably-never-heard-of
 
-### **Readings**
-1.
-2.
-3.
-
-### **Online Lectures:**  
-
-1.
-2.
-3.
-        
 
 ## Class Outline
 
@@ -182,7 +171,4 @@ time_remain <- 50 - total_time
 
 # Additional Resources and Reading Mateirals
 
-
-2.
-3.
 
