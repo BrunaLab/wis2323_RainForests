@@ -1,5 +1,8 @@
-# WIS 2323: The Future of Rain Forests
+# DEPRECATED REPOSITORY FOR WIS 2323 The Future of Rain Forests
 
+This repository has been archived in favor of a new, streamlined repository structured with a quarto book and published with Github Pages. The new course repository is [https://github.com/BrunaLab/wis2323_syllabus](https://github.com/BrunaLab/wis2323_syllabus). 
+
+----
 ## A UF Quest 2 Course
 
 This is the teaching materials and website for the UF Quest 2 course "The Future of Tropical Rain Forests". 
